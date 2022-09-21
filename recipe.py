@@ -115,11 +115,7 @@ dict_cats = {   'almonds':'produce',
                 'brownies':'bakery',
                 'lemon squares':'bakery',
                 'granola':'bread',
-                'honey':'bread',         # does this need another categ, too?
-                'jam':'bread',           # I know this isn't frozen food; I need to make a category for cereal and jam
-                'maple syrup':'bread',      # I think this goes in a breakfast aisle, not here
                 'multigrain bread':'bread',
-                'peanut butter':'bread',    # I think this goes in a breakfast aisle, not here
                 'potato bread':'bread',
                 'sandwich bread':'bread',
                 'wheat bread':'bread',
@@ -216,27 +212,31 @@ dict_cats = {   'almonds':'produce',
                 'taco shells':'hispanic',
                 'angel hair noodles':'pasta',
                 'angel hair':'pasta',
-		        'barbeque sauce':'pasta',
-		        'barbecue sauce':'pasta', 	# This isn't pasta; I need a condiment section
                 'cavatappi pasta':'pasta',
                 'cavatappi noodles':'pasta',
                 'cavatappi':'pasta',
                 'egg noodles':'pasta',
                 'thin spaghetti noodles':'pasta',
                 'thin spaghetti':'pasta',
-                'ketchup':'pasta',              # I know this isn't pasta; I need a condiment section
                 'linguine':'pasta',
                 'linguine noodles':'pasta',
-                'mayonnaise':'pasta',           # I know this isn't pasta; I need to make another category for condiments or pickles and olives
-                'rice krispies':'pasta',        # WE NEED A CEREAL AISLE
-                'rolled oats':'pasta',          # I know this isn't pasta; I need a category for cereal aisle
-                'salad dressing':'pasta',       # I know this isn't pasta; I need to make another category for condiments or pickles and olives
                 'spaghetti':'pasta',
                 'spaghetti noodles':'pasta',
+		        'barbeque sauce':'pasta',
+		        'barbecue sauce':'pasta',
+                'ketchup':'condiments',
+                'mayonnaise':'condiments',           
+                'salad dressing':'condiments',      
                 'frozen broccoli':'frozen foods',
                 'frozen pizza':'frozen foods',
                 'frozen strawberries':'frozen foods',
                 'orange juice':'frozen foods',
+                'honey':'cereal',         
+                'jam':'cereal',
+                'maple syrup':'cereal',
+                'peanut butter':'cereal',
+                'rice krispies':'cereal', 
+                'rolled oats':'cereal', 
                 '1% milk':'dairy',
                 '2% milk':'dairy',
                 'butter':'dairy',
@@ -259,7 +259,7 @@ dict_cats = {   'almonds':'produce',
                 'water':'junk food',
 		        'white wine':'junk food'} 	# obviously this is not junk food; we need an alcohol section to go with the beer
 
-# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, dairy, junk food
+# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, cereal, dairy, junk food
 dict_king_soopers = {   'produce': 1,
                         'meat': 2,
                         'seafood': 3,
@@ -272,11 +272,12 @@ dict_king_soopers = {   'produce': 1,
                         'hispanic': 10,
                         'pasta': 11,
                         'frozen foods': 12,
-                        'dairy': 13,
-                        'junk food': 14,
-                        'unknown': 15     }
+                        'cereal':'13',
+                        'dairy': 14,
+                        'junk food': 15,
+                        'unknown': 16     }
 
-# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, dairy, junk food
+# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, cereal, dairy, junk food
 dict_walmart = {        'produce': 1,
                         'bakery': 2,
                         'frozen foods': 3,
@@ -289,9 +290,10 @@ dict_walmart = {        'produce': 1,
                         'asian': 10,
                         'hispanic': 11,
                         'pasta': 12,
-                        'junk food': 13,
-                        'dairy': 14,
-                        'unknown': 15     }
+                        'cereal':'13',
+                        'junk food': 14,
+                        'dairy': 15,
+                        'unknown': 16     }
 
 def walmart_sort(x):
     return dict_walmart[x.category]
