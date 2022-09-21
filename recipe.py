@@ -168,7 +168,7 @@ dict_cats = {   'almonds':'produce',
                 'onion powder':'baking',
                 'oregano':'baking',
                 'paprika':'baking',
-                'parchment paper':'baking',     # this isn't baking; I need a new category for household products
+                'parchment paper':'baking',     # this isn't baking; 
                 'pectin':'baking',
                 'pepper':'baking',
                 'red pepper flakes':'baking',
@@ -180,7 +180,7 @@ dict_cats = {   'almonds':'produce',
                 'tempura flour':'baking',
                 'vanilla extract':'baking',
                 'vegetable oil':'baking',
-		        'wax paper':'baking', 		# this isn't baknig; I need a new category for household products
+		        'wax paper':'baking', 		# this isn't baknig; 
                 'white pepper':'baking',
                 'white vinegar':'baking',
                 'black beans':'canned goods',
