@@ -1,0 +1,1203 @@
+# To begin a recipe: Recipe: [name]
+#		e.g., Recipe: Cajun Chicken Pasta
+# To end a recipe: end recipe
+
+
+# Recipe Example: Recipe: Cajun Chicken Pasta
+#		       Time: 19 hours
+# 		       Calories: 9000
+# 		       Ingredients
+#			 1 gallon heavy cream
+# 			 16 oz linguine
+#		       Directions
+# 			 make the food
+# 		   end recipe
+
+
+# ingredients format: [amount] [measurement] [ingredient] [(any additional description)]
+#  		e.g.: 4 1/2 pounds tuna (fatty)
+#		e.g.: 2 cups bread flour (king arthur please)
+#		NOT : 4 1/2 pounds fatty tuna
+#		NOT : 2 cups king arthur bread flour
+# 	the ingredient is what you would buy in the store
+
+# List of Recipes
+# 	Bowl of Cereal
+
+# To begin a week: Week 1: Early June
+# 			Day: Sunday
+# 				Meal: Beef and Broccoli
+#		   end week
+
+Week 1: Early September
+	Day: Sunday
+		Meal: Pan Pizza
+	Day: Labor Day
+		Meal: Take Out
+	Day: Friday
+		Meal: Take Out
+	Day: Saturday
+		Meal: Pad Krapow
+		Meal: Brownies
+	Day: 2nd Sunday
+		Meal: Cherry Tomato Spaghetti
+		Meal: Garden Salad
+end week
+
+
+Week 2: Early Mid September
+	Day: Monday (DA Conference)
+		Meal: Take Out
+	Day: Tuesday (DA Conference)
+		Meal: Take Out
+	Day: Wednesday (DA Conference)
+		Meal: Meal Prep - Smoked Sausage with Rice and Beans - jake
+		Meal: Meal Prep - Yogurt Granola and Berries - jake
+		Meal: Granola - jake
+	Day: Thursday
+		Meal: Garden Salad - jake
+	Day: Friday
+		Meal: Evil Mac and Cheese
+	Day: Saturday
+		Meal: Chicken Nuggets
+		Meal: Ultra Garlicky Mayo
+		Meal: Buttermilk Biscuits
+		Meal: Garden Salad
+	Day: Sunday
+		Meal: Lo Mein
+
+end week
+
+
+Week 3: Late Mid September
+	Day: Monday
+		Meal: Granola - jake
+		Meal: Meal Prep - Yogurt Granola and Berries - jake
+		Meal: Meal Prep - Teriyaki Chicken and Rice - jake
+		Meal: Evil Mac and Cheese - jake
+	Day: Sometime During the Wk
+		Meal: Super Snack Balls
+	Day: Friday
+		Meal: Speed Pizza
+		Meal: Garden Salad
+	Day: Saturday
+		Meal: Fish in White Wine Sauce
+		Meal: Steamed Broccoli
+		Meal: White Rice
+	Day: Sunday
+		Meal: Yang Chow Fried Rice
+end week
+
+Week 4: Late September and Early October
+	Day: Monday
+		Meal: Thai Coconut Curry - jake
+		Meal: Meal Prep - PB and J Baked Oatmeal - jake
+		Meal: Meal Prep - Ground Chicken Taco Bowls - jake
+	Day: Friday
+		Meal: Pan Pizza
+		Meal: Garden Salad
+	Day: Saturday
+		Meal: Cherry Tomato Spaghetti
+		Meal: Rice Crispy Treats
+	Day: Sunday
+		Meal: Take Out
+end week
+
+Week 5: Early October
+	Day: Monday
+		Meal: Meal Prep - Spicy Adobo Chicken and Peppers - jake
+#		Meal: Meal Prep - Hard Boiled Eggs and Avocado
+#		Meal: White Bread
+#		Meal: Egg Salad
+#		Ingredient: Chips
+#		Ingredient: Pickle
+#	Day: Tuesday
+#		Meal: Turkey Sandwich
+#	Day: Wednesday
+#		Meal: BLT
+# 	Day: Thursday
+#		Meal: Egg Salad
+	Day: Friday
+		Meal: Delivery Pizza
+	Day: Conference First Day
+		Meal: Chicken Noodle Soup
+	Day: Conference Second Day
+		Meal: Conference Tacos
+		Meal: Pico de Gallo
+		Meal: Mexican Rice
+end week
+
+Recipe: Black Beans
+Active Time: 20 minutes
+Inactive Time: 10 minutes
+Total Time: 30 minutes
+Total Calories: 350
+Calories Per Serving: 50
+Link: https://www.joshuaweissman.com/post/making-a-burrito-bowl-faster-than-a-restaurant-but-faster
+Keywords: chipotle, burrito bowl, but faster, black beans, beans
+
+Ingredients
+	2 jalapenos (sliced)
+	5 cloves garlic (sliced)
+	2 slices bacon (sliced)
+	2 bay leaves
+	2 cans black beans (drained, rinsed)
+	1/2 cup chicken stock
+
+Directions
+	1. Set a medium saucepan on medium heat, and add enough oil to coat the bottom of the pan. Once hot and nearly smoking, add bacon, garlic, and jalapenos; cook, stirring often, about 3 to 4 minutes.
+	2. Stir in bay leaves and beans. Next, add chicken stock. Reduce the heat to low, and simmer for 10 minutes. Season to taste with salt and pepper.
+
+end recipe
+
+
+Recipe: Brownies
+Calories per Serving: 400 or so (if 9 squares)
+Total Calories: 3500 or so (insane!)
+Active Time: 15 minutes
+Inactive Time: 25 minutes
+Total Time: 40 minutes
+Link: https://www.youtube.com/watch?v=ROm9qWJrtqc&t=1s
+Keywords: Brian Lagerstrom, brownies, high calorie, fudge, dessert, fast, flex
+Ingredients
+	170 g unsalted butter
+	225 g chocolate (70%)
+	175 g sugar
+	5 g salt
+	3 eggs (whisked)
+	200 g all purpose flour
+
+Directions
+	1. Melt butter on low in a large sauce pot. Add chocolate and stir to melt. add sugar and stir well. 
+	2. Take off heat and add add whisked eggs well. Then add the salt and flour. Stir until well combined.
+	3. Load into a greated 8x8" pan. 
+	4. Bake at 350 degrees for 24-26 minutes, rotating halfway through.
+
+end recipe
+
+Recipe: Buttermilk Biscuits
+Active Time: 38 minutes
+Inactive Time: 17 minutes
+Total Time: 55 minutes
+Calories Per Serving: 310 per bisuit
+Total Calories: 2480
+Link: Joshua Weissman Unapologetic Cookbook p. 74.
+Keywords: Weissman, biscuit
+
+Ingredients
+	2 3/4 cups all purpose flour (plus more for dusting)
+	2 tbsp baking powder
+	1 tsp fine sea salt
+	1 tsp sugar
+	2/3 cup unsalted butter
+	1 cup buttermilk (plus more for brushing)
+	1 jar jam (for spreading on biscuit)
+
+Directions
+	1. Preheat the oven to 425 degrees. Line a baking sheet with parchment paper. In the bowl of a food processor, add the all purpose flour, baking powder, salt, and sugar, and pulse a few times until thoroughly combined.
+	2. Cut the butter into 1/2 inch cubes. Make sure the butter is extremely cold. If not, freeze for 5 minutes.
+	3. Add the butter to the food processor and pulse 12 to 14 times or until pea-sized crumbs are formed.
+	4. Transfer to a medium bowl. While slowly streaming in the buttermilk, use a fork to mix until all of the buttermilk has been poured in and a solid mass has formed. If it's still too dry, add 1 or 2 more tablespoons buttermilk.
+	5. Turn the dough onto an unfloured surface and gently knead until it comes together. Roll it out into a rough rectangle. Fold it in thirds (like folding a letter) and then roll it out lengthwise. Fold it into thirds again, cover with plastic wrap, and refrigerate for 5 minutes.
+	6. After resting, place ona lightly floured surface and roll it out into a rectangle about 3/4 inch thick.
+	7. Using a 3-4 inch biscuit cutter, cut out as many pieces as possible and place on the baking sheet. Continue to reroll and cut the dough to get as many biscuits as possible.
+	8. Brush the tops very lightly with buttermilk. Bake for 15 to 17 minutes or until the tops are golden brown. Split in half and enjoy.
+
+end recipe
+
+Recipe: Cherry Tomato Spaghetti
+Active Time: 20 minutes
+Inactive Time: 10 minutes
+Total Time: 30 minutes
+Calories Per Serving: about 500
+Total Calories: 2000
+Link: everywhere
+Keywords: easy, simple, fast, JHJP
+
+Ingredients
+	1 lb cherry tomatoes (can supplement with roma tomatoes)
+	4 cloves garlic (minced)
+	6 oz fresh basil
+	2 oz extra virgin olive oil
+	1 lb spaghetti noodles
+	10 g salt
+	6 oz parmiggiano reggiano (plain parmesan will work, though)
+
+Directions
+	1. Put a big pot of water on the boil. Add a crap ton of salt to make it salty like the ocean.
+	2. Mince garlic. Cut cherry tomatoes or roma tomatoes into a large dice. You could blanche and shock and peel tomatoes if you are using larger tomatoes. 
+	3. Add the garlic to heated olive oil and cook on medium heat. Try to avoid allowing the garlic to brown. Low heat.
+	4. Add the cherry tomatoes or the cut roma tomatoes. Add salt. Stir occasionally. Allow the tomatoes to burst and the juice to thicken into a sauce.
+	5. When noodles are ready add to the sauce and reserve some of the pasta water. Add a little of that. Chop the basil and add that and take off heat. 
+
+end recipe
+
+Recipe: Chicken Noodle Soup
+Active Time: 25 minutes
+Inactive Time: 1 hour 10 minutes
+Total Time: 1 hour 35 minutes
+Calories Per Serving: 158
+Total Calories: 1580
+Link: Joshua Weissman Unapologetic Cookbook, p. 214
+Keywords: Weissman, comfort, illness, sick, cold, flu, JDPQJ
+
+Ingredients
+	2 carrots (medium, cut into 1/2 inch rounds)
+	2 yellow onions (roughly chopped)
+	2 ribs celery (medium, cut into 1/2 inch)
+	1/2 bunch thyme
+	2 sprigs sage
+	3 bay leaves
+	1 whole chicken (3-4 pounds; can do it different if that's easier)
+	12 cups chicken stock
+	12 oz egg noodles (uncooked)
+	1 oz fresh basil (can do fresh parsley, too)
+	
+Directions
+	1. In a 6 or 7 quart stockpot, add the carrots, onions, celery, thyme, sage, and bay leaves. Lay the whole chicken on top of the vegetables. Cover with 1 quart of the chicken stock.
+	2. Place over medium-high heat and bring to a boil. Reduce the heat to low, cover, and very gently simmer for 1 hour or until the chicken is falling apart.
+	3. Remove the chicken, thyme stems, sage, and bay leaves from the pot. Discard the herbs. Once the chicken is cool enough to handle, debone the chicken completely. Shred the meat and place back into the pot.
+	4. In a separate medium pot, bring the remaining 2 quarts chicken stock to a boil and add the egg noodles. DON'T salt this yet, since all of this will be going into the pot. Cook according to the package instructions or until al dente.
+	5. Pour the noodle and broth mixture into the chicken pot. Mix together and season generously with salt and pepper.
+	6. To serve, ladle into bowls and top with fresh torn or chopped herbs of your choice. 
+
+end recipe
+
+Recipe: Chicken Nuggets
+Active Time: 57 minutes
+Inactive Time: 8 minutes (while oil heats) + 1 hour to overnight for marinade
+Total Time: 1 hour 5 minutes + 1 hour to overnight for marinade
+Calories Per Serving: ~350 (to serve 3 people)
+Total Calories: 1050 (to serve 3 people)
+Link: Joshua Weissman Unapologetic Cookbook p. 169
+Keywords: sauces, kid, JHQJ, pair with ranch dressing or ultra-garlicky mayo
+
+Ingredients
+	1 lb chicken thighs (boneless, skinless, though I can skin them and debone them if not available that way)
+	2 cups buttermilk
+	1 tbsp salt (kosher)
+	8 cups canola oil
+	2 cups all purpose flour (for dredge)
+	1 tbsp ground paprika (for dredge)
+	1 1/2 tbsp white pepper (for dredge)
+	1 tsp oregano (for dredge)
+	1 tbsp garlic powder (for dredge)
+	1 1/2 tbsp salt (kosher, for dredge)
+
+Directions
+	1. Cut the chicken thighs into about 1 inch bite sized pieces, and place them into a bowl as you're working. Once you've cut all the chicken, add the buttermilk and salt. Stir to thotoughly coat the chicken and dissolve the salt. Refrigerate, covered, for at least 1 hour or overnight.
+	2. Fill a large deep cast-iron skillet or heavy bottomed pot with about 2 1/2 inches oil. Don't fill it 3/4 or more full. Heat over medium heat until reached 350 degrees. Adjust the heat up and down to maintain that temperature.
+	3. While the oil is heating, in a medium bowl, whisk together all of the ingredients for the dredge until evenly combined. Line a  baking sheet with a wire cooling rack.
+	4. Once the oil is to temperature, working in batches, remove the chicken from the marinade and toss in the dredge mixture, making sure to aggressively press the chicken into the dredge so there are no uncoated spots on the chicken at all. Once the chicken is fully coated, gently shake off the excess. 
+	5. Working in 3 or 4 batches so the pot isn't overcrowded, fry the chicken pieces for 4 to 6 minutes, or until the chicken is a beautiful golden brown and cooked through to an internal temperate of 165 degrees. Once done, transfer the chicken to the wire cooling rack to drain. Repeat with the remaining chicken.
+
+end recipe
+
+Recipe: Conference Tacos
+Active Time: 
+Inactive Time: 
+Total Time: 
+Calories Per Serving: 
+Total Calories: 
+Link: 
+Keywords: 
+
+Ingredients
+	1 pound ground beef
+	1 bottle ketchup
+	1 1/2 tablespoon paprika
+	1 1/4 teaspoon garlic powder
+	1 1/4 teaspoon cumin
+	1 1/4 teaspoon onion powder
+	1 teaspoon chili powder
+	1 teaspoon oregano
+	1 1/2 teaspoon kosher salt
+	1 1/2 teaspoon cornstarch
+	1/4 cup water
+	12 taco shells
+
+	1 container pico de gallo (or if it's listed as a meal for the week, you should end up buying the ingredients to make it so you don't need to get that here)
+	
+	6 oz cheddar cheese (grated)
+	6 oz lettuce (shredded)
+	1 bottle hot sauce
+
+Directions
+	1. Mix all the herbs/spices and cornstarch in a small bowl until well blended
+	2. Brown meat in large skillet. Drain fat.
+	3. Stir in the seasoning blend and water. 
+	4. Bring to a boil if liquid enough. Add ketchup and let simmer. Spoon into taco shells
+	5. add other toppings you like. Add hot sauce.
+
+Recipe: Delivery Pizza
+Active Time: 40 minutes
+Inactive Time: 60 minutes (interrupted, while dough rises) and 4-24 hours whiledough refrigerates and 90 minutes (for dough to warm up and oven to get hot)
+Total Time: 24 hours total planning, about 2 hours tied to the kitchen, otherwise waiting
+Calories Per Serving: 
+Total Calories: 
+Link: https://www.youtube.com/watch?v=OOeCLN9VHGY
+Keywords: 
+
+Ingredients
+	270 g water (86F/30C)
+	30 g olive oil 
+	5 g instant yeast
+	35 g sugar
+	430 g all purpose flour (11.7% protein or similar)
+	12 g salt
+
+	150 g tomato paste
+	150 g water
+	1 g salt
+	10 g sugar
+	10 g olive oil
+	1/4 tsp dried basil
+	1/4 tsp dried oregano
+	1 g black pepper
+	1 g garlic powder
+	1 g onion powder
+
+	200 g mozzarella (full fat, grated)
+	90 g provolone (aged, grated)
+	1 container cornmeal (for dusting, finely ground)
+	1 box salt (just a pinch)
+
+Directions
+	DOUGH
+	1. Into the bowl of a stand mixer fitted with a dough hook measure water, oil, yeast, sugar, flour, and salt. Mix on low for 3 min or until combined. Increase to high speed and continue to mix for about 4 minutes.
+	2. Transfer to an oiled bowl, cover, and ferment at room temp for 30 minutes. 
+	3. Add 4 stretch and folds. Cover and let bulk ferment at room temperature for another 30 minutes. 
+	4. Divide dough into 2 equal pieces. Pre-fold/shape, then round each ball into a taught ball and transfer to an oiled sheet tray. Cover and refrigerate for 4-24 hours.
+
+	Note: Before you build your pizzas, pull the dough balls from the fridge and allow to temper for about 90 minutes, covered.
+
+	SAUCE
+	1. Combine all sauce ingredients in a container and blend with an immersion blender.
+
+	BUILD AND BAKE THE PIZZA
+	1. Preheat oven and pizza stone or steel to 550F/287C for 30 minutes. Dust dough balls and work surface generously with finely ground cornmeal and flour before placing dough on work surface. 
+	2. Using your fingertips, work to spread the dough into a large circle from the middle out, making sure to leave a raised border around the perimeter for the crust. Pop any air bubbles. Once the dough is about 8" in diameter, continue to increase the dough size using the stretch, flip, and rotate maneuver until the pizza reaches about 12" across.
+	3. Dust a pizza peel with cornmeal, then flip the dough onto the peel. 
+	4. Spread approx 1/4 c or 5-6 tablespoons of sauce onto the pizza dough, leaving about a 1/2" border for the crust. 
+	5. Sprinkle with cheese, a pinch of salt, and thinly sliced pepperonis (or other toppings of your choice). 
+	6. Transfer the pizza onto the preheated steel/stone and bake until crust is well browned and cheese is melted and golden (about 7 minutes in my oven, but baking times will vary depending on your oven).
+
+end recipe
+
+Recipe: Evil Mac and Cheese
+Active Time: 
+Inactive Time: 
+Total Time: 
+Calories Per Serving: 
+Total Calories: 
+Link: https://www.notanothercookingshow.tv/post/spicy-red-pepper-pasta
+Keywords: different, pasta
+
+Ingredients
+	1 lb cavatappi pasta (or elbows or shells)
+	2 red peppers (sliced thin)
+	1 onion (liced Thin)
+	3 tablespoons extra virgin olive oil
+	1 jar calabrian chilis (5 peppers from the jar; you can use 3 red serrano instead, seeded, plus 1 tablespoon of the liquid they are packed in)
+	1/2 teaspoon red pepper flakes
+	2 cloves garlic (liced Thin)
+	2 tablespoons tomato paste
+	2 cups heavy cream
+	1 wedge pecorino romano (To Taste)
+	1 box salt (just enough of salt to taste)
+	1 tablespoon unsalted butter (cold!)
+
+Directions
+	1. You may want to remove the skin on the red bell peppers, though you don't have to. It is an extra step or two. To remove the skin of the peppers, coat with a touch of oil and then place in the oven under the broilers and cook until the skin starts to char slightly, moving the peppers around until evenly charred all the way around. You don’t need too much char for this. That smokey char is not a flavor I want to emphasize in this dish. Once charred, place in a bowl and cover in plastic wrap and let it steam for 15 minutes. While that steams, prep the rest of the ingredients.
+	2. Slice the onion and garlic thinly, measure out the chili flake and seed the Calabrian Chili and leave them whole along with a little of the oil they were packed in.
+	3. By now the peppers should be steamed. Using your knife, scrape the skin off the peppers, remove the seeds and stem, and cut them into thin slices.
+	4. Now get a pot of salted water up to a boil along with a large sauté pan and get it preheated on medium-high heat. Add a few tablespoons of olive oil and then get the onions in first to get them going. Season with salt and once softened and begins to turn translucent, add the peppers. Cook for a few minutes until the onions are fully translucent and soft and starting to brown slightly. Then add the garlic, chili flake, Calabrian chilis and cook until the garlic softens and begins to slightly brown around the edges. Then add two tablespoons of tomato paste and then incorporate that into the vegetables and cook for 2-3 minutes. Then add the pint of cream, lower the heat to medium and cook for about 5 minutes or until the cream has thickened. Let cool slightly and then blend until smooth.
+	5. Add the Cavatappi to the water and start to cook the pasta. Add the sauce back to the pan and get it on a lower heat until the pasta is cooked. Slowly melt in a tablespoon of cold butter and adjust the seasoning before adding the pasta. Then 1-2 minutes before the pasta is perfectly cooked, add it to the sauce with a tablespoon or two of the pasta water, marry the sauce and the pasta until the pasta becomes perfectly al dente. Turn the heat off, toss in some pecorino Romano until creamy and thickened and then plate with a bit more pecorino cheese and enjoy
+
+end recipe
+
+Recipe: Fish in White Wine Sauce
+Active Time: 15 minutes
+Inactive Time: 12 minutes
+Total Time: 27 minutes
+Calories Per Serving: 400 per filet with sauce
+Link: Julia Child, Mastering the Art of French Cooking p. 209
+Keywords: Julia Child, french, fancy, healthy, JH
+
+Ingredients
+	3 scallions (or 1 shallot)
+	2 1/2 pounds sole filets (or flounder filets, skinless, boneless, cut into serving pieces)
+	1 tbsp butter (cut into bits)
+	3/4 cup white wine (you'll probably want to add 1/3 cup water or so to that)
+	1 package wax paper (or brown paper)
+
+	2 1/2 tbsp all purpose flour
+	3 tbsp butter (softened; blend this into the butter to make a paste)
+	1 cup heavy cream
+	1 tbsp lemon juice (can just buy a lemon or use the bottled stuff)
+	1 tbsp butter (cut into small dice)
+	1/4 cup swiss cheese (grated)
+
+Directions
+	FISH
+	1. Take out the butter to make sure it's soft to make the sauce later. 
+	2. Preheat oven to 350 degrees. Sprinkle half the shallots or onions in the bottom of a buttered 10-12 inch baking dish (should be 1 1/2 to 2 inches deep)
+	3. Season the filets lightly with salt and pepper and arrange them in one slightly overlapping later in the dish. If the filets are thin, fold them in half. Sprinkle the filets with the remaining shallots or onions, and dot with butter. Pour in the cold liquid and enough water so fish is barely covered.
+	4. Bring almost to the simmer on top of the stove. Lay some buttered wax paper over the fish. Then place the dish in the bottom third of a preheated oven. Maintain liquid almost at the simmer for 8 to 12 minutes depending on the thickness of the filets. The fish is done when a fork pierces the flesh easily. Do not overcook; the fish should not be dry and flaky.
+	5. Drain out all the cooking liquid into an enameled sauce pan (cover the dish and drain from a corner).
+	6. The fish can now be covered and kept warm for a fewminutes over hot, but not simmering water. Or set it aside with its piece of paper, and reheat later for a few minutes over simmering water. Be sure the fish does not overcook as it reheats. Before saucing the fish, drain off any liquid which may have accumulated in the dish. 
+	SAUCE
+	1. Rapidly boil the cooking liquid taken from step 5 above until there's only 1 cup or so left. 
+	2. Take off the heat and beat the flour and butter paste into the hot liquid. Add 1/2 cup of the heavy cream and bring to a boil. Thin out the sauce with additional tablespoons of cream until it coats the spoon nicely. Season to taste with salt, pepper, and lemon juice (drops at a time, not the whole tablespoon).
+	FINISHING
+	1. Spoon the sauce over the fish. Sprinkle on the cheese and dot with the last tablespoon of finely diced butter. Place dish 6 to 7 inches from a broiler for 2 to 3 minutes to reheat the fish and brown the top of the sauce lightly. Serve as soon as possible.
+
+
+end recipe
+
+Recipe: Garden Salad
+Active Time: 10 minutes
+Total Time: 10 minutes
+Calories Per Serving: 120 (not including dressing)
+Keywords: weeknight, easy, simple, fast, JHPQJ
+
+Ingredients
+	1 bag salad mix
+	1 tomato (large)
+	1 can black olives
+	4 oz cheddar cheese (diced)
+	1 bottle salad dressing
+
+Directions
+	1. Mix all ingredients.
+	2. Use your choice of dressing. Add the number of calories in the dressing to the recipe.
+
+end recipe
+
+
+
+Recipe: Granola
+Active Time: 10 minutes
+Inactive Time: 1 hour 15 minutes
+Total Time: 1 hour 25 minutes
+Calories Per Serving: 166-236
+Total Calories: 3776
+Total Servings: 16
+Link: https://lmld.org/simple-granola/
+Keywords: granola, cereal, yogurt, JHPQJ
+
+Ingredients
+	1/2 cup brown sugar
+	1/2 cup honey
+	1/4 cup canola oil
+	4 cups old fashioned oats
+	1/2 tsp cinnamon
+	1/4 teaspoon salt
+Directions
+	1. Preheat oven to 250 degrees Fahrenheit.
+	2. Combine brown sugar, honey and canola oil in a small sauce pan over medium heat.
+	3. Cook, stirring often until sugar is dissolved.
+	4. Pour brown sugar mixture over oats and add cinnamon and salt. Stir until oats are evenly coated.
+	5. Spread granola mixture over a cookie sheet (sprayed with pam) and press mixture down.
+	6. Place in oven and bake for 1 hour, stirring every 15-20 minutes.
+	7. Remove from oven and allow to cool completely before breaking apart and into pieces.
+	8. Store in a ziplock bag or other air tight container.
+
+end recipe
+
+Recipe: Hollandaise Sauce
+Active Time: 12 minutes
+Inactive Time: none
+Total Time: 12 minutes
+Calories Per Serving: 100
+Total Calories: 1000
+Link: Julia Child, Mastering the Art of French Cooking p. 79
+Keywords: french, sauce, fancy, JHPQJ
+
+Ingredients
+	8 ounces of butter (1 1/2 to 2 sticks of butter)
+	3 eggs (you will only need the yolks)
+	2 tbsp lemon juice (you can get 1 lemon or use the juice in a bottle)
+	
+Directions
+	TEMPERATURE AND THICKNESS NOTE: So that the egg yolks will thicken into a smooth cream, they must be heated slowly and gradually. Too sudden heat will make them granular. Overcooking scrambles them. You may beat them over hot water or over low heat; it makes no difference as long as the process is slow and gentle.
+	BUTTER: Egg yolks will readily absorb a certain quantity of buter when it is fed to them gradually, giving them time to incorporate eacch addition before another is presented. When too much is added at a time, particularly at first, the sauce will not thicken. And if the total amount of butter is more than the yoks can absorb, the sauce will curdle. About 3 ounces off butter is the usual maximum amount per yolk. But if you have never made hollandaise before, it is safer not to go over 2 ounces or 1/4 cup.
+	BLENDER METHOD:	
+	1. Place 3 egg yolks, 1/4 tsp of salt, a pinch of pepper, and 1 to 2 tbsp of lemon juicein a blender.
+	2. Cut 1 stick of butter into chunks (the blender method makes less but...duh, easier). Heat the butter to foaming hot in a small saucepan.
+	3. Put the lid on the blender and blend at top speed for 2 seconds. Uncover, and, still blending at top speed, immediately start pouring on the hot butter in a thin stream of droplets. By the time two thirds of the butter has gone in, the sauce will be a thick cream. Omit the milky residue at the bottom of the butter pan. Taste the sauce, and blend in more seasonings if necessary. IF NOT USED IMMEDIATELY, SET THE JAR IN TEPID, BUT NOT WARM, WATER. 
+	HAND METHOD:
+	1. Set aside 2 tablespoons of cold butter and set it aside. Then cut the remaining butter (probably 6 ounces) into pieces and melt it in a saucepan over moderate heat. Then set it aside.
+	2. Beat the egg yolks for about 1 minute in a separate saucepan or until they become thick and sticky. Consider adding corn starch (see KEEPING THE SAUCE below).
+	3. Add 1 tbsp water, 1 tbsp lemon juice, and a big pinch of salt and beat for a half minute more.
+	4. Prepare a pan or bowl of cold water and set it near the stove. Add 1 tbsp of cold butter to the pan in step 3, but do not beat it in. Then place the saucepan over very low heat or barely simmering water and stir the egg yolks with a whisk until they slowly thicken into a smooth cream. This will take 1 to 2 minutes. If they seem to be thickening too quickly or even suggest a lumpy quality, immediately plunge the bottom of the pan in cold water, beating the yolks to cool them. Then continue beating over heat. The egg yolks have thickened enough when you can begin to see the bottom of the pan between strokes and the mixture forms a light cream on the wires of the whisk.
+	5. Immediately remove from heat and beat in another 1 tbsp cold butter, which will cool the egg yolks and stop their cooking.
+	6. Then beating the egg yolks with a whisk, pour on the melted butter by droplets or quarter-teaspoon fulls until the sauce begins to thicken into a very heavy cream. Then pour the butter a little more rapidly. Omit the milky residue at the bottom of the butter pan.
+	7. Season the sauce to taste with salt, pepper, and lemon juice.
+	KEEPING THE SAUCE NOTE: Hollandaise is served warm, not hot. If it is kept too warm, it will thin out or curdle. It can be held perfectly for an hour or more near the very faint heat of a stove or in the pan of lukewarm water. As hollandaise made with the maximum amount of butter is difficult to hold, use the minimum suggested in the recipe, then beat softed or tepid butter into the sauce just before serving. You can add a a teaspoon of cornstartch into the beaten egg yolks at the beginning to help hold the sauce warm for a longer time.
+	TOO THICK NOTE: Beat in 1 to 2 tablespoons of hot water, stock, milk, or cream.
+	REFUSES TO THICKEN NOTE: If you have beaten your butter in too quickly, and the sauce refuses to thicken, it is easily remedied. Rinse out a mixing bowl with hot water. Put in a teaspoon of lemon juice and a tablespoon of the sauce. Beat with a whisk for a moment until the sauce creams and thickens. Then beat in the rest of the sauce half tablespoon at a time, beating until each addition has thickened in the sauce before adding the next. This always works.
+	CURDLED SAUCE NOTE: If a finished sauce starts to separate, a tablespoon of cold water beaten into it will often bring it back. If not, use the preceeding technique.
+	LEFTOVER SAUCE NOTE: It can be kept in the fridge for a day or two or frozen. It can enrich bechamels or veloutes. 
+
+end recipe
+
+
+Recipe: Lo Mein
+Active Time: 23 minutes
+Inactive Time: 10 minutes
+Total Time: 33 minutes
+Calories Per Serving: 450 (approx)
+Total Calories: 2200
+Link: Jet Tila 101 Asian Recipes to Try Before You Die
+Keywords: delicious, JHPQJ
+
+Ingredients
+	3 tbsp oyster sauce
+	1 tsp sesame oil
+	1 tbsp soy sauce
+	1/4 cup chicken stock
+	1 tsp cornstarch
+	3 tbsp canola oil
+	2 tsp garlic (minced)
+	1 1/2 tbsp ginger (slice thin)
+	1/2 lb chicken thighs (slice thin)
+	16 oz spaghetti noodles (one box)
+	1/4 lb baby bok choy (remove bottoms)
+	3 scallions (cut into 1 1/2" pieces)
+
+Directions
+	Sauce
+	1. Stir together the oyster sauce, sesame oil, soy sauce, chicken stock, and corn starch in a small bowl and reserve.
+	Noodles
+	1. Put a gallon or so of water on the boil and add enough salt to make it like the ocean. Cook the noodles according to instructions. Don't begin stir fry until you have the noodles cooked, drained, and rinsed to cool.
+	Stir Fry
+	1. Heat the pan to high and add the oil. Once you see wisps of white smoke, add the garlic and ginger and cook until light brown and fragrant, about 20 seconds. Stir in the chicken and cook until medium, about 1 minute.
+	2. Stir in the noodles and bok choy and cook until the bok choy starts to soften and turn bright green, about 1 minute.
+	3. Stir in the sauce. Allow the sauce to coat all the ingredients and start to simmer, about 1 more minute.
+	4. Cook until the chicken is cooked through (about 1 more minute) and the sauce starts to bubble into a glaze. Top with scallions and serve hot.
+
+end recipe
+
+Recipe: Meal Prep - Ground Chicken Taco Bowls
+Active Time: 15 minutes
+Inactive Time: 25 minutes
+Total Time: 35 minutes
+Total Servings: 4
+Calories Per Serving: 602 calories
+Total Calories: 2407 calories
+Link: https://mealprepmanual.com/ground-chicken-taco-bowls/
+Keywords: Josh Cortis, meal prep, mexican, beef
+
+Ingredients
+	2 lbs chicken (ground up; (95/5) I put boneless skinless chicken thighs in the food processor)
+	3/4 cup tomato sauce
+	1 tsp paprika
+	1 tsp garlic powder
+	1 tsp chili powder
+	1 tsp cumin
+	1/2 tbsp canola oil
+
+	12 oz cabbage (shredded; You can buy these pre shredded as coleslaw or salad mix)
+	1/2 tbsp canola oil
+	1 tsp garlic powder
+
+	1 1/2 cups jasmine rice (3 3/4 cups cooked rice)
+	1/2 tbsp canola oil
+	1 tbsp chili powder
+	1 tsp paprika
+	1 roma tomato (diced)
+
+	4 roma tomatoes
+	1 white onion (small)
+	2 jalapenos
+	5 cloves garlic
+	1/2 tbsp canola oil
+	1 cup cilantro
+	2 tbsp lime juice
+
+Directions
+	FOR THE RICE
+	1. Prepare enough rice to have 3¾ cups of cooked rice. 1 cup of dry rice will yield between 2-3 cups of cooked rice depending on what kind you use.
+	2. Dice 1 Roma tomato and remove the seeds.
+	3. Once the rice has finished, measure out 3¾ cups and add in the oil, chili powder, paprika, diced Roma tomato, and salt to taste.
+	FOR THE SALSA ROJA
+	1. You can either boil, roast, or air fry this. I use the air fryer. Preheat the air fryer to 400°F.
+	2. Wash your tomatoes, jalapeños, and cilantro. Cut the stems off the jalapeños and cut your onion in half. Peel your garlic cloves.
+	3. Add the halved onion, jalapeño peppers, tomatoes, and garlic to a large bowl and drizzle over ½ tbsp of oil and salt to your liking. Toss to coat. The tomatoes have finished cooking when they begin to change color and the skin starts to break.
+	4. Air fry for 8-10 minutes, turning every few minutes until the tomatoes and onions have softened and developed color.
+	5. Add the tomatoes, onions, garlic, jalapeños, ½ bunch of cilantro, and the juice of 1 lime to a blender or food processor Blend until smooth.
+	6. Add salt to taste. Adjust flavor with salt and lime juice as needed.
+	7. Portion out into smaller, separate cups for the meals. You will probably have extra.
+	FOR THE SHREDDED CABBAGE
+	1. Heat ½ tbsp of olive oil over medium high heat. Add in the shredded cabbage and cook for 4-5 minutes. Season with 1 tsp garlic powder and salt and pepper to taste.
+	2. You can drizzle in a bit of water to create steam and help them cook faster. Once finished, set aside until you are ready to plate.
+	FOR THE TACO MEAT
+	1. Heat ½ tbsp of oil over medium high heat and add in your ground chicken. Allow it to brown and cook.
+	2. Once the chicken is about 90% of the way cooked, add ¾ cup of tomato sauce, 1 tsp paprika, 1 tsp chili powder, 1 tsp cumin, 1 tsp garlic powder, and salt and pepper to taste. Stir to combine and cook for an additional few minutes to cook out the tomato sauce. Taste test and adjust flavors as needed.
+	PLATING
+	1. This recipe makes 5 servings. Divide your chicken, cabbage, and rice evenly between the containers. Each meal gets 1 of your salsa cups as well
+
+end recipe
+
+Recipe: Meal Prep - PB and J Baked Oatmeal
+Active Time: 15 minutes
+Inactive Time: 1 hour
+Total Time: 1 hour 10 minutes
+Calories Per Serving: 561 calories
+Total Calories: 2243 calories
+Link: https://mealprepmanual.com/smoked-sausage-with-rice-and-beans/
+Keywords: Josh Cortis, meal prep, fast
+
+Ingredients
+	3 cups old fashioned oats
+	2 tbsp protein powder (vanilla; recipe calls for 2 "scoops")
+	1 tsp baking powder
+	3 tbsp peanut butter
+	2 tbsp maple syrup
+	2 eggs
+	2 cups milk
+
+	1 lb frozen strawberries (or you can just use....strawberry jelly?)
+	1 1/2 tbsp sugar (or you can just use strawberry jelly?)
+	2 tsp pectin (optional but recommended; or you can just use strawberry jelly?)
+
+	2 tbsp peanut butter
+
+Directions
+	FOR THE STRAWBERRY JELLY
+	1. I usually make a double or triple batch of this and keep it in the fridge for use in other things as well. If you want to give it time to set up a bit you should make it the night before but that isn't required if you are just using it for this baked oatmeal. If you have this prepped in your fridge you can prep this baked oatmeal in 5 minutes.
+	2. In a large pot over medium heat, add in your frozen strawberries and allow them to cook down. As they begin to thaw, break them up with a spatula to help them cook faster.
+	3. Sprinkle the splenda over the top and bring to a light boil. You can use real sugar or maple syrup if you wish, you will just need to use more of it. Allow it to lightly boil, stirring often so it doesn't stick to the bottom.
+	4. After a few minutes, add in the pectin and continue mixing. The pectin is what helps to make it into a jelly. You don't need to add the pectin for use in the baked oatmeal but if you want to use it for a jelly with other things, you should add it.
+	5. After it has been lightly boiling for 10-15 minutes you can pull it off the heat and transfer to a storage container. Place it in the fridge to cool as you prep the other ingredients.
+	FOR THE BAKED OATMEAL
+	Preheat your oven to 350°F.
+	In a large bowl, mix together the oats, protein powder, and baking powder.
+	Add in the egg whites, milk, syrup, and 3 tbsp of peanut butter. Stir to combine.
+	Spray a 13"x9" pan with oil and add the oat mixture.
+	Spoon the jelly over the top and swirl it into the oat mixture using a butter knife.
+	Bake for 35-40 minutes.
+	FOR THE PEANUT BUTTER DRIZZLE
+	Melt 2 tbsp of peanut butter in the microwave for few seconds until melted.
+	Add to a small ziplock bag and cut a small hole in the corner. Pipe the peanut butter over the top of the finished baked oatmeal.
+	PLATING
+	This recipe makes 6 servings. Cut the oatmeal into 6 equal pieces.
+end recipe
+
+Recipe: Meal Prep - Smoked Sausage with Rice and Beans
+Active Time: 15 minutes
+Inactive Time: 20 minutes
+Total Time: 35 minutes
+Total Servings: 5
+Calories Per Serving: 467 per meal
+Total Calories: 2335
+Link: https://mealprepmanual.com/smoked-sausage-with-rice-and-beans/
+Keywords: Josh Cortis, meal prep, fast
+
+Ingredients
+	1 1/2 cups jasmine rice
+	28 oz turkey kielbasa sausage
+	2 1/2 cups carrots (shredded)
+	1 lb frozen broccoli (chopped)
+	1 can black beans (15 oz, drained and rinsed)
+	1/4 cup cilantro (optional)
+	1 lime (optional)
+
+Directions
+	1. Cook enough rice to yield 3 cups of cooked rice. (Usually 1 cup yields around 3 of cooked rice)
+	2. Slice your kielbasa sausage into bite sized pieces and fry in a skillet until browned.
+	3. This is all of the cooking that is required in this meal. The carrots, broccoli, and beans will cook in the microwave when you reheat your meal. If you plan on eating the meal right away, microwave the broccoli and carrots and heat the beans in a small sauce pan.
+	4. This recipe makes 5 servings. Divide all of your ingredients evently between 5 containers. Sprinkle chopped cilantro over the beans and rice. Serve with a lime wedge if you'd like.
+
+end recipe
+
+Recipe: Meal Prep - Spicy Adobo Chicken and Peppers
+Active Time: 15 minutes
+Inactive Time: 25 minutes
+Total Time: 40 minutes
+Total Servings: 4
+Calories Per Serving: 630 per meal
+Total Calories: 2521
+Link: https://mealprepmanual.com/spicy-adobo-chicken-and-peppers/
+Keywords: Josh Cortis, meal prep, mexican, spicy
+
+Ingredients
+	2 lbs chicken thighs (boneless, skinless, but I can cut it that way if not available)
+	1 1/2 tbsp olive oil
+	1 red bell pepper (medium)
+	1 green bell pepper (medium)
+	1 onion (medium)
+	1 1/2 cups jasmine rice (3 1/2 cooked)
+	1 tbsp lime juice
+	4 tbsp chipotle peppers (in adobo sauce)
+	1 tsp garlic powder
+
+Directions
+	FOR THE RICE
+	1. Cook enough rice to yield 3½ cups of cooked rice. 1 cup of dry rice will yield between 2-3 cups of cooked rice.
+	FOR THE CHICKEN
+	1. I prefer to cook this in the air fryer. If you don't have one you can use the bake and broil method in the oven. Preheat your air fryer to 400°F or your oven to 425°F.
+	2. Cut the chipotle peppers into a mince with some of the adobo sauce until you have about ¼ cup worth.
+	3. Season the chicken with salt and pepper and add about 2 tbsp of the chipotle peppers and adobo sauce. Toss the chicken to coat with the sauce.
+	4. Place the chicken into your air fryer basket and air fry for 8-12 minutes, flipping halfway.
+	5. If you bake it, place it on a sheet pan in the oven on the top rack for 10 minutes, then turn the oven to broil and broil for about 3 minutes each side or until it has developed color. The thickness of your chicken will impact cooking time. If it needs more or less time, pull it out when it is done.
+	FOR THE PEPPERS AND ONION
+	1. Wash and cut your peppers into a large dice. Cut the onion into slices.
+	2. In a large skillet, heat some oil over medium high heat. Add the onions and cook for 4-5 minutes until they have begun to caramelize.
+	3. Add more oil if needed and add in the peppers. Season with salt to help bring out some of the moisture. Cook for 3-4 minutes and remove from the pan.
+	FOR THE FINISHED DISH
+	1. Cut the chicken into a medium dice.
+	2. Into a large skillet, add the chicken and allow it to develop a bit more color on all sides. Add in the peppers and onions, 3½ cups of cooked rice and the remaining chipotle peppers. Toss to coat evenly.
+	3. Add the garlic powder and lime juice. Stir to incorporate and season with salt and pepper to taste.
+	PLATING
+	1. This recipe makes 5 servings. Divide the ingredients evenly 5 ways. Or you can do it in 4 for the calories listed above.
+
+end recipe
+
+Recipe: Meal Prep - Teriyaki Chicken and Rice
+Active Time: 30 minutes
+Inactive Time: 10 minutes
+Total Time: 40 minutes start to finish
+Calories Per Serving: 566
+Total Servings: 4
+Total Calories: 2265
+Link: my dome
+Keywords: JHPQJ, fast, teriyaki, rice, japanese, vegetables, meal prep
+
+Ingredients
+	1 1/2 cup jasmine rice (cooked makes 3 1/2 cups or so - 600 calories or so total)
+	1 bottle teriyaki sauce (or you can make your own; check if saki is on the list somewhere, in which case,  don't need to buy this; 250 calories total)
+	1 crown broccoli (75 total)
+	3 carrots (90 total)
+	1 pound chicken thighs (best if you skin on, 1250 calories total)
+	1 avocado (divided by 4, optional)
+
+Directions
+	RICE
+	1. Take the amount of rice you will use and rinse it thoroughly until the water runs clean. Starch off.
+	2. Oil the pan.
+	3. If on the stovetop, add 1.3 or 1.4 times the volume of rice you are cooking into the pot.
+	4. If on the stovetop, boil the water and rice. The second it comes to a rolling boil, cover the rice and turn the stove down to the lowest setting it can go. (Warm)
+	5. If using a ricecooker, add 1.1 times the volume of the rice you are cooking into the pot. Put the lid on the cooker. Make sure the pressure knob is closed and push "rice" to start the cook.
+	CHICKEN AND VEGGIES
+	1. Preheat oven to 415 degrees. Debone the chicken thighs if bone in.
+	2. rub with salt, pepper, and then rub with olive oil
+	3. Chop the vegetables to evenly massed pieces. Place in a bowl and mix in salt and olive oil.
+	4. Place the chicken on one side of a baking sheet or baking pan. Place the vegetables on the other. Make sure all are covered by oil. Alternatively, you could cover the chicken with teriyaki sauce to bake further, though this uses far more teriyaki sauce. This is usually far better, though it makes a lot more of a difficult-to-clean mess for later.
+	5. Cook the chicken and vegetables for 22 to 25 minutes. Remove the vegetables from the pan after checking for doneness with a fork and put the chicken back in to cook. Salt the vegetables again, if needed.
+	6. Cook the chicken for another 32 to 40 minutes. Skin should be golden brown and crisp. Let it rest for 5 minutes. 
+	7. Chop up the chicken into bite sized (or a little larger) pieces.
+	ASSEMBLY
+	1. Salt the rice if desired. Divide the rice evenly into 4 containers.
+	2. In a bowl or on a cutting board, coat the chicken with the teriyaki sauce entirely.
+	2. Divide the chicken evenly into the 4 containers. 
+	3. Divide the vegetables evenly into the 4 containers.
+	4. Cut the avocado into chunks, divide by 4, and put in a sandwich bag to place on the top of the container. You may omit avocado entirely, though it isn't bad when salted and added.
+
+end recipe
+
+Recipe: Meal Prep - Yogurt Granola and Berries
+Active Time: 15 minutes
+Inactive Time: none
+Total Time: 15 minutes
+Calories Per Serving: I don't know.
+Total Calories: I don't know
+Link: my brain only
+Keywords: berries, nuts, granola, cereal, yogurt, JHPQJ
+Ingredients
+	1 recipe granola (cut in half)
+	16 oz yogurt (try plain or unsweetened or even Greek if brave)
+	4 oz raspberries (or strawberries or bananas)
+	4 oz blueberries (or blackberries or peaches)
+Directions
+	1. Divide the yogurt into 4 containers with airtight lids.
+	2. Cut the fruit up if it's not bite size or smaller. Mix the fruit together.
+	3. Sprinkle the fruit on top of the yogurt.
+	4. Sprinkle a handfull granola on top of the berries. Seal it up and refrigerate.
+
+end recipe
+
+Recipe: Mexican Rice
+Active Time: 
+Inactive Time: 
+Total Time: 
+Calories Per Serving: 
+Link: https://www.yellowblissroad.com/authentic-mexican-rice/
+Keywords: 
+
+Ingredients
+	1 white onion (medium)
+	1 1/2 pound roma tomatoes (dized and seeded)
+	2 cups jasmine rice (or any long grain rice - basmati might work)
+	1/3 cup canola oil
+	6 cloves garlic (minced)
+	2 cups chicken stock
+	1 1/2 teaspoons salt
+	1/2 cup fresh cilantro (minced)
+	1 jalapeno (minced optional)
+	1 lime
+
+Directions
+	1. Adjust rack to middle position and preheat oven to 350.
+	2. Process diced tomatoes and onion in processor or blender until pureed and thoroughly smooth. Transfer mixture to measuring cup and reserve exactly 2 cups. Discard excess.
+	3. Place rice in a fine mesh strainer and rinse under cold running water until water runs clear- about 1 1/2 minutes. Shake rice vigorously to remove excess water.This step removes the starch from the rice so it will not stick. IF YOU OMIT THIS STEP YOUR RICE WILL NOT BE DRY AND FLUFFY.
+	4. Heat oil in heavy bottomed oven-safe straight sided 12 inch saute pan or Dutch oven with tight fitting lid over low-medium heat about 2 minutes. Drop a few rice grains in and if they sizzle then it is ready. Add rice and fry stirring until rice is light golden and translucent, about 6-8 minutes. Be careful that the oil doesn't get too hot too fast or the oil will splatter.
+	5. Reduce heat to medium, add garlic, stirring constantly until fragrant, about 1 1/2 minutes.
+	6. Stir in broth, pureed mixture, and salt. Increase heat to medium high, and bring to a boil.
+	7. Cover pan and transfer pan to oven to bake until liquid is absorbed and rice is tender, 30-35 minutes. Stir well after 15 minutes.
+	8. Stir in cilantro, minced jalapeno to taste, and pass lime wedges separately.
+	FOR FREEZING AHEAD: Cool, portion and freeze in a ziploc bag.
+	TO REHEAT FROM FROZEN: Place in a covered pyrex dish and warm in the microwave, stirring every 2-3 minutes until heated through.
+
+end recipe
+
+
+Recipe: Orange Chicken
+Active Time: 60 minutes
+Inactive Time: 5 minutes
+Total Time: 65 minutes
+Calories Per Serving: 400 (not including rice)
+Link: Jet Tila 101 Asian Recipes to Try Before You Die
+Keywords: pain, delicious
+
+Ingredients
+	1/2 cup oyster sauce
+	1 tbsp hoisin sauce
+	3 oz orange juice
+	95 g sugar (1/2 cup)
+	3 oz white vinegar
+	2 tbsp soy sauce
+	1/2 tbsp ground paprika
+	1/2 tbsp ginger root (minced)
+	2 cloves garlic (minced)
+	1 tbsp cornstarch (mixed with 1 tbsp water)
+	1/2 g food coloring (1 drop, red, optional)
+
+	6 cups vegetable oil (1 1/2 quart)
+	2 lb chicken thighs (cut into 2" dice)
+	1 cup water (cold)
+	2 1/2 cups tempura flour (1.5 and another 1 for dredging)
+	1/2 onion (large dice)
+	4 scallions (2" slices)
+
+Directions
+	For the Sauce
+	1. Add all the sauce ingredients into a 1 quart saucepan, and bring the heat up to medium. Whisk gently as it comes to a simmer. Allow it to simmer, and keep whisking for about 5 minutes until the sauce thickens. Remove from heat and reserve.
+
+	For the Chicken
+	1. Heat 1 1/2 quarts oil in 4 quart dutch oven to 375 degrees using the candy thermometer. Rinse the chicken in cold water and pat dry. Mix the tempura flour and water into a thick batter. It should look like thick pancake batter. Dredge the chicken cubes in 1 cub of tempura flour and roll in a thin layer of the batter and fry them in two batches until golden brown and crispy. About 6 to 8 minutes. Drain the chicken on paper towels or a rack.
+	2. Heat a wock or large skillet to high and add 2 tablespoons of oil. When you see the first wisps of white smoke, stir in the fried chicken, onion, and scalions and cook for about 30 seconds. Stir in the sauce and allow it to coat all the ingredients and simmer. Cook, folding all the ingredients until they are well coated, about 2 minutes. Serve over hot rice.
+
+end recipe
+
+Recipe: Pad Krapow
+Active Time: 25 minutes
+Total Time: 27 minutes
+Calories per Seving: 336 (add 320 for rice)
+Total Calories: 1350 (pad krapow) and 1280 (jasmine rice)
+Keywords: thai, pad krapow, rice, spicy, beef, basil, JHJ
+Link: Jet Tila 101 Asian Dishes You Need to Cook Before You Die
+Ingredients
+	3 tbsp soy sauce (sweet)
+	2 tbsp oyster sauce
+	4 tbsp fish sauce
+	2 tbsp chili paste (I like Simbol)
+	3 tbsp vegetable oil
+	3 cloves garlic (minced)
+	1 serrano chili (or Thai chilies, sliced)
+	1 lb ground beef
+	1 onion (medium, sliced)
+	1 bell pepper (red, small, sliced)
+	1 1/2 cups fresh basil (Thai best, picked off stem)
+	1/2 tsp white pepper
+
+	2 cups jasmine rice (might not be quite enough with the girls)
+
+Directions
+	1. Start your rice! Combine the soy sauce, oyster sauce, fish sauce, and chili paste in a small bowl and reserve. 
+	2. Heat your wok or large skillet over high heat and add the vegetable oil. When wisps of white smoke appear, add the garlic and chilies. Cook them until the garlic starts to brown, about 30 seconds.
+	3. Stir in the ground beef, flatten against the pan and cook undisturbed for about 45 seconds. The beef will start to brown; turn it over once, press flat against the pan and cook for another 30 seconds. Break up the meat into gravel-sized pieces and drain any excess liquid.
+	4. Stir in the onioni and bell pepper and stir-fry for about a minute. Add the reserved sauce to the wok and combine the ingredients thoroughly for about 1 minute. Add the basil and cook until the beef is cooked and onions are slightly tender. Finish with white pepper.
+
+	Note: substitute any meat or seafood in this dish, which is common in Thailand. Ground chicken or pork are amazing. Top with a runny fried egg or two, and serve over jasmine rice for a perfect meal!
+
+end recipe
+
+Recipe: Pan Pizza
+Active Time: 30 minutes
+Inactive Time: 40 minutes
+Total Time: 70 minutes
+Calories Per Serving: 331
+Total Calories: 2648
+Keywords: pizza, pan, Brian Langstrom, quick, no knead, JHJQJ
+Link: https://www.youtube.com/watch?v=HWG4fF-7eC4&t=254s
+Ingredients
+	8 oz beer (warmed to 90-95 degrees; I use water half the time)
+	10 g instant yeast
+	5 g sugar
+	15 g extra virgin olive oil
+	9 g salt
+	280 g bread flour
+
+	1 can crushed tomatoes (28 oz, unless you have sauce)
+	2 tbsp tomato paste (unless you have sauce)
+	20 g sugar
+	5 g garlic powder (or minced garlic)
+	1 onion (sliced in half, unless you have sauce)
+	5 g basil
+	10 g oregano
+	1 g red pepper flakes
+
+	1/2 pound mozzarella (full fat, shredded)
+	1 container pepperoni
+
+Directions
+	1. Get a scale out and zero out a large mixing bowl. Measure the beer or water. Warm that in a saucepot. If you use high heat it will take about 30 seconds.
+	2. Add yeast, sugar, olive oil, and salt to the liquid. Mix. 
+	3. Add the flour to the liquid and mix with a spoon before switching to a soaking wet hand to finish squeezing and mixing the dough until it forms a cohesive ball.
+	4. Cover and ferment at room temperature for 15 minutes. Perform a strength building fold by stretching the dough as far as gravity will pull it and folding it in approx 4 times. Then form it into a ball. Cover and allow another 15 minutes of rising.
+	5. Preheat oven and stone to max temp (550+).
+	6. Mince garlic, cut an onion in half, open a can, heat it in a saute pan and put all sauce ingredients together. Bring to simmer and let it thicken until a spoon drawn through the sauce leaves a trail that doesn't immediately fill.
+	7. Transfer the dough into a well oiled (olive oil) 12" cast iron (or split between two 8" square cake pans). WIth oiled fingers, press dough out to fill the shape of the pan. Put a little olive oil on top. Cover to allow to rest for another 10 minutes.
+	8. Grate the cheese and cut up the pepperoni.
+	9. Once you are ready to shape, press the rested dough to make sure it fills the whole pan. Ladel sauce into that bad boy, then cheese, and pepperoni. I'm not sure if a whole 1/2 pound of mozzerella is needed.
+	10. Maybe let it rest for another 15 mins to develop more flavor. Then bake on the stone for 16-18 mins.
+	11. Take out of the pan with a metal spatula and put on a wire rack over a cutting board to cool. Once cools a bit, pull out the rack and cut up to eat. Eat right away or freeze. It doesn't look like it'll be as good if left on the counter for a long time. I don't know that though.
+
+end recipe
+
+Recipe: Pico de Gallo
+Active Time: 
+Inactive Time: 
+Total Time: 
+Calories Per Serving: 
+Total Calories: 
+Link: https://www.momontimeout.com/chipotle-inspired-pico-de-gallo-recipe/
+Keywords: mexican, salsa, chipotle, copycat
+
+Ingredients
+	1 1/2 cups roma tomatoes (chopped, seeds removed)
+	1/2 cup cilantro (chopped)
+	2 1/2 tbsp jalapeno pepper (finely diced, leave seeds in if you want spicier salsa)
+	1/2 red onion (finely diced)
+	1/2 tbsp kosher salt
+	2 tbsp lime juice (fresh from a lime is best)
+
+Directions
+	1. Combine all ingredients and stir.
+
+end recipe
+
+Recipe: Rice Crispy Treats
+Active Time: 12 minutes
+Total Time: 1 hour 12 minutes
+Link: https://www.shugarysweets.com/perfect-rice-krispie-treats/
+Keywords: dessert
+
+Ingredients
+	6 tablespoons butter (add salt if unsalted)
+	16 ounce mini marshmallows
+	1 teaspoon vanilla extract
+	6 cups rice krispies
+Directions
+	1. Line a 9-inch square baking dish with parchment paper. Set aside.
+	2. In a large saucepan, melt butter over medium heat. Once melted, add in all but 1 cup of the marshmallows. Reduce heat to low and continue stirring until completely melted.
+	3. Remove from heat and stir in the vanilla. Add the cereal and the remaining 1 cup of marshmallows and gently stir until combined.
+	4. Pour into the prepared baking dish. Press GENTLY with your fingertips just until completely spread out (the harder you pack them in, the harder they are to eat).
+	5. Allow to set, about 1 hour. Cut and enjoy!
+end recipe
+
+Recipe: Speed Pizza
+Active Time: 1 hour
+Inactive Time: 15 minutes
+Total Time: 1 hour 15 minutes
+Calories Per Serving: 
+Total Calories: 
+Link: https://www.youtube.com/watch?v=T57vFsL8eAU&t=30s
+Keywords: fast, pizza
+
+Ingredients
+	210 g beer (he says just under one can, which would be 180 g, though, so just get one can?)
+	350 g all purpose flour (11.7% protein) 
+	5 g salt
+	8 g sugar
+	7 g instant yeast 
+	15 g extra virgin olive oil 
+	1 box parchment paper (you'll need 4 sheets big enough to cover a pizza)
+
+	1 can crushed tomatoes (28 oz)
+	100 g tomato paste (6 tbspn)
+	12 g salt  (2 tsp)
+	20 g sugar
+	2 g dried basil 
+	2 g dried oregano 
+	1 g chili flake 
+	2 g garlic powder
+	2 g onion powder 
+
+	1/2 pound mozzarella (full fat, shredded)
+	6 oz fresh mozzarella (OPTIONAL, whole milk cubed)
+	1 container pepperoni
+	1 jar peperoncini (OPTIONAL)
+
+Directions
+	DOUGH
+	1. Heat beer over low for 20-30 sec or until temp reaches about 98F/36C. Into the bowl of a food processor measure flour, salt, sugar, yeast, olive oil. Spin on high for 20-30 sec until just combined. Stream in warmed beer and continue to spin until dough forms into a shaggy ball. Flip dough onto a floured surface and knead for about a minute. 
+	2. Divide dough into 2 equal sized pieces (about 300g each). Form into round balls, cover with damp towel and allow to rest at room temp for 15min. 
+	3. Place each ball onto an oiled piece of parchment and top with another piece of oiled parchment. Flatten dough slightly with your hands then proceed to roll dough out into a 12-14" round. Once rolled out, allow dough rounds to rise at room temp for 30 to 40 minutes while you prepare the sauce and toppings and your oven preheats (Preheat oven and pizza stone or steel to 550F/287C). 
+	SAUCE
+	1. Into a high sided container add crushed tomatoes, tomato paste, salt, sugar, basil, oregano, chili flake, garlic powder, and onion powder. Spin with immersion blender to break down to smooth, but still has texture. 
+	BUILDING PIZZAS
+	1. To build pizzas, spoon about 3-4tbsp of sauce across dough, evenly spread shredded mozz, followed by fresh mozz. Add additional toppings of choice (pepperoni, pepperoncini, and parm is a fav combo of mine). Bake for 6-7 min. 
+
+end recipe
+
+Recipe: Super Snack Balls
+Active Time: 15 minutes
+Total Time: 15 minutes
+Calories Per Serving: I don't know
+Total Calories: I don't know
+Keywords: snack city, balls, healthy
+
+Ingredients
+	8 dates (medjool)
+	1/4 cup roasted cashews
+	1/4 cup almond
+	1/4 cup shredded coconut
+	2 tbsp chia seeds
+	1 orange (will need 1/2 of the juice and its zest)
+
+Directions
+	1. Add the dates, cashews, almonds, coconut, and chia seeds to the food processor bowl. Chop it up by pulsing the food processor maybe 10 times.
+	2. Add in the zest and juice of half an orange. 
+	3. Grab a handful and give it a good squeeze. If it holds together, you are ready to roll them into balls. If it still crumbles apart, add in a little more orange juice.
+	4. Store in an airtight container in the fridge (or freezer!)
+
+end recipe
+
+Recipe: Steamed Broccoli
+Active Time: 3 minutes
+Total Time: 5 minutes
+Keywords: veggie, vegetable, easy, frozen
+
+Ingredients
+	1 bag frozen broccoli
+	
+Directions
+	1. Put it in the microwave and put salt on it and put it in a bowl and eat it.
+
+end recipe
+
+Recipe: Take Out
+Total Time: 30 minutes
+Keywords: fatty, chub chub, oinkers, shame, lazy, binge, junk food, fast food, restaurant, expensive, you are better than this
+
+Directions
+	1. Pick a new restaurant to try, pull up a menu, and call them to order.
+	2. Go pick it up.
+
+end recipe
+
+Recipe: Thai Coconut Curry
+Active Time: 26 minutes
+Inactive Time: 3 minutes
+Total Time: 29 minutes
+Calories Per Serving: 650
+Total Calories: about 2600
+Link: https://www.averiecooks.com/thai-chicken-coconut-curry/
+Keywords: JHJ, chicken, thai, curry
+
+Ingredients
+ 	3 tablespoons coconut oil (olive oil may be substituted)
+	1 sweet onion (medium; or yellow onion; diced small)
+	1 pound chicken breast (diced into bite-sized pieces)
+	3 cloves garlic (finely minced or pressed)
+	1 tablespoon ginger (finely chopped or 3 tsp ground ginger)
+	2 teaspoons ground coriander
+	1 can coconut milk (13 ounce; full-fat will deliver a richer/thicker result)
+	7 carrots (shredded, need 1 1/2 cups)
+	3 tablespoons thai red curry paste (or to taste curry powder may be substituted, to taste)
+	1 teaspoon kosher salt (or to taste)
+	1/2 teaspoon black pepper (freshly ground, to taste)
+	3 cups spinach leaves (fresh)
+	1 tablespoon lime juice (or buy a lime and I'll juice dat)
+	2 tablespoons brown sugar (optional and to taste)
+	1/4 cup fresh cilantro (finely chopped for garnishing, basil may be substituted)
+	2 cups jasmine rice (or quinoa, or naan, optional for serving; each cup is about 2 1/2 to 3 cups cooked, 1 cooked cup is 140 calories)
+
+Directions
+	1. To a large skillet, add the oil, onion, and sauté over medium-high heat until the onion begins to soften about 5 minutes; stir intermittently.
+	2. Add the chicken and cook for about 5 minutes, or until chicken is done; flip and stir often to ensure even cooking.
+	3. Add the garlic, ginger, coriander, and cook for about 1 minute, or until fragrant; stir frequently.
+	4. Add the coconut milk, carrots, Thai curry paste, salt, pepper, and stir to combine. Reduce the heat to medium, and allow mixture to gently boil for about 5 minutes, or until liquid volume has reduced as much as desired and thickens slightly.
+	5. Add the spinach, lime juice, and stir to combine. Cook until spinach has wilted and is tender, about 1 to 2 minutes. Taste and optionally add brown sugar, additional curry paste, salt, pepper, etc. to taste.
+	6. Evenly sprinkle with the cilantro and serve immediately. Curry is best warm and fresh but will keep airtight in the fridge for up to 1 week.
+
+end recipe
+
+Recipe: Ultra Garlicky Mayo
+Total Time: 10 minutes
+Total Calories: 950
+Calories Per Serving: 235 (if you divide total by four)
+Link: Joshua Weissman Unapologetic Cookbook p. 46
+Keywords: sauce, dipping
+
+Ingredients
+	1 cup mayonnaise
+	4 cloves garlic (grated)
+	4 cloves garlic (sauteed in oil until toasted)
+	3 cloves garlic (finely minced)
+	1 tbsp sherry vinegar
+
+Directions
+	1. Thinly slice the garlic you'll toast. Place it in a small skillet, add enough olive oil to cover, and cook over medium heat until the garlic is golden brown. Once golden, immediately strain before it burns. Let it cool completely. You can use the strained oil for salad dressing.
+	2. In a medium bowl, stir together all of the ingredients for your desired mayo flavor until thoroughly combined
+	3. Chill. These mayos taste best after sitting and allowing the flavors to marry for at least a few hours and ideally overnight. Store in an airtight container in the refrigerator for up to one week.
+
+end recipe
+
+Recipe: White Rice
+Total Time: 19 minutes
+Keywords: rice, fried rice, JHPQJ
+
+Ingredients
+	1 cup water
+
+Directions
+	1. Take the amount of rice you will use and rinse it thoroughly so that the water runs clean. Get all the starch off.
+	2. Oil the pan.
+	3. If on the stovetop, add 1.3 or 1.4 times the volume of rice you are cooking into the pot.
+	4. If on the stovetop, boil the water and rice. The second it comes to a rolling boil, cover the rice and turn the stove down to the lowest setting it can go. (Warm)
+	5. If using a ricecooker, add 1.1 times the volume of the rice you are cooking into the pot. Put the lid on the cooker. Make sure the pressure knob is closed and push "rice" to start the cook.
+
+end recipe
+
+Recipe: Yang Chow Fried Rice
+Total Time: 28 minutes
+Link: Jet Tila, 101 Asian Dishes You Need to Cook Before You Die p. 19
+Keywords: fried rice, JH
+
+Ingredients
+	2 tbsp canola oil
+	2 eggs (beaten)
+	4 cups jasmine rice (cooked and preferably leftover from night before)
+	2 oz pork butt (I only need a little - enough for like a half cup)
+	1 oz barbecue sauce (for the bbq pork?)
+	12 shrimp (medium)
+	1/2 tsp kosher salt
+	2 tbsp soy sauce
+	1 tsp chicken bouillon (powdered)
+	3 tbsp oyster sauce
+	1/2 tsp sugar
+	3 scallions
+	1/4 tsp white pepper (or a pinch)
+
+Directions
+	1. You probably need to figure out how to cook the pork. Do that. Then put bbq sauce on it. Then let it cool. Then cube it up. It will be a side.
+	2. In a large wok or skillet, heat the oil over high heat until a wisp of white smoke appears. Pour in the eggs and add the rice immediately. Using a wide silicone spatula or wooden spatula, work the rice into the egg in circular motions, making sure not to break the rice grains.
+	3. After about 30 seconds, the egg will start to coagulate and surround the rice. Add the pork and shrimp and cook until shrimp are almost cooked through, about 1 to 2 minutes. Keep scraping the pan and folding the rice back into the middle.
+	4. Add the salt, soy sauce, bouillon, oyster sauce, and sugar. Work all the seasonings into the rice until the color is uniform, about 1 minute. Don't be afraid to scrape egg or rice bits stuck to the bottom of the pan. Cook until the rice absorbs the sauces and egg but is still fluffy and moist, about 2 minutes. 
+	5. Sprinkle on green onions and white pepper and work them gently into the fried rice. Serve immediately.
+
+end recipe
