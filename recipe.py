@@ -3,7 +3,8 @@ import copy
 # add the ability to make a note in the meal plan that will go through the system and show up to users
 # add ability to add ingredient to shop for in the meal plan (sodas, apples for snacks, etc)
 # add the ability to reference other recipes and include them - you can mark the recipe somehow to opt out of this,  but it otherwise does so
-# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, dairy, junk food
+# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, dairy, junk food, cereal, condiments
+# proposed categories: aisle: household (automotive, light bulbs), aisle: baking (spices, canning supplies), juice, butter, cheese station
 dict_cats = {   'almonds':'produce',
 		        'almond':'produce',
                 'apple':'produce',
@@ -271,11 +272,12 @@ dict_king_soopers = {   'produce': 1,
                         'asian': 9,
                         'hispanic': 10,
                         'pasta': 11,
-                        'frozen foods': 12,
-                        'cereal':'13',
-                        'dairy': 14,
-                        'junk food': 15,
-                        'unknown': 16     }
+                        'condiments': 12,
+                        'frozen foods': 13,
+                        'cereal': 14,
+                        'dairy': 15,
+                        'junk food': 16,
+                        'unknown': 17     }
 
 # categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, cereal, dairy, junk food
 dict_walmart = {        'produce': 1,
@@ -287,13 +289,14 @@ dict_walmart = {        'produce': 1,
                         'baking': 7,
                         'canned goods': 8,
                         'soups': 9,
-                        'asian': 10,
-                        'hispanic': 11,
-                        'pasta': 12,
-                        'cereal':'13',
-                        'junk food': 14,
-                        'dairy': 15,
-                        'unknown': 16     }
+                        'condiments': 10,
+                        'asian': 11,
+                        'hispanic': 12,
+                        'pasta': 13,
+                        'cereal': 14,
+                        'junk food': 15,
+                        'dairy': 16,
+                        'unknown': 17     }
 
 def walmart_sort(x):
     return dict_walmart[x.category]
