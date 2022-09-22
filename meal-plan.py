@@ -19,13 +19,6 @@ meals = []
 
         
 mp = open("master-plan.txt", 'r')
-#ind = 0
-#lines = []
-#while True:
-#    print("Index is " + str(ind))
-#    lines.append(mp.readline())
-#    print(lines[ind])
-#    ind += 1
 list_lines_mp = mp.readlines()                      # each line in a list
 mp.close()
 

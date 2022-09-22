@@ -75,6 +75,9 @@ Week 3: Late Mid September
 		Meal: Meal Prep - Yogurt Granola and Berries - jake
 		Meal: Meal Prep - Teriyaki Chicken and Rice - jake
 		Meal: Evil Mac and Cheese - jake
+		Ingredient: 1 pack Toilet Paper - jake
+		Ingredient: 1 case Soda - jake
+# 							You can add items to the shopping list that may not be in a recipe!
 	Day: Sometime During the Wk
 		Meal: Super Snack Balls
 	Day: Friday
@@ -97,26 +100,26 @@ Week 4: Late September and Early October
 		Meal: Pan Pizza
 		Meal: Garden Salad
 	Day: Saturday
-		Meal: Cherry Tomato Spaghetti
+		Meal: Beef and Broccoli
 		Meal: Rice Crispy Treats
 	Day: Sunday
-		Meal: Take Out
+		Meal: Orange Chicken
 end week
 
 Week 5: Early October
 	Day: Monday
 		Meal: Meal Prep - Spicy Adobo Chicken and Peppers - jake
-#		Meal: Meal Prep - Hard Boiled Eggs and Avocado
-#		Meal: White Bread
-#		Meal: Egg Salad
-#		Ingredient: Chips
-#		Ingredient: Pickle
+#		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
+#		Meal: White Bread - jake
+#		Meal: Egg Salad - jake
+#		Ingredient: Chips - jake
+#		Ingredient: Pickle - jake
 #	Day: Tuesday
-#		Meal: Turkey Sandwich
+#		Meal: Turkey Sandwich - jake
 #	Day: Wednesday
-#		Meal: BLT
+#		Meal: BLT - jake
 # 	Day: Thursday
-#		Meal: Egg Salad
+#		Meal: Egg Salad - jake
 	Day: Friday
 		Meal: Delivery Pizza
 	Day: Conference First Day
@@ -126,6 +129,34 @@ Week 5: Early October
 		Meal: Pico de Gallo
 		Meal: Mexican Rice
 end week
+
+Recipe: Beef and Broccoli
+Active Time: 25 minutes
+Inactive Time: 5 minutes
+Total Time: 30 minutes
+Total Calories: 
+Calories Per Serving: 
+Keywords: asian, noodles, beef, broccoli, trashy, delicious, JHPQJ
+
+Ingredients
+	6 tablespoons soy sauce
+	1/2 cup water (hot)
+	1 teaspoon fresh ginger
+	5 cloves garlic
+	3 tablespoons brown sugar
+	2 tablespoons sesame oil
+	1 1/2 tablespoons cornstarch
+	1 can sesame seeds (optional)
+	16 oz spaghetti noodles
+	1/2 pound stew beef (ground beef would work in a pinch)
+Directions
+	1. Put water in a large stock pot and heat. Start the noodles.
+	2. Stir together soy sauce, half of the garlic and ginger, brown sugar, half the sesame oil, and corn starch in a bowl. Set aside
+	3. Heat wok on high heat and add canola or sesame oil. Heat until you see small wisps of white smoke. Add garlic and ginger and cook for about 20 seconds or until it starts to golden up a bit (but not brown). 
+	4. Add the garlic and cook until it turns bright green. Soften it up a bit. Try not to get it too oily, but try to cook it long enough to soften a bit. Remove the broccoli and put in a bowl and cover with saran wrap to try to steam it while the beef cooks.
+	5. Add the beef and flatten against as much of the heat zones of the wok as possible. Try not to disturb. Cook for a minute or so and try to get a sear or close to it. Flip and do the same on the other side. Brown the beef a little further after that.
+	6. Add the broccoli and the sauce in together and let it mix and thicken. Serve with noodles. 
+end recipe
 
 Recipe: Black Beans
 Active Time: 20 minutes

@@ -1,10 +1,6 @@
 import copy
-# add categories for sorting
-# add the ability to make a note in the meal plan that will go through the system and show up to users
-# add ability to add ingredient to shop for in the meal plan (sodas, apples for snacks, etc)
-# add the ability to reference other recipes and include them - you can mark the recipe somehow to opt out of this,  but it otherwise does so
 # categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, dairy, junk food, cereal, condiments
-# proposed categories: aisle: household (automotive, light bulbs), aisle: baking (spices, canning supplies), juice, butter, cheese station
+# proposed categories: aisle: household (automotive, light bulbs), aisle: baking (spices, canning supplies), juice, butter, cheese station, toilet paper
 dict_cats = {   'almonds':'produce',
 		        'almond':'produce',
                 'apple':'produce',
@@ -199,6 +195,7 @@ dict_cats = {   'almonds':'produce',
                 'medium-grain rice':'asian',
                 'oyster sauce':'asian',
                 'sesame oil':'asian',
+                'sesame seeds':'asian',
                 'soy sauce':'asian',
                 'teriyaki sauce':'asian',
                 'teriyaki sauces':'asian',
@@ -255,8 +252,10 @@ dict_cats = {   'almonds':'produce',
                 'unsalted butter':'dairy',
                 'whole milk':'dairy',
                 'yogurt':'dairy',
+                'toilet paper':'toilet paper',
                 'beer':'junk food',
                 'doritos':'junk food',
+                'soda':'junk food',
                 'water':'junk food',
 		        'white wine':'junk food'} 	# obviously this is not junk food; we need an alcohol section to go with the beer
 
@@ -272,12 +271,13 @@ dict_king_soopers = {   'produce': 1,
                         'asian': 9,
                         'hispanic': 10,
                         'pasta': 11,
-                        'condiments': 12,
-                        'frozen foods': 13,
-                        'cereal': 14,
-                        'dairy': 15,
-                        'junk food': 16,
-                        'unknown': 17     }
+                        'toilet paper': 12,
+                        'condiments': 13,
+                        'frozen foods': 14,
+                        'cereal': 15,
+                        'dairy': 16,
+                        'junk food': 17,
+                        'unknown': 18     }
 
 # categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, cereal, dairy, junk food
 dict_walmart = {        'produce': 1,
@@ -294,9 +294,10 @@ dict_walmart = {        'produce': 1,
                         'hispanic': 12,
                         'pasta': 13,
                         'cereal': 14,
-                        'junk food': 15,
-                        'dairy': 16,
-                        'unknown': 17     }
+                        'toilet paper': 15,
+                        'junk food': 16,
+                        'dairy': 17,
+                        'unknown': 18     }
 
 def walmart_sort(x):
     return dict_walmart[x.category]
@@ -427,6 +428,10 @@ class Ingredient:
                 self.kind = self.kind + "s"
         elif "package" in self.kind:
             self.kind = "package"
+            if self.float_amount > 0 and self.float_amount > 1:
+                self.kind = self.kind + "s"
+        elif "pack" in self.kind:
+            self.kind = "pack"
             if self.float_amount > 0 and self.float_amount > 1:
                 self.kind = self.kind + "s"
         elif "rib" in self.kind:
@@ -690,8 +695,10 @@ class Day:
     name = ""
     eaters = ""
     meals = []
+    add_ingredients = []
     def __init__(self, lines):
         self.meals = []
+        self.add_ingredients = []
         for line in lines:
             line = line.strip()
             if len(line) < 1:
@@ -709,13 +716,22 @@ class Day:
                 line = line.replace("MEAL:", "")
                 line = line.strip()
                 self.meals.append(line)
+            if "ingredient:" in line or "Ingredient:" in line or "INGREDIENT:" in line:
+                line = line.replace("ingredient:", "")
+                line = line.replace("Ingredient:", "")
+                line = line.replace("INGREDIENT:", "")
+                line = line.strip()
+                self.add_ingredients.append(line)
                 
     def publish(cls, file):
         file.write("\n  " + cls.name + ":")
-        #print("\n\t" + cls.name)
         for meal in cls.meals:
             file.write("  " + meal.replace(" - jake","")) # no sense seeing who's eating what
-            #print("\t\t" + meal)
+        if len(cls.add_ingredients) > 0:
+            file.write("\n           " + "Adding") 
+            for ingredient in cls.add_ingredients:
+                file.write(" " + ingredient)
+            file.write(" to shopping list")
 
 class Week:
     days = []
@@ -778,6 +794,9 @@ class Week:
                         meal = meal.replace(" - jake","")
                         meal = meal.replace(" - Jake","")
                         meal = meal.replace(" - JAKE","")
+                    if "(" in meal:
+                        meal_list = meal.split("(")
+                        meal = meal_list[0].strip()
                     if meal == recipe.name:
                         # append the recipe
                         if recipe not in cls.weekly_recipes:
@@ -788,6 +807,17 @@ class Week:
                                 tojake.append(copy.deepcopy(ingredient)) # if we don't deepcopy this, we have references in memory for these objects that get modified below in a way that cumulatively throws ingredient amount out of whack
                             else:
                                 tobuy.append(copy.deepcopy(ingredient))
+            for ingredient in day.add_ingredients:
+                jake = False
+                # first decide if this is a jake only meal
+                if " - jake" in ingredient or " - Jake" in ingredient or " - JAKE" in ingredient:
+                    jake = True
+                    ingredient = ingredient.replace(" - jake","")
+                    ingredient = ingredient.replace(" - Jake","")
+                    ingredient = ingredient.replace(" - JAKE","")
+                    tojake.append(Ingredient(ingredient.lower()))   # create the ingredient here and add
+                else:
+                    tobuy.append(Ingredient(ingredient.lower()))    # create the ingredient here and add
         cls.weekly_recipes.sort()
         backup = copy.deepcopy(tobuy)
         #tojake = copy.deepcopy(tojake) # will this reset the list into its own memory?
