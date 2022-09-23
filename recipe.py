@@ -27,6 +27,7 @@ dict_cats = {   'almonds':'produce',
                 'fresh basil':'produce',
                 'fresh cilantro':'produce',
                 'fresh ginger':'produce',
+                'fresh mozzarella':'produce', #this is the cheese station
                 'fresh parsley':'produce',
                 'garlic':'produce',
                 'ginger root':'produce',
@@ -102,6 +103,8 @@ dict_cats = {   'almonds':'produce',
                 'hot dog':'meat',
                 'pepperoni':'meat',
 		        'pork butt':'meat',
+                'steak':'meat',
+                'steaks':'meat',
                 'stew beef':'meat',
                 'turkey kielbasa sausage':'meat',
 		        'flounder filets':'seafood',
@@ -164,6 +167,7 @@ dict_cats = {   'almonds':'produce',
                 'parchment paper':'baking',     # this isn't baking; 
                 'pectin':'baking',
                 'pepper':'baking',
+                'protein powder':'baking',
                 'red pepper flakes':'baking',
                 'rolled oats':'baking',
                 'salt':'baking',
@@ -176,6 +180,7 @@ dict_cats = {   'almonds':'produce',
 		        'wax paper':'baking', 		# this isn't baknig; 
                 'white pepper':'baking',
                 'white vinegar':'baking',
+                'artichoke hearts':'baking',
                 'black beans':'canned goods',
                 'black olives':'canned goods',
                 'crushed tomatoes':'canned goods',
@@ -240,15 +245,19 @@ dict_cats = {   'almonds':'produce',
                 'butter':'dairy',
                 'buttermilk':'dairy',
                 'cheddar cheese':'dairy',
+                'cream cheese':'dairy',
                 'eggs':'dairy',
                 'egg':'dairy',
                 'fresh mozzarella':'dairy',
                 'heavy cream':'dairy',
                 'heavy whipping cream':'dairy',
                 'milk':'dairy',
+                'monterey jack cheese':'dairy',
+                'monterey jack':'dairy',
                 'mozzarella':'dairy',
                 'provolone':'dairy',
                 'skim milk':'dairy',
+                'sour cream':'dairy',
                 'unsalted butter':'dairy',
                 'whole milk':'dairy',
                 'yogurt':'dairy',
@@ -438,6 +447,10 @@ class Ingredient:
             self.kind = "rib"
             if self.float_amount > 0 and self.float_amount > 1:
                 self.kind = self.kind + "s"
+        elif "block" in self.kind:
+            self.kind = "block"
+            if self.float_amount > 0 and self.float_amount > 1:
+                self.kind = self.kind + "s"
         elif "whole" in self.kind:
             self.kind = "whole"
         else:                                                       # no kind measurement; we count darabonkent
@@ -538,6 +551,8 @@ class Recipe:
         for line in lines:
             line = line.strip()
             if len(line) < 1:
+                continue
+            if line[0] == '#':
                 continue
             if "Recipe:" in line or "recipe:" in line or "RECIPE:" in line:
                 line = line.replace("Recipe:", "")
@@ -703,6 +718,8 @@ class Day:
             line = line.strip()
             if len(line) < 1:
                 continue
+            if line[0] == '#':
+                continue
             if "day:" in line or "Day:" in line or "DAY:" in line:
                 line = line.replace("Day:", "")
                 line = line.replace("day:", "")
@@ -726,11 +743,11 @@ class Day:
     def publish(cls, file):
         file.write("\n  " + cls.name + ":")
         for meal in cls.meals:
-            file.write("  " + meal.replace(" - jake","")) # no sense seeing who's eating what
+            file.write("  " + meal.replace(" - jake"," (j)")) 
         if len(cls.add_ingredients) > 0:
             file.write("\n           " + "Adding") 
             for ingredient in cls.add_ingredients:
-                file.write(" " + ingredient)
+                file.write(" " + ingredient.replace(" - jake"," (j)"))
             file.write(" to shopping list")
 
 class Week:
@@ -750,8 +767,11 @@ class Week:
         i = 0
         for line in lines:
             line = line.strip()
-            #print(line)
             if len(line) < 1:
+                i += 1
+                continue
+            if line[0] == '#':
+                i += 1
                 continue
             if ("week" in line or "Week" in line or "WEEK" in line) and \
                ":" in line:
@@ -807,6 +827,8 @@ class Week:
                                 tojake.append(copy.deepcopy(ingredient)) # if we don't deepcopy this, we have references in memory for these objects that get modified below in a way that cumulatively throws ingredient amount out of whack
                             else:
                                 tobuy.append(copy.deepcopy(ingredient))
+                            if ingredient.category == "unknown":
+                                print("Unknown Ingredient: " + ingredient.real_ingredient)
             for ingredient in day.add_ingredients:
                 jake = False
                 # first decide if this is a jake only meal
@@ -818,6 +840,11 @@ class Week:
                     tojake.append(Ingredient(ingredient.lower()))   # create the ingredient here and add
                 else:
                     tobuy.append(Ingredient(ingredient.lower()))    # create the ingredient here and add
+                # super inefficient, but i don't care
+                k = Ingredient(ingredient.lower())
+                if k.category == "unknown" or not k.category:
+                    print("Unknown Ingredient: " + k.real_ingredient)
+        
         cls.weekly_recipes.sort()
         backup = copy.deepcopy(tobuy)
         #tojake = copy.deepcopy(tojake) # will this reset the list into its own memory?

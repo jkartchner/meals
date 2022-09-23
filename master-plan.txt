@@ -1,3 +1,5 @@
+# to comment out a line, begin the line with the pound symbol
+
 # To begin a recipe: Recipe: [name]
 #		e.g., Recipe: Cajun Chicken Pasta
 # To end a recipe: end recipe
@@ -28,6 +30,13 @@
 # 			Day: Sunday
 # 				Meal: Beef and Broccoli
 #		   end week
+
+# consider fixing the ingredient read so you can work with single word ingredients: soda, baking powder, etc. Just write one in there, see where it crashes, then sleuth your way into it working
+# give instructions on how to use new stuff - notes on meals and added ingredients below meals
+# added recipes and ingredients cilantro lime rice, spinach artichoke dip, steak and fajita toppings, banana bread - it needs testing
+# substitutions for ingredients
+# add calorie counter
+# automatic email script
 
 Week 1: Early September
 	Day: Sunday
@@ -77,7 +86,6 @@ Week 3: Late Mid September
 		Meal: Evil Mac and Cheese - jake
 		Ingredient: 1 pack Toilet Paper - jake
 		Ingredient: 1 case Soda - jake
-# 							You can add items to the shopping list that may not be in a recipe!
 	Day: Sometime During the Wk
 		Meal: Super Snack Balls
 	Day: Friday
@@ -106,29 +114,67 @@ Week 4: Late September and Early October
 		Meal: Orange Chicken
 end week
 
+
+
 Week 5: Early October
 	Day: Monday
 		Meal: Meal Prep - Spicy Adobo Chicken and Peppers - jake
 #		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
 #		Meal: White Bread - jake
 #		Meal: Egg Salad - jake
-#		Ingredient: Chips - jake
-#		Ingredient: Pickle - jake
+		Ingredient: 1 bag Chips - jake
+		Ingredient: 1 jar Pickles - jake
 #	Day: Tuesday
 #		Meal: Turkey Sandwich - jake
 #	Day: Wednesday
 #		Meal: BLT - jake
 # 	Day: Thursday
 #		Meal: Egg Salad - jake
+
 	Day: Friday
 		Meal: Delivery Pizza
 	Day: Conference First Day
+# here
 		Meal: Chicken Noodle Soup
 	Day: Conference Second Day
 		Meal: Conference Tacos
 		Meal: Pico de Gallo
 		Meal: Mexican Rice
+
 end week
+
+Recipe: Banana Bread
+Active Time: 
+Inactive Time:
+Total Time: 
+Total Calories: 
+Calories Per Serving: 
+Link: https://www.youtube.com/watch?v=2RoUoMnDHlc
+Keywords: 
+
+Ingredients
+	560 g bananas (6 large very ripe)
+	115 g butter (1 stick, melted)
+	3 large eggs 
+	120 g brown sugar (2/3c  dark)
+	70 g molasses (1/4c)
+	5 g vanilla extract (or 1 tsp)
+	140 g sour cream (or 1/2c)
+	40 g olive oil (or 3Tbsp)
+	420 g all purpose flour (3 1/4c ap)
+	12 g salt (or 2tsp)
+	15 g baking powder (or 1Tbsp)
+	6 g baking soda (or 1 1/4tsp)
+Directions
+	1. Preheat oven to 350 degrees. Mash bananas. Add eggs, brown sugar, molasses, vanilla, sour cream, and melted (but not super hot) butter. Whisk to combine. 
+
+	2. In a separate bowl, combine flour, salt, baking powder, baking soda. Whisk to combine then fold dry ingredients into wet. Don’t overmix. 
+
+	3. Spray or butter a loaf 1.5lb (10"x5"x3") loaf pan then prepare with a sling of parchment. Spray or butter parchment then transfer banana bread mix into the pan. See recipe below if using a 1lb loaf pan.  
+
+	4. Tap to level then bake at 350F for 60-70 min.
+end recipe
+
 
 Recipe: Beef and Broccoli
 Active Time: 25 minutes
@@ -323,6 +369,31 @@ Directions
 	5. Working in 3 or 4 batches so the pot isn't overcrowded, fry the chicken pieces for 4 to 6 minutes, or until the chicken is a beautiful golden brown and cooked through to an internal temperate of 165 degrees. Once done, transfer the chicken to the wire cooling rack to drain. Repeat with the remaining chicken.
 
 end recipe
+
+Recipe: Cilantro Lime Rice
+Active Time: 
+Inactive Time: 
+Total Time: 
+Calories Per Serving: 
+Total Calories: 
+Link: 
+Keywords: joshua weissman, chipotle
+
+Ingredients
+	1 1/2 cups jasmine rice (you're supposed to use a medium grain rice for mexican style rices though)
+	1 1/2 cups water
+	1 1/2 tablespoons butter (21g)
+	2 tbsp lime juice (or juice from 1 lime)
+	10 grams fresh cilantro (handful, finely chopped)
+	1 tsp salt (to taste actually)
+
+Directions
+	1. Wash your rice and place in a rice cooker along with the water. (You can also use a pressure cooker and cut the cooking time in half, about 15 min.) Also, you can increase the water by 1/2 cup and set it on the stove until a rolling boil then immediately turn heat to lowest setting (LOW or WARM) and put a lid on for 15 mins.
+	2. Once the rice is cooked, place in a bowl; add butter, salt to taste, lime juice, and cilantro. Mix until butter is fully melted and incorporated.
+
+end recipe
+
+
 
 Recipe: Conference Tacos
 Active Time: 
@@ -1081,6 +1152,70 @@ Directions
 	1. Into a high sided container add crushed tomatoes, tomato paste, salt, sugar, basil, oregano, chili flake, garlic powder, and onion powder. Spin with immersion blender to break down to smooth, but still has texture. 
 	BUILDING PIZZAS
 	1. To build pizzas, spoon about 3-4tbsp of sauce across dough, evenly spread shredded mozz, followed by fresh mozz. Add additional toppings of choice (pepperoni, pepperoncini, and parm is a fav combo of mine). Bake for 6-7 min. 
+
+end recipe
+
+Recipe: Spinach Artichoke Dip
+Active Time: 15 minutes
+Inactive Time: 3 minutes
+Total Time: 18 minutes
+Calories Per Serving: 
+Total Calories: 
+Total Servings: 10
+Link: https://cooking.nytimes.com/recipes/1018248-spinach-artichoke-dip
+Keywords: dip, snack, side dish, Heidi, JHJ
+
+Ingredients
+	2 tablespoons olive oil
+	1 clove garlic (large, minced fine)
+	1 bunch spinach (fresh, finely chopped; or 1 10-ounce package frozen spinach, defrosted, drained and finely chopped)
+	1/4 tsp red pepper flakes (optional)
+	1/4 tsp kosher salt (and black pepper)
+	1 can artichoke hearts (14 oz, drained and coarsely chopped)
+	8 ounces cream cheese (cut into 1-inch pieces)
+	4 ounces fresh mozzarella (torn or shredded)
+	4 ounces sour cream (or full-fat Greek yogurt)
+	1/4 cup pecorino romano (or Parmesan, finely grated)
+Directions
+	Step 1
+	Heat olive oil in a medium pot over medium heat. Add garlic and cook, stirring until it's softened and fragrant, about 30 seconds.
+
+	Step 2
+	Add spinach to pot one handful at a time, letting each handful completely wilt before adding the next. Add crushed red pepper, if using, and season with salt and pepper. Continue to cook, stirring frequently, until most of the liquid from the spinach has evaporated (no need to drain), about 3 minutes. Add artichokes and season with salt and pepper. Cook for a few minutes, just to take the raw edge off the artichokes.
+
+	Step 3
+	Reduce heat to low and add cream cheese and mozzarella. Using a wooden spoon or spatula, stir until all the cheese has melted, about 3 minutes. Stir in sour cream and pecorino, and season with more salt and pepper. You can certainly eat this dip straight from the pot (or transferred to a serving bowl), but running it under the broiler for a crispy top is also an excellent option. To do so, transfer dip to a small ovenproof skillet (6 to 8 inches). Place in oven and broil until the top is golden and the dip is bubbling, 5 to 8 minutes. Let sit a minute or two before serving.
+
+end recipe
+
+
+Recipe: Steak and Fajita Toppings
+Active Time: 
+Inactive Time: 
+Total Time: 
+Calories Per Serving: 
+Total Calories: 
+Link: 
+Keywords: 
+
+Ingredients
+	1 whole green bell pepper (sliced 1/4 inch thick)
+	1/2 yellow onion (sliced 1/4 inch thick)
+	4 steaks (new york strip, at least 1 inch thick) 
+	1 tablespoon vegetable oil (for searing)
+	1/2 cup unsalted butter (112 g, for basting)
+	1 whole garlic (entire head)
+	1 tsp salt (and pepper to taste)
+	1 block monterey jack cheese (for grating)
+	3 tbsp cilantro (for garnish, finely chopped)
+	1 whole avocado (sliced)
+
+Directions
+	1. Season your NY Strip with salt and pepper on both sides, generously. Set a 12 inch pan over medium high heat, and add enough oil to coat the bottom of the pan. Once hot and nearly smoking, add 2 steaks and sear for 2-3 minutes or until you get a nice golden brown crust, flip and reduce heat to medium sear for 1 minute then add half your butter, one half of your garlic, tilt the pan at an angle so the butter pools on one side. Using a large spoon baste the foaming butter over the steak repeatedly until medium rare (135 fahrenheit internal temperature). Remove from the pan, and rest 15 minutes. Repeat with the other 2 steaks. 
+
+	2. Separately set another medium size pan over medium heat, and add enough oil to coat the bottom of the pan. Once hot and nearly smoking, add your pepper and onions; season to taste with salt and pepper. Cook, stirring often, until softened and lightly charred, about 8 minutes. 
+
+	3. At this point, your steaks should be rested, slice each of them against the grain about 1/3 inch thick. 
 
 end recipe
 

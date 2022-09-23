@@ -35,7 +35,7 @@ for line in list_lines_mp:
     if len(line.strip()) < 1:                       # ignore comments, empty lines
         i += 1
         continue
-    if line[0] == '#':     
+    if line[0] == '#':
         i += 1
         continue
     if "Recipe:" in line or "recipe:" in line or "RECIPE:" in line:
