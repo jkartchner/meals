@@ -97,6 +97,7 @@ Week 3: Late Mid September
 		Meal: White Rice
 	Day: Sunday
 		Meal: Yang Chow Fried Rice
+        Meal: Chinese BBQ Pork
 end week
 
 Week 4: Late September and Early October
@@ -286,6 +287,35 @@ Directions
 
 end recipe
 
+Recipe: Cacio e Pepe
+Active Time: 15 minutes
+Total Time: 20 minutes
+Calories Per Serving: 
+Total Calories: 
+Keywords: easy, simple, fast, J
+
+Ingredients
+    115 g spaghetti noodles (1/4 of a 1 lb box)
+    30 g butter (2 tablespoons)
+    30 g pecorino romano (it looks like quite a bit)
+    2 g black pepper (about 1 tsp)
+    30 g extra virgin olive oil
+
+Directions
+    1. Fill a wide saute pan half full of water (1-2 liters) and put on a burner on high to boil.
+    2. Measure all ingredients above in a decent mise en place. Divide the butter in half and then cut those halves into quarters.
+    3. Salt the boiling water in the other pan very well and add the spaghetti. Set a timer for 10 minutes.
+    4. Heat the olive oil on medium in another small saute pan. You'll want to actually saute this, so try to use an actual saute pan. Probably be fine without it and a decent way of stirring.
+    5. Add the pepper and bloom it until you can smell it a little in the air. Almost fry the black pepper. Take off the heat and wait until the spaghetti is done.
+    6. Use tongs to take out the spaghetti into the saute pan (still off heat). Splash an extra tablespoon or two into the pan. Add half the butter.
+    7. Flip the noodles and the oil and butter until they emulsify. 
+    8. Add the cheese and the other half of the butter. Add a little more water if it's not loose enough to flip. Flip until that emulsifies. You'll know the emulsification is good as long as the sauce looks like a butter pepper sauce rather than streaky or oil separated. 
+    9. Add water to balance. If there are white spots in the sauce the pan didn't have enough heat to totally integrate the cheese. Turn on the heat to very low and heat for 15 seconds or so and continue to saute until it emulsifies. 
+    10. Top with parmesan or more pecorino romano if you have it. Add a little ground black pepper on top. Eat immediately. If things get gluey, add more of the pasta water to loosen before you do eat it.
+end recipe
+
+
+
 Recipe: Cherry Tomato Spaghetti
 Active Time: 20 minutes
 Inactive Time: 10 minutes
@@ -373,6 +403,41 @@ Directions
 	5. Working in 3 or 4 batches so the pot isn't overcrowded, fry the chicken pieces for 4 to 6 minutes, or until the chicken is a beautiful golden brown and cooked through to an internal temperate of 165 degrees. Once done, transfer the chicken to the wire cooling rack to drain. Repeat with the remaining chicken.
 
 end recipe
+
+
+Recipe: Chinese BBQ Pork
+Active Time: 20 minutes
+Inactive Time: 45 minutes plus 4 to 24 hours marinating time
+Total Time: 
+Calories Per Serving: 249 calories
+Total Calories: 1000 calories (for 1 pound pork shoulder)
+Link: 
+Keywords: chinese, bbq, barbecue, barbeque, fried rice, pork
+
+Ingredients
+    1 1/2 tablespons maltose (or malt vinegar or honey)
+    1 1/2 tablespoons honey
+    1 1/2 tablespoons hoisin sauce
+    1 1/2 soy sauce
+    1 tablespoon chinese rose wine (or shaoxing wine or try red wine vinegar)
+    3/4 teaspoon white pepper
+    1/2 teaspoon five spice powder (replace with garam masala and star anise)
+    1/2 teaspoon sesame oil
+    1 pound pork shoulder (or pork butt or pork tenderloin, cut into 3-4 long strips)
+    3 cloves garlic (finely chopped)
+    1 tablespoon canola oil
+
+Directions
+    1. Add all the ingredients in the chinese BBQ Pork Sauce in a sauce pan. Heat it up on low heat. Stir to combine well. The sauce is ready when it thickens and becomes sticky. This yields 1/2 cup sauce. Transfer out and let cool.
+    2. Rub the garlic on the pork. Add 2/3 of the sauce to marinate the pork for at least 4 hours or best overnight.
+    3. Add the cooking oil to the remaining sauce. Keep the sauce in the fridge. 
+    4. When you're ready to cook, preheat the oven to 375 degrees. Line a baking tray with parchment paper or aluminum foil.
+    5. Place the pork on the baking tray and roast for 20 minutes. Shake off the excess sauce before roasting.
+    6. Transfer the pork out of the oven. Brush the remaining sauce on the pork and grill them over a fire on an outdoor grill. You can also put them under the broiler for about 1 minute each until slightly charred.
+    7. Slice the chinese bbq pork into bite size pieces. Drizzle the remaining sauce over and serve immediately with steamed white rice.
+
+end recipe
+
 
 Recipe: Cilantro Lime Rice
 Active Time: 
@@ -1434,8 +1499,8 @@ Ingredients
 	2 tbsp canola oil
 	2 eggs (beaten)
 	4 cups jasmine rice (cooked and preferably leftover from night before)
-	2 oz pork butt (I only need a little - enough for like a half cup)
-	1 oz barbecue sauce (for the bbq pork?)
+	2 oz pork butt (I only need a little - enough for like a half cup OR 1 recipe chinese bbq pork)
+	1 oz barbecue sauce (for the bbq pork? OR 1 recipe chinese bbq pork)
 	12 shrimp (medium)
 	1/2 tsp kosher salt
 	2 tbsp soy sauce
