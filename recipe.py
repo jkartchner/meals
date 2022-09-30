@@ -330,11 +330,6 @@ class Ingredient:
         # break down the ingredient and allocate vars
         in_text = in_text.strip()               # clean up text first
         in_text = in_text.replace("  ", " ")
-
-        # in case this ingredient is a dummy, just pack what you can and bail
-        if in_text.count(" ") < 1:
-            self.text = in_text;
-            return
         
         ## CONVERT AMOUNT TO A NUMBER INSTEAD OF STRING
         indx = in_text.find(" ")                # slice out first word entered, which is usually a number (edge cases will be dealt with later)
@@ -342,6 +337,34 @@ class Ingredient:
         if in_text[indx + 1].isdigit():         # deal with cases where it's a whole number followed by a fraction: 1 1/2
             nxt_indx = in_text.find(" ", indx+1)
         self.amount = in_text[0:indx]
+        
+        # In case this ingredient is a dummy, pack what you can and bail
+        try:
+            is_int = int(self.amount[0])
+        except:
+            self.float_amount = 1.0
+            self.amount = "1"
+            self.kind = "unit"
+            self.real_ingredient = in_text
+            if "(" in self.real_ingredient and ")" in self.real_ingredient:
+                indx = self.real_ingredient.find("(")
+                nxt_indx = self.real_ingredient.find(")")
+                self.additional_info = self.real_ingredient[indx + 1:nxt_indx]
+                self.real_ingredient = self.real_ingredient[:indx - 1]  # + self.real_ingredient[nxt_index:]
+            self.text = in_text
+            try:
+                self.category = dict_cats[self.real_ingredient]
+            except:
+                self.category = "unknown"
+            return
+            
+        # now prep to actually read what we need
+        self.text = in_text
+        try:
+            self.category = dict_cats[self.real_ingredient]
+        except:
+            self.category = "unknown"
+
 
         try:
             if "/" in self.amount:
@@ -744,6 +767,12 @@ class Day:
                 line = line.replace("INGREDIENT:", "")
                 line = line.strip()
                 self.add_ingredients.append(line)
+            if "Add:" in line or "ADD:" in line or "add:" in line:
+                line = line.replace("add:", "")
+                line = line.replace("Add:", "")
+                line = line.replace("ADD:", "")
+                line = line.strip()
+                self.add_ingredients.append(line)
                 
     def publish(cls, file):
         file.write("\n  " + cls.name + ":")
@@ -762,12 +791,14 @@ class Week:
     groceries = []
     jake_groceries = []
     weekly_recipes = []
+    add_ingredients = []
     def __init__(self, lines):
         self.days = []
         self.groceries = []
         self.jake_groceries = []
         self.recipes = []
         self.weekly_recipes = []
+        self.add_ingredients = []
         i_b_days = 0
         i = 0
         for line in lines:
@@ -789,6 +820,20 @@ class Week:
                 line = line[index+1:]
                 line = line.strip()
                 self.name = line
+            if ("ingredient:" in line or "Ingredient:" in line or "INGREDIENT:" in line) \
+                    and i_b_days == 0:
+                line = line.replace("ingredient:", "")
+                line = line.replace("Ingredient:", "")
+                line = line.replace("INGREDIENT:", "")
+                line = line.strip()
+                self.add_ingredients.append(line)
+            if ("Add:" in line or "ADD:" in line or "add:" in line) \
+                    and i_b_days == 0:
+                line = line.replace("add:", "")
+                line = line.replace("Add:", "")
+                line = line.replace("ADD:", "")
+                line = line.strip()
+                self.add_ingredients.append(line)
             if "day:" in line or "Day:" in line or "DAY:" in line:
                 if i_b_days > 0:
                     self.days.append(Day(lines[i_b_days:i]))
@@ -849,6 +894,23 @@ class Week:
                 k = Ingredient(ingredient.lower())
                 if k.category == "unknown" or not k.category:
                     print("Unknown Ingredient: " + k.real_ingredient)
+        
+
+        for ingredient in cls.add_ingredients:
+            jake = False
+            # first decide if this is a jake only meal
+            if " - jake" in ingredient or " - Jake" in ingredient or " - JAKE" in ingredient:
+                jake = True
+                ingredient = ingredient.replace(" - jake","")
+                ingredient = ingredient.replace(" - Jake","")
+                ingredient = ingredient.replace(" - JAKE","")
+                tojake.append(Ingredient(ingredient.lower()))   # create the ingredient here and add
+            else:
+                tobuy.append(Ingredient(ingredient.lower()))    # create the ingredient here and add
+            # super inefficient, but i don't care
+            k = Ingredient(ingredient.lower())
+            if k.category == "unknown" or not k.category:
+                print("Unknown Ingredient: " + k.real_ingredient)
         
         cls.weekly_recipes.sort()
         backup = copy.deepcopy(tobuy)
@@ -959,11 +1021,19 @@ class Week:
 
     
     def publish(cls, file):
-        file.write("\n\n____________________________________\n\n")
+        file.write(" _______   ________  _________     \n")
+        file.write("|\  ___ \ |\   __  \|\___   ___\   \n")
+        file.write("\ \   __/|\ \  \|\  \|___ \  \_\   \n")
+        file.write(" \ \  \_|/_\ \   __  \   \ \  \    \n")
+        file.write("  \ \  \_|\ \ \  \ \  \   \ \  \   \n")
+        file.write("   \ \_______\ \__\ \__\   \ \__\  \n")
+        file.write("    \|_______|\|__|\|__|    \|__|  \n")
+        file.write("                                   \n")
+        file.write("                                   \n")
+        file.write("\n____________________________________\n\n")
         file.write("WEEK OF " + cls.name.upper() + "\n")
         file.write("____________________________________\n\n")
         file.write("Week: " + cls.name)
-        print("\nWeek: " + cls.name)
         for day in cls.days:
             day.publish(file)
 

@@ -30,9 +30,20 @@
 # 			Day: Sunday
 # 				Meal: Beef and Broccoli
 #		   end week
+#
+# You may add an ingredient or shopping item for a given week:
+#		   Week 4: Late July
+#		   	Add: Toilet Paper
+#			Day: Sunday
+#				Meal: Orange Chicken
+#				Ingredient: Beef (use this instead of chicken in orange chicken recipe)
+#		   end week
+# 
+# You can add an optional description to a meal in a day with parentheses:
+#				Meal: Orange Chicken (good luck!)
+# You can make a meal belong to jake's shopping list by adding " - jake" TO THE END
+#				Meal: Orange Chicken (good luck!) - jake
 
-# consider fixing the ingredient read so you can work with single word ingredients: soda, baking powder, etc. Just write one in there, see where it crashes, then sleuth your way into it working
-# give instructions on how to use new stuff - notes on meals and added ingredients below meals
 # added recipes and ingredients cilantro lime rice, spinach artichoke dip, steak and fajita toppings, banana bread - it needs testing
 # substitutions for ingredients
 # add calorie counter
@@ -84,8 +95,9 @@ Week 3: Late Mid September
 		Meal: Meal Prep - Yogurt Granola and Berries - jake
 		Meal: Meal Prep - Teriyaki Chicken and Rice - jake
 		Meal: Evil Mac and Cheese - jake
-		Ingredient: 1 pack Toilet Paper - jake
-		Ingredient: 1 case Soda - jake
+		Add: 1 pack Toilet Paper - jake
+		Add: 1 case Soda - jake
+		Ingredient: baking powder - jake
 	Day: Sometime During the Wk
 		Meal: Super Snack Balls
 	Day: Friday
@@ -97,12 +109,12 @@ Week 3: Late Mid September
 		Meal: White Rice
 	Day: Sunday
 		Meal: Yang Chow Fried Rice
-        Meal: Chinese BBQ Pork
+        	Meal: Chinese BBQ Pork
 end week
 
 Week 4: Late September and Early October
 	Day: Monday
-		Meal: Thai Coconut Curry - jake
+#		Meal: Thai Coconut Curry - jake
 		Meal: Meal Prep - Yogurt Granola and Berries (you should have a little granola leftover so no need to make that) - jake
 		Meal: Meal Prep - Ground Chicken Taco Bowls - jake
 	Day: Friday
@@ -415,7 +427,7 @@ Link:
 Keywords: chinese, bbq, barbecue, barbeque, fried rice, pork
 
 Ingredients
-    1 1/2 tablespons maltose (or malt vinegar or honey)
+    1 1/2 tablespoons maltose (or malt vinegar or honey)
     1 1/2 tablespoons honey
     1 1/2 tablespoons hoisin sauce
     1 1/2 soy sauce
