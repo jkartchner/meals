@@ -9,10 +9,10 @@
 #		       Time: 19 hours
 # 		       Calories: 9000
 # 		       Ingredients
-#			 1 gallon heavy cream
-# 			 16 oz linguine
+#			     1 gallon heavy cream
+# 			     16 oz linguine
 #		       Directions
-# 			 make the food
+# 			     make the food
 # 		   end recipe
 
 
@@ -41,11 +41,10 @@
 # 
 # You can add an optional description to a meal in a day with parentheses:
 #				Meal: Orange Chicken (good luck!)
+#
 # You can make a meal belong to jake's shopping list by adding " - jake" TO THE END
 #				Meal: Orange Chicken (good luck!) - jake
 
-# added recipes and ingredients cilantro lime rice, spinach artichoke dip, steak and fajita toppings, banana bread - it needs testing
-# substitutions for ingredients
 # add calorie counter
 # automatic email script
 
@@ -132,10 +131,9 @@ end week
 Week 5: Early October
 	Day: Monday
 		Meal: Meal Prep - Spicy Adobo Chicken and Peppers - jake
+        Add: Soda (if you are almost out) - jake
 #		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
 #		Meal: Egg Salad - jake
-#		Ingredient: 1 bag Chips - jake
-#		Ingredient: 1 jar Pickles - jake
 #	Day: Tuesday
 #		Meal: Turkey Sandwich - jake
 #	Day: Wednesday
@@ -148,16 +146,21 @@ Week 5: Early October
 	Day: Conference First Day
 # here
 		Meal: Chicken Noodle Soup
+        Meal: Spinach Artichoke Dip
 	Day: Conference Second Day
 		Meal: Conference Tacos
 		Meal: Pico de Gallo
 		Meal: Mexican Rice
+        Meal: Cilantro Lime Rice
 
 end week
 
 Week 6: Mid Early October
 	Day: Monday
 		Meal: Meal Prep - PB and J Baked Oatmeal - jake
+    Day: Sunday
+        Meal: Steak and Fajita Toppings
+        Meal: Banana Bread
 end week
 
 Recipe: Banana Bread
@@ -212,6 +215,7 @@ Ingredients
 	1 can sesame seeds (optional)
 	16 oz spaghetti noodles
 	1/2 pound stew beef (ground beef would work in a pinch)
+    3 crowns broccoli
 Directions
 	1. Put water in a large stock pot and heat. Start the noodles.
 	2. Stir together soy sauce, half of the garlic and ginger, brown sugar, half the sesame oil, and corn starch in a bowl. Set aside
@@ -593,6 +597,7 @@ Directions
 	3. Stir in the seasoning blend and water. 
 	4. Bring to a boil if liquid enough. Add ketchup and let simmer. Spoon into taco shells
 	5. add other toppings you like. Add hot sauce.
+end recipe
 
 Recipe: Delivery Pizza
 Active Time: 40 minutes

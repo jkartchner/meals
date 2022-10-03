@@ -1,277 +1,8 @@
 import copy
-# categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, dairy, junk food, cereal, condiments
-# proposed categories: aisle: household (automotive, light bulbs), aisle: baking (spices, canning supplies), juice, butter, cheese station, toilet paper
-dict_cats = {   'almonds':'produce',
-		        'almond':'produce',
-                'apple':'produce',
-                'apples':'produce',
-                'avocados':'produce',
-                'avocado':'produce',
-                'baby bok choy':'produce',
-                'bananas':'produce',
-                'bell pepper':'produce',
-                'blackberries':'produce',
-                'blueberries':'produce',
-                'bok choy':'produce',
-                'broccoli':'produce',
-                'cabbage':'produce',
-                'carrot':'produce',
-                'carrots':'produce',
-                'cashews':'produce',
-		        'cashew':'produce',
-                'cherry tomatoes':'produce',
-                'celery':'produce',
-		        'chia seeds':'produce',
-                'cilantro':'produce',
-		        'dates':'produce',
-                'fresh basil':'produce',
-                'fresh cilantro':'produce',
-                'fresh ginger':'produce',
-                'fresh mozzarella':'produce', #this is the cheese station
-                'fresh parsley':'produce',
-                'garlic':'produce',
-                'ginger root':'produce',
-                'ginger':'produce',
-                'green bell pepper':'produce',
-                'green bell peppers':'produce',
-                'green onions':'produce',
-                'green peppers':'produce',
-                'green pepper':'produce',
-                'iceburg lettuce':'produce',
-                'jalapenos':'produce',
-                'jalapeno':'produce',
-                'jalapeno pepper':'produce',
-                'jalapeno peppers':'produce',
-		        'lemon':'produce',
-		        'lemons':'produce',
-		        'lemon juice':'produce',
-                'lettuce':'produce',
-                'lime':'produce',
-                'lime juice':'produce',
-                'onions':'produce',
-                'onion':'produce',
-		        'oranges':'produce',
-		        'orange':'produce',
-                'parmiggiano reggiano':'produce',
-                'pecans':'produce',
-                'pecorino romano':'produce',
-                'pumpkin seeds':'produce',
-                'peach':'produce',
-                'peaches':'produce',
-                'raspberries':'produce',
-                'red bell pepper':'produce',
-                'red onion':'produce',
-                'red onions':'produce',
-                'red pepper':'produce',
-                'red peppers':'produce',
-		        'roasted almonds':'produce',
-		        'roasted cashews':'produce',
-                'roma tomato':'produce',
-                'roma tomatoes':'produce',
-                'roma tomatos':'produce',
-                'sage':'produce',
-                'salad mix':'produce',
-                'scallions':'produce',
-                'scallion':'produce',
-                'serrano chilis':'produce',
-                'serrano chili':'produce',
-                'serranos':'produce',
-                'spinach':'produce',
-                'spinach leaves':'produce',
-                'sunflower seeds':'produce',
-                'strawberries':'produce',
-                'sweet onions':'produce',
-                'sweet onion':'produce',
-		        'swiss cheese':'produce',  	# the cheese is often by the produce, but this probably should be a separate section
-                'thyme':'produce',
-                'tomatoes':'produce',
-                'tomato':'produce',
-                'vidalia onion':'produce',
-                'vidalia onions':'produce',
-                'white onion':'produce',
-                'white onions':'produce',
-                'yellow onions':'produce',
-                'yellow onion':'produce',
-                'bacon':'meat',
-                'chicken':'meat',
-                'chicken breasts':'meat',
-                'chicken breast':'meat',
-                'chicken thighs':'meat',
-                'chicken thigh':'meat',
-                'ground beef':'meat',
-                'hot dogs':'meat',
-                'hot dog':'meat',
-                'pepperoni':'meat',
-		        'pork butt':'meat',
-		        'pork shoulder':'meat',
-		        'pork tenderloin':'meat',
-                'steak':'meat',
-                'steaks':'meat',
-                'stew beef':'meat',
-                'turkey kielbasa sausage':'meat',
-		        'flounder filets':'seafood',
-                'shrimp':'seafood',
-		        'sole filets':'seafood',
-                'donut':'bakery',
-                'donuts':'bakery',
-                'brownies':'bakery',
-                'lemon squares':'bakery',
-                'granola':'bread',
-                'multigrain bread':'bread',
-                'potato bread':'bread',
-                'sandwich bread':'bread',
-                'wheat bread':'bread',
-                'white bread':'bread',
-                'whole wheat bread':'bread',
-                'hot dog buns':'bread',
-                'hamburger buns':'buns',
-                'all purpose flour':'baking',
-                'all-purpose flour':'baking',
-                'baking powder':'baking',
-                'basil':'baking',               # see dried basil below as well
-                'bay leaves':'baking',
-                'bay leaf':'baking',
-                'black pepper':'baking',
-                'bread flour':'baking',
-                'brown sugar':'baking',
-                'canola oil':'baking',
-                'cornmeal':'baking',
-		        'chicken bouillon':'baking',
-                'chocolate':'baking',
-                'chili flake':'baking',         # see also red pepper flake
-                'chili powder':'baking',
-		        'cinnamon':'baking',
-                'coconut oil':'baking',
-                'cornstarch':'baking',
-                'cumin':'baking',
-                'dried basil':'baking',
-                'dried oregano':'baking',       # see dried oregano below too
-                'extra virgin olive oil':'baking',
-                'flour':'baking',
-                'fine sea salt':'baking',
-                'food coloring':'baking',
-                'garlic powder':'baking',
-                'granulated sugar':'baking',
-                'ground coriander':'baking',
-                'ground ginger':'baking',
-                'ground paprika':'baking',
-                'instant yeast':'baking',
-		        'kosher salt':'baking',
-                'mini marshmallows':'baking',
-                'maltose':'baking',
-                'marshmallows':'baking',
-                'nutmeg':'baking',
-                'oat flour':'baking',
-                'old fashioned oats':'baking',
-                'olive oil':'baking',
-                'onion powder':'baking',
-                'oregano':'baking',
-                'paprika':'baking',
-                'parchment paper':'baking',     # this isn't baking; 
-                'pectin':'baking',
-                'pepper':'baking',
-                'protein powder':'baking',
-                'red pepper flakes':'baking',
-                'rolled oats':'baking',
-                'salt':'baking',
-                'sherry vinegar':'baking',
-		        'shredded coconut':'baking',
-                'sugar':'baking',
-                'tempura flour':'baking',
-                'vanilla extract':'baking',
-                'vegetable oil':'baking',
-		        'wax paper':'baking', 		# this isn't baknig; 
-                'white pepper':'baking',
-                'white vinegar':'baking',
-                'artichoke hearts':'baking',
-                'black beans':'canned goods',
-                'black olives':'canned goods',
-                'crushed tomatoes':'canned goods',
-                'calabrian chilis':'canned goods',
-                'fruit cocktail':'canned goods',
-                'peperoncini':'canned goods',
-                'tomato paste':'canned goods',
-                'tomato sauce':'canned goods',
-                'chicken stock':'soups',
-                'basmati rice':'asian',
-                'coconut milk':'asian',
-                'chili paste':'asian',
-                'chinese rose wine':'asian',
-                'fish sauce':'asian',
-                'five spice powder':'asian',
-                'hoisin sauce':'asian',
-                'jasmine rice':'asian',
-                'medium grain rice':'asian',
-                'medium-grain rice':'asian',
-                'oyster sauce':'asian',
-                'sesame oil':'asian',
-                'sesame seeds':'asian',
-                'soy sauce':'asian',
-                'teriyaki sauce':'asian',
-                'teriyaki sauces':'asian',
-                'thai red curry paste':'asian',
-                'chiles in adobo':'hispanic',
-                'chipotle peppers':'hispanic',
-                'chipotle pepper':'hispanic',
-                'chipotle peppers in adobo sauce':'hispanic',
-                'hot sauce':'hispanic',
-                'pinto beans':'hispanic',
-                'taco shell':'hispanic',
-                'taco shells':'hispanic',
-                'angel hair noodles':'pasta',
-                'angel hair':'pasta',
-                'cavatappi pasta':'pasta',
-                'cavatappi noodles':'pasta',
-                'cavatappi':'pasta',
-                'egg noodles':'pasta',
-                'thin spaghetti noodles':'pasta',
-                'thin spaghetti':'pasta',
-                'linguine':'pasta',
-                'linguine noodles':'pasta',
-                'spaghetti':'pasta',
-                'spaghetti noodles':'pasta',
-		        'barbeque sauce':'pasta',
-		        'barbecue sauce':'pasta',
-                'ketchup':'condiments',
-                'mayonnaise':'condiments',           
-                'salad dressing':'condiments',      
-                'frozen broccoli':'frozen foods',
-                'frozen pizza':'frozen foods',
-                'frozen strawberries':'frozen foods',
-                'orange juice':'frozen foods',
-                'honey':'cereal',         
-                'jam':'cereal',
-                'maple syrup':'cereal',
-                'peanut butter':'cereal',
-                'rice krispies':'cereal', 
-                'rolled oats':'cereal', 
-                '1% milk':'dairy',
-                '2% milk':'dairy',
-                'butter':'dairy',
-                'buttermilk':'dairy',
-                'cheddar cheese':'dairy',
-                'cream cheese':'dairy',
-                'eggs':'dairy',
-                'egg':'dairy',
-                'fresh mozzarella':'dairy',
-                'heavy cream':'dairy',
-                'heavy whipping cream':'dairy',
-                'milk':'dairy',
-                'monterey jack cheese':'dairy',
-                'monterey jack':'dairy',
-                'mozzarella':'dairy',
-                'provolone':'dairy',
-                'skim milk':'dairy',
-                'sour cream':'dairy',
-                'unsalted butter':'dairy',
-                'whole milk':'dairy',
-                'yogurt':'dairy',
-                'toilet paper':'toilet paper',
-                'beer':'junk food',
-                'doritos':'junk food',
-                'soda':'junk food',
-                'water':'junk food',
-		        'white wine':'junk food'} 	# obviously this is not junk food; we need an alcohol section to go with the beer
+from calories import *
+
+# NOTE: calories for following are calculated without peel:
+#       Bananas
 
 # categories: produce, meat, seafood, bakery, bread, baking, canned goods, soups, asian, hispanic, pasta, frozen foods, cereal, dairy, junk food
 dict_king_soopers = {   'produce': 1,
@@ -353,7 +84,7 @@ class Ingredient:
                 self.real_ingredient = self.real_ingredient[:indx - 1]  # + self.real_ingredient[nxt_index:]
             self.text = in_text
             try:
-                self.category = dict_cats[self.real_ingredient]
+                self.category = dict_cats[self.real_ingredient][0]
             except:
                 self.category = "unknown"
             return
@@ -361,7 +92,7 @@ class Ingredient:
         # now prep to actually read what we need
         self.text = in_text
         try:
-            self.category = dict_cats[self.real_ingredient]
+            self.category = dict_cats[self.real_ingredient][0]
         except:
             self.category = "unknown"
 
@@ -482,7 +213,7 @@ class Ingredient:
         elif "whole" in self.kind:
             self.kind = "whole"
         else:                                                       # no kind measurement; we count darabonkent
-            self.kind = ""
+            self.kind = "whole"
             nxt_indx = indx
         ## REMOVE FROM STRING ADDITIONAL DESCRIPTORS
         self.real_ingredient = in_text[nxt_indx + 1:]
@@ -494,7 +225,7 @@ class Ingredient:
             
         self.text = in_text
         try:
-            self.category = dict_cats[self.real_ingredient]
+            self.category = dict_cats[self.real_ingredient][0]
         except:
             self.category = "unknown"
 
@@ -854,9 +585,11 @@ class Week:
         tobuy = []
         tojake = []
         jake = False
+        rec_found = False
         for day in cls.days:
             for meal in day.meals:
                 jake = False
+                rec_found = False
                 for recipe in recipes:
                     # first decide if this is a jake only meal
                     if " - jake" in meal or " - Jake" in meal or " - JAKE" in meal:
@@ -868,6 +601,7 @@ class Week:
                         meal_list = meal.split("(")
                         meal = meal_list[0].strip()
                     if meal == recipe.name:
+                        rec_found = True
                         # append the recipe
                         if recipe not in cls.weekly_recipes:
                             cls.weekly_recipes.append(recipe)
@@ -879,6 +613,8 @@ class Week:
                                 tobuy.append(copy.deepcopy(ingredient))
                             if ingredient.category == "unknown":
                                 print("Unknown Ingredient: " + ingredient.real_ingredient)
+                if not rec_found:
+                    print("Recipe Not Found: " + meal)
             for ingredient in day.add_ingredients:
                 jake = False
                 # first decide if this is a jake only meal
