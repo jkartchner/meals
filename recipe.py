@@ -118,7 +118,8 @@ class Ingredient:
                 self.kind = self.kind + "s"
         elif ("g" in self.kind or "gram" in self.kind) and "egg" not in self.kind \
              and "bag" not in self.kind and "wedge" not in self.kind \
-	     and "orange" not in self.kind and "package" not in self.kind:
+	     and "orange" not in self.kind and "package" not in self.kind \
+         and "green" not in self.kind:
             self.kind = "gram"
             if self.float_amount > 0 and self.float_amount > 1:
                 self.kind = self.kind + "s"

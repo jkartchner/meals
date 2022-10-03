@@ -24,14 +24,14 @@ if s == "g":
 if s == "t":
     o_tsp = i
     o_tbsp = i * 3
-    o_cup = i * 12
+    o_cup = i * 48 
 if s == "b":
     o_tsp = i / 3
     o_tbsp = i
-    o_cup = i * 4
+    o_cup = i * 16
 if s == "c":
-    o_tsp = i / 12
-    o_tbsp = i / 4
+    o_tsp = i / 48
+    o_tbsp = i / 16 
     o_cup = i
 
 print("\nCalories in grams: " + str(o_grams))
