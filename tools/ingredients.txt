@@ -22,6 +22,8 @@ celery:produce
 chia seeds:produce
 cilantro:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 dates:produce
+dill:produce
+fresh dill:produce
 fresh basil:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 fresh cilantro:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 fresh ginger:produce:0.81:23:368
@@ -50,9 +52,12 @@ onions:produce
 onion:produce
 oranges:produce
 orange:produce
+parmesan cheese:produce
 parmiggiano reggiano:produce
 pecans:produce
 pecorino romano:produce
+potato:produce
+potatoes:produce
 pumpkin seeds:produce
 peach:produce
 peaches:produce
@@ -109,6 +114,8 @@ steaks:meat
 stew beef:meat
 turkey kielbasa sausage:meat
 flounder filets:seafood
+salmon: seafood
+salmon filets:seafood
 shrimp:seafood
 sole filets:seafood
 donut:bakery
@@ -146,6 +153,7 @@ cornstarch:baking
 cumin:baking
 dried basil:baking
 dried oregano:baking
+dried parsley:baking
 extra virgin olive oil:baking
 flour:baking:3.06:86.61:1385.7:-1:-1:440
 fine sea salt:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
@@ -169,6 +177,7 @@ onion powder:baking
 oregano:baking
 paprika:baking
 parchment paper:baking
+parsley:baking
 pectin:baking
 pepper:baking
 protein powder:baking
@@ -189,6 +198,7 @@ black beans:canned goods
 black olives:canned goods
 crushed tomatoes:canned goods
 calabrian chilis:canned goods
+diced tomatoes:canned goods
 fruit cocktail:canned goods
 peperoncini:canned goods
 tomato paste:canned goods
@@ -225,6 +235,8 @@ cavatappi pasta:pasta
 cavatappi noodles:pasta
 cavatappi:pasta
 egg noodles:pasta
+elbow noodles:pasta
+elbow pasta:pasta
 thin spaghetti noodles:pasta
 thin spaghetti:pasta
 linguine:pasta

@@ -211,6 +211,10 @@ class Ingredient:
             self.kind = "block"
             if self.float_amount > 0 and self.float_amount > 1:
                 self.kind = self.kind + "s"
+        elif "stalk" in self.kind:
+            self.kind = "stalk"
+            if self.float_amount > 0 and self.float_amount > 1:
+                self.kind = self.kind + "s"
         elif "whole" in self.kind:
             self.kind = "whole"
         else:                                                       # no kind measurement; we count darabonkent

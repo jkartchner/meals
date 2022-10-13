@@ -175,10 +175,51 @@ end week
 Week 6: Mid Early October
 	Day: Monday
 		Meal: Meal Prep - PB and J Baked Oatmeal - jake
-    Day: Sunday
-        Meal: Steak and Fajita Toppings
+		Meal: Meal Prep - Hambulker Helper - jake
+		Meal: Pan Pizza - jake
+        Add: steel wool - jake
+        Add: Soda - jake
+        Add: Oven Cleaner - jake
+    Day: Friday
+        Meal: Pan Pizza
+        Meal: Garden Salad
+    Day: Saturday
+        Meal: Chicken Noodle Soup
         Meal: Banana Bread
+    Day: Sunday
+        Meal: Thai Coconut Curry
+        Meal: Baked Salmon
+        Meal: French Fries
+        Meal: Steamed Broccoli
 end week
+
+
+Recipe: Baked Salmon
+Active Time: 
+Inactive Time: 
+Total Time: 
+Total Calories: 
+Calories Per Serving: 
+Link: https://www.lecremedelacrumb.com/best-easy-healthy-baked-salmon/
+Keywords: healthy, JHJ, fish, fast, omega-3
+
+Ingredients
+    2 tablespoons olive oil
+    1/2 teaspoon salt
+    1/4 teaspoon black pepper (just a pinch, really)
+    1/4 teaspoon thyme
+    1/4 teaspoon parsley
+    1/4 teaspoon oregano
+    1/4 teaspoon parsley
+    1/4 teaspoon sage (if you have it)
+    1 lemon (medium)
+    24 ounces salmon (cut into 6 oz filets)
+Directions
+    1. Preheat oven to 400 degrees and grease a large baking pan. Arrange salmon filets on the baking sheet and season generously with salt and pepper.
+    2. Stir together olive oil, garlics, herbs, and juice of 1/2 lemon. Spoon over salmon filets being sure to rub all over the tops and sides of the salmon so it has no dry spots. Thinly slice remaining 1/2 of lemon and top each piece of salmon with a slice of lemon.
+    3. Bake for 12-15 minutes until salmon is opaque and flaky when pulled apart with a fork. You can broil the last 1-2 minutes if desired.
+    4. Garnish with fresh thyme or parsley if desired and serve.
+end recipe
 
 Recipe: Banana Bread
 Active Time: 
@@ -192,7 +233,7 @@ Keywords:
 Ingredients
 	560 g bananas (6 large very ripe)
 	115 g butter (1 stick, melted)
-	3 large eggs 
+	3 eggs (large)
 	120 g brown sugar (2/3c  dark)
 	70 g molasses (1/4c)
 	5 g vanilla extract (or 1 tsp)
@@ -765,6 +806,25 @@ Directions
 
 end recipe
 
+Recipe: French Fries
+Active Time: 30 minutes
+Inactive Time: 10 minutes
+Total Time: 40 minutes
+Calories Per Serving: 
+Keywords: JHPQJ, unhealthy, comfort food, fast food
+Link: my dome
+
+Ingredients
+    4 potatoes (russet, peeled and cut into fries)
+    12 cups canola oil (or peanut oil)
+    3 tablespoons kosher salt
+Directions
+    1. Prepare the potatoes and place in water. Rise the potatoes. Replace the water until it is clear. Put the potatoes in the fridge for 30 minutes or so.
+    2. 10 minutes prior to cooking, place oil in dutch oven and begin to heat it.
+    3. Dry the potato noodles really well. Water is enemy. Bad water. Put in dutch oven for 5 minutes to allow it to cook through. It will not gain much color. Remove from the dutch oven and let drain. Pat oil away.
+    4. Heat oil to 355 degrees and do the same thing in batches for another 5 minutes per batch. Salt immediately when removed.
+end recipe
+
 Recipe: Garden Salad
 Active Time: 10 minutes
 Total Time: 10 minutes
@@ -949,6 +1009,52 @@ Directions
 	1. This recipe makes 5 servings. Divide your chicken, cabbage, and rice evenly between the containers. Each meal gets 1 of your salsa cups as well
 
 end recipe
+
+Recipe: Meal Prep - Hambulker Helper
+Active Time: 30 minutes
+Inactive Time: 30 minutes
+Total Time: 60 minutes
+Calories Per Serving: 1250 calories
+Total Calories: 5000 calories
+Keywords: beef, high calorie, josh cortis
+
+Ingredients
+    2 lbs ground beef (85/15, 908 g)
+    1 onion (medium)
+    4 carrots (medium)
+    4 stalks celery
+    3 potatoes (medium)
+    12 oz elbow pasta
+    14.5 oz diced tomatoes (1 can)
+    6 oz spinach
+    1 tbsp garlic (minced)
+    2 cups milk
+    3 cups chicken stock
+    1 cup cheddar cheese (shredded)
+    1/2 cup parmesan cheese (grated)
+    1/4 cup ketchup
+    1 tbsp dried basil
+    1 tbsp paprika
+    1 tsp kosher salt
+    1 tsp black pepper
+
+Directions
+    FOR THE BEEF
+    1. In a large stock pot over medium high heat, add the beef and allow it to brown and the fat to render off.
+    2. Once browned, remove it from the pot, keeping all of the fat that was rendered off inside the pot. This will be used to cook the vegetables.
+    FOR THE VEGETABLES
+    1. While the beef is cooking, wash and cut the onion, carrots, and celery into a small dice of roughly the same size. Grate the garlic. Cut the potatoes into a medium dice of about ½" cubes. Roughly chop the spinach into smaller pieces.
+    2. Once the beef has finished and only the fat remains left in the pot, add in the onions, carrots, celery, and garlic. Season lightly with salt to encourage the water to come out quicker. Allow this to brown and soften for 8-10 minutes.
+    3. Once the vegetables have softened, season with 1 each of dried basil and paprika.
+    4. Add in the potatoes, 2 cups of milk, 3 cups of chicken broth, 1 can of petite diced tomatoes, the beef and 12oz of elbow pasta.
+    5. Bring this mixture to a light boil, stirring occasionally then reduce the heat to low, cover, and cook for 10-15 minutes or until the potatoes have softened and the noodles have finished.
+    6. Test the potatoes for doneness by sticking a fork into them. Once they have softened, add in 1 cup of shredded cheddar cheese, ½ cup of grated parmesan cheese, ¼ cup of ketchup, and all of the spinach you chopped earlier.
+    7. Mix well to incorporate the cheeses and wilt the spinach. Taste test, season with salt and pepper to adjust flavor as needed.
+    PLATING
+    1. This recipe makes 5 servings. Divide the mixture of the pot evenly 5 ways.
+
+end recipe
+
 
 Recipe: Meal Prep - Hard Boiled Eggs and Avocado
 Active Time: 15 minutes
@@ -1443,6 +1549,23 @@ Directions
 	2. Separately set another medium size pan over medium heat, and add enough oil to coat the bottom of the pan. Once hot and nearly smoking, add your pepper and onions; season to taste with salt and pepper. Cook, stirring often, until softened and lightly charred, about 8 minutes. 
 
 	3. At this point, your steaks should be rested, slice each of them against the grain about 1/3 inch thick. 
+
+end recipe
+
+Recipe: Steamed Broccoli
+Active Time: 
+Inactive Time: 
+Total Time: 
+Total Calories: 
+Calories Per Serving: 
+
+Ingredients
+    4 crowns broccoli (cut into florets)
+    2 tablespoons kosher salt
+    2 tablespoons olive oil
+Directions
+    1. Put water in a pan. Probably about a half inch worth. Put all the broccoli in the pan. Cover. Turn it on. Boil the water for about 5 minutes.
+    2. Is it delicious? You are done. If not, make sure enough water.
 
 end recipe
 
