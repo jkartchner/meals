@@ -193,6 +193,34 @@ Week 6: Mid Early October
         Meal: Steamed Broccoli
 end week
 
+Week 7: Early Late October
+	Day: Monday
+		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
+		Meal: Meal Prep - Spicy Adobo Chicken and Peppers - jake
+		Meal: Baked Salmon - jake
+		Meal: Steamed Broccoli - jake
+	Day: Tuesday
+		Meal: Baked Salmon - jake
+		Meal: French Fries - jake
+		Meal: Steamed Broccoli - jake
+	Day: Friday
+        	Meal: Thai Coconut Curry
+	Day: Saturday
+		Meal: Conference Tacos
+		Meal: Pico de Gallo
+		Meal: Mexican Rice
+        	Meal: Cilantro Lime Rice
+	Day: Sunday
+		Meal: Spinach Artichoke Dip
+		Meal: Pad Krapow
+		Add: Tempeh (or tofu, it's by the yogurt)
+end week
+
+Week 8: Late October
+	Day: Halloween
+		Meal: Delivery Pizza
+
+end week
 
 Recipe: Baked Salmon
 Active Time: 
