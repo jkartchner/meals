@@ -1,12 +1,12 @@
-almonds:produce:5.86:164:2624:whole=8
-almond:produce:5.86:164:2624:whole=8
-apple:produce:0.53:15:237:whole=95
-apples:produce:0.53:15:237:whole=95
-avocados:produce:1.76:50:800:whole=250
-avocado:produce:1.76:50:800:whole=250
-baby bok choy:produce:0.124:3.52:56.4
-bananas:produce:0.9:25.15:408.24:whole=105
-banana:produce:0.9:25.15:408.24:whole=105
+almonds:produce:5.86:164:2624:11.02:33.06:529:whole=8
+almond:produce:5.86:164:2624:11.02:33.06:529:whole=8
+apple:produce:0.53:15:237:1.19:3.56:57:whole=95
+apples:produce:0.53:15:237:1.19:3.56:57:whole=95
+avocados:produce:1.76:50:800:5:15:240:whole=250
+avocado:produce:1.76:50:800:5:15:240:whole=250
+baby bok choy:produce:0.124:3.52:56.4:0.21:0.62:10
+bananas:produce:0.9:25.15:408.24:4.17:12.50:200:whole=105
+banana:produce:0.9:25.15:408.24:4.17:12.50:200:whole=105
 bell pepper:produce:0.32:9:144:whole=37
 blackberries:produce:0.42:12:195
 blueberries:produce:0.6:16:256
