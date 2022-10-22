@@ -7,281 +7,289 @@ avocado:produce:1.76:50:800:5:15:240:whole=250
 baby bok choy:produce:0.124:3.52:56.4:0.21:0.62:10
 bananas:produce:0.9:25.15:408.24:4.17:12.50:200:whole=105
 banana:produce:0.9:25.15:408.24:4.17:12.50:200:whole=105
-bell pepper:produce:0.32:9:144:whole=37
-blackberries:produce:0.42:12:195
-blueberries:produce:0.6:16:256
-bok choy:produce:0.14:4:64:head=110
-broccoli:produce:0.35:10:160:crown=30
-cabbage:produce:0.25:7:112
-carrot:produce:0.42:12:192:whole=25
-carrots:produce:0.42:12:192:whole=25
-cashews:produce:5.54:157:2512
-cashew:produce:5.54:157:2512
-cherry tomatoes:produce:0.18:5:80:whole=3
-celery:produce
-chia seeds:produce
+bell pepper:produce:0.32:9:144:0.58:1.75:28:whole=37
+blackberries:produce:0.42:12:195:1.29:3.88:62
+blueberries:produce:0.6:16:256:1.67:5:80
+bok choy:produce:0.14:4:64:0.21:0.62:10:head=110
+broccoli:produce:0.35:10:160:0.65:1.94:31:crown=30
+cabbage:produce:0.25:7:112:0.35:1.06:17
+carrot:produce:0.42:12:192:0.94:2.81:45:whole=25
+carrots:produce:0.42:12:192:0.94:2.81:45:whole=25
+cashews:produce:5.54:157:2512:15.08:45.25:724:whole=9
+cashew:produce:5.54:157:2512:15.08:45.25:724:whole=9
+cherry tomatoes:produce:0.18:5:80:0.52:1.56:25:whole=3
+celery:produce:0.14:4:64:0.29:0.88:14:stalk=10
+chia seeds:produce:4.87:138:2208:16.67:50.00:800
 cilantro:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-dates:produce
-dill:produce
-fresh dill:produce
+dates:produce:2.82:79.81:1277:8.62:25.88:414
+dill:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+fresh dill:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 fresh basil:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 fresh cilantro:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-fresh ginger:produce:0.81:23:368
-fresh mozzarella:produce
-fresh parsley:produce
-garlic:produce:1.48:42:672:clove=5
-ginger root:produce:0.81:23:368
-ginger:produce:0.81:23:368
-green bell pepper:produce:0.21:6:96:whole=24
-green bell peppers:produce:0.21:6:96:whole=24
-green onions:produce
-green peppers:produce:0.21:6:96:whole=24
-green pepper:produce:0.21:6:96:whole=24
-iceburg lettuce:produce
-jalapenos:produce
-jalapeno:produce
-jalapeno pepper:produce
-jalapeno peppers:produce
-lemon:produce
-lemons:produce
-lemon juice:produce
-lettuce:produce
-lime:produce
-lime juice:produce
-onions:produce
-onion:produce
-oranges:produce
-orange:produce
-parmesan cheese:produce
-parmiggiano reggiano:produce
-pecans:produce
-pecorino romano:produce
-potato:produce
-potatoes:produce
-pumpkin seeds:produce
-peach:produce
-peaches:produce
-raspberries:produce
-red bell pepper:produce:0.32:9:144:whole=37
-red onion:produce
-red onions:produce
-red pepper:produce:0.32:9:144:whole=37
-red peppers:produce:0.32:9:144:whole=37
-roasted almonds:produce:5.86:164:2624:whole=8
-roasted cashews:produce:5.54:157:2512
-roma tomato:produce
-roma tomatoes:produce
-roma tomatos:produce
+fresh ginger:produce:0.81:23:368:1.58:4.75:76
+fresh mozzarella:produce:2.79:79:1264:7.71:23.12:370
+fresh parsley:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+garlic:produce:1.48:42:672:4.23:12.69:203:clove=5
+ginger root:produce:0.81:23:368:1.58:4.75:76
+ginger:produce:0.81:23:368:1.58:4.75:76
+green bell pepper:produce:0.21:6:96:0.38:1.12:18:whole=24
+green bell peppers:produce:0.21:6:96:0.38:1.12:18:whole=24
+green onions:produce:0.33:9.44:151:0.67:2.00:32
+green peppers:produce:0.21:6:96:0.38:1.12:18:whole=24
+green pepper:produce:0.21:6:96:0.38:1.12:18:whole=24
+iceburg lettuce:produce:0.13:3.56:57:0.21:0.62:10
+jalapenos:produce:0.29:8.19:131:0.54:1.62:26:whole=4
+jalapeno:produce:0.29:8.19:131:0.54:1.62:26:whole=4
+jalapeno pepper:produce:0.29:8.19:131:0.54:1.62:26:whole=4
+jalapeno peppers:produce:0.29:8.19:131:0.54:1.62:26:whole=4
+lemon:produce:0.29:8.31:133:1.27:3.81:61:whole=17
+lemons:produce:0.29:8.31:133:1.27:3.81:61:whole=17
+lemon juice:produce:0.22:6.19:99:1.10:3.31:53
+lettuce:produce:0.13:3.56:57:0.21:0.62:10
+lime:produce:0.30:8.44:135:0.42:1.25:20:whole=20
+limes:produce:0.30:8.44:135:0.42:1.25:20:whole=20
+lime juice:produce:0.25:7:112:1.25:3.75:60
+onion:produce:0.42:11.94:191:1.33:4:64:whole=44
+onions:produce:0.42:11.94:191:1.33:4:64:whole=44
+oranges:produce:0.47:13.31:213:1.77:5.31:85:whole=60
+orange:produce:0.47:13.31:213:1.77:5.31:85:whole=60
+parmesan cheese:produce:4.30:122:1952:8.98:26.94:431
+parmiggiano reggiano:produce:4.40:124.75:1996:8.98:26.94:431
+pecans:produce:6.91:196.00:3136:15.69:47.06:753
+pecan:produce:6.91:196.00:3136:15.69:47.06:753
+pecorino romano:produce:3.87:109.69:1755:8.98:26.94:431
+potato:produce:0.97:27.50:440:1.23:3.69:59
+potatoes:produce:0.97:27.50:440:1.23:3.69:59
+pumpkin seeds:produce:4.44:126:2016:5.94:17.81:285
+peach:produce:0.41:11.56:185:1.38:4.12:66:whole=61
+peaches:produce:0.41:11.56:185:1.38:4.12:66:whole=61
+raspberries:produce:0.53:15:240:1.35:4.06:65
+raspberry:produce:0.53:15:240:1.35:4.06:65
+red bell pepper:produce:0.32:9:144:0.58:1.75:28:whole=37
+red onion:produce:0.42:11.94:191:1.33:4:64:whole=44
+red onions:produce:0.42:11.94:191:1.33:4:64:whole=44
+red pepper:produce:0.32:9:144:0.58:1.75:28:whole=37
+red peppers:produce:0.32:9:144:0.58:1.75:28:whole=37
+roasted almonds:produce:5.86:164:2624:11.02:33.06:529:whole=8
+roasted cashews:produce:5.54:157:2512:15.08:45.25:724:whole=9
+roma tomato:produce:0.18:5.12:82:0.67:2:32:whole=11
+roma tomatoes:produce:0.18:5.12:82:0.67:2:32:whole=11
+roma tomatos:produce:0.18:5.12:82:0.67:2:32:whole=11
+russet potato:produce:0.97:27.50:440:1.23:3.69:59
+russet potatoes:produce:0.97:27.50:440:1.23:3.69:59
 sage:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-salad mix:produce
-scallions:produce
-scallion:produce
-serrano chilis:produce
-serrano chili:produce
-serranos:produce
-spinach:produce
-spinach leaves:produce
-sunflower seeds:produce
-strawberries:produce
-sweet onions:produce
-sweet onion:produce
-swiss cheese:produce
-thyme:produce
-tomatoes:produce
-tomato:produce
-vidalia onion:produce
-vidalia onions:produce
-white onion:produce
-white onions:produce
-yellow onions:produce
-yellow onion:produce
-bacon:meat
-chicken:meat
-chicken breasts:meat
-chicken breast:meat
-chicken thighs:meat
-chicken thigh:meat
-ground beef:meat
-hot dogs:meat
-hot dog:meat
-pepperoni:meat
-pico de gallo:meat
-pork butt:meat
-pork shoulder:meat
-pork tenderloin:meat
-steak:meat
-steaks:meat
-stew beef:meat
-turkey kielbasa sausage:meat
-flounder filets:seafood
-salmon: seafood
-salmon filets:seafood
-shrimp:seafood
-sole filets:seafood
-donut:bakery
-donuts:bakery
-brownies:bakery
-lemon squares:bakery
+salad mix:produce:0.18:5:80:0.67:2:32
+scallions:produce:0.33:9.44:151:0.67:2.00:32
+scallion:produce:0.33:9.44:151:0.67:2.00:32
+serrano chilis:produce:0.32:9:144:0.67:2:32
+serrano chili:produce:0.32:9:144:0.67:2:32
+serranos:produce:0.32:9:144:0.67:2:32
+spinach:produce:0.23:6.62:106:0.15:0.44:7
+spinach leaves:produce:0.23:6.62:106:0.15:0.44:7
+sunflower seeds:produce:5.86:166:2656:17.04:51.12:818
+strawberries:produce:0.32:9.06:145:1.02:3.06:49
+strawberry:produce:0.32:9.06:145:1.02:3.06:49
+sweet onions:produce:0.32:9:144:0.98:2.94:47:whole=44
+sweet onion:produce:0.32:9:144:0.98:2.94:47:whole=44
+swiss cheese:produce:3.81:108:1728:10.46:31.38:502
+thyme:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+tomato:produce:0.18:5.12:82:0.67:2:32:whole=11
+tomatoes:produce:0.18:5.12:82:0.67:2:32:whole=11
+vidalia onion:produce:0.32:9:144:0.98:2.94:47:whole=44
+vidalia onions:produce:0.32:9:144:0.98:2.94:47:whole=44
+white onion:produce:0.42:11.94:191:1.33:4:64:whole=63
+white onions:produce:0.42:11.94:191:1.33:4:64:whole=63
+yellow onion:produce:0.42:11.94:191:1.33:4:64:whole=63
+yellow onions:produce:0.42:11.94:191:1.33:4:64:whole=63
+bacon:meat:5.37:152.38:2438:slice=43
+chicken:meat:2.39:67.81:1085:4.81:14.44:231
+chicken breasts:meat:2.39:67.81:1085:4.81:14.44:231:whole=284
+chicken breast:meat:2.39:67.81:1085:4.81:14.44:231:whole=284
+chicken thighs:meat:1.78:50.38:806:5.81:17.44:279:whole=206
+chicken thigh:meat:1.78:50.38:806:5.81:17.44:279:whole=206
+ground beef:meat:3.32:94.12:1506:6.04:18.12:290
+hot dogs:meat:whole=151
+hot dog:meat:whole=151
+pepperoni:meat:4.94:140:2240:slice=10
+pico de gallo:meat:0.31:8.88:142:1.67:5:80
+pork butt:meat:2.68:76.06:1217:8.35:25.06:401
+pork shoulder:meat:2.68:76.06:1217:8.35:25.06:401
+pork tenderloin:meat:1.44:40.69:651:4.54:13.62:218
+steak:meat:2.71:76.69:1227:7.04:21.12:338:whole=679
+steaks:meat:2.71:76.69:1227:7.04:21.12:338:whole=679
+stew beef:meat:2.07:58.75:940:7.04:21.12:338
+turkey kielbasa sausage:meat:1.59:45:720
+flounder filets:seafood:0.91:25.81:413:3.23:9.69:155:whole=173
+salmon: seafood:2.08:59.00:944:4.83:14.50:232:whole=175
+salmon filets: seafood:2.08:59.00:944:4.83:14.50:232:whole=250
+salmon filet: seafood:2.08:59.00:944:4.83:14.50:232:whole=250
+shrimp:seafood:0.99:28.06:449:4.35:13.06:209:whole=7
+sole filets:seafood:0.91:25.81:413:3.23:9.69:155:whole=173
+donut:bakery:whole=290
+donuts:bakery:whole=290
+brownies:bakery:320
+lemon squares:bakery:whole=330
 granola:bread
-multigrain bread:bread
+multigrain bread:bread:slice=130
 potato bread:bread
-sandwich bread:bread
-wheat bread:bread
-white bread:bread
-whole wheat bread:bread
+sandwich bread:bread:slice=100
+wheat bread:bread:slice=120
+white bread:bread:slice=110
+whole wheat bread:bread:slice=100
 hot dog buns:bread
 hamburger buns:buns
-all purpose flour:baking:3.06:86.61:1385.7:-1:-1:440
-all-purpose flour:baking:3.06:86.61:1385.7:-1:-1:440
-baking powder:baking
-baking soda:baking
-basil:baking
-bay leaves:baking
-bay leaf:baking
-black pepper:baking
-bread flour:baking:3.06:86.61:1385.7:-1:-1:440
-brown sugar:baking
-canola oil:baking
-cornmeal:baking
-chicken bouillon:baking
-chocolate:baking
-chili flake:baking
-chili powder:baking
-cinnamon:baking
-coconut oil:baking
-cornstarch:baking
-cumin:baking
-dried basil:baking
-dried oregano:baking
-dried parsley:baking
-extra virgin olive oil:baking
-flour:baking:3.06:86.61:1385.7:-1:-1:440
+all purpose flour:baking:3.64:103.19:1651:9.48:28.44:455
+all-purpose flour:baking:3.64:103.19:1651:9.48:28.44:455
+baking powder:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+baking soda:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+basil:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+bay leaves:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+bay leaf:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+black pepper:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+bread flour:baking:3.67:104.04:1664.71:9.17:27.50:440
+brown sugar:baking:3.70:105:1680:17.42:52.25:836
+canola oil:baking:8.82:250.12:4002:40.15:120.44:1927
+cornmeal:baking:3.70:105:1680:12.10:36.31:581
+chicken bouillon:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+chocolate:baking:5.38:152.52:2440.37
+chili flake:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+chili powder:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+cinnamon:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+coconut oil:baking:8.61:244:3904:39.15:117.44:1879
+cornstarch:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+cumin:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+dried basil:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+dried oregano:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+dried parsley:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+extra virgin olive oil:baking:8.85:251:4016:39.77:119.31:1909
+flour:baking:3.64:103.19:1651:9.48:28.44:455
 fine sea salt:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-food coloring:baking
-garlic powder:baking
-granulated sugar:baking
-ground coriander:baking
-ground ginger:baking
-ground paprika:baking
-instant yeast:baking
+food coloring:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+garlic powder:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+granulated sugar:baking:3.91:110.94:1775:16.10:48.31:773
+ground coriander:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+ground ginger:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+ground paprika:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+instant yeast:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 kosher salt:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-mini marshmallows:baking
-maltose:baking
-marshmallows:baking
-molasses:baking
-nutmeg:baking
-oat flour:baking
-old fashioned oats:baking
-olive oil:baking
-onion powder:baking
-oregano:baking
-paprika:baking
-parchment paper:baking
-parsley:baking
-pectin:baking
-pepper:baking
-protein powder:baking
-red pepper flakes:baking
-rolled oats:baking
+mini marshmallows:baking:3.25:92.00:1472:3.31:9.94:159
+maltose:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+marshmallows:baking:3.17:90:1440:3.31:9.94:159
+molasses:baking:2.89:82.00:1312:20.35:61.06:977
+nutmeg:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+oat flour:baking:4.06:115:1840:8.75:26.25:420
+old fashioned oats:baking:3.88:110:1760:7.60:22.81:365
+olive oil:baking:8.85:251:4016:39.77:119.31:1909
+onion powder:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+oregano:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+paprika:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+parchment paper:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+parsley:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+pectin:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+pepper:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+protein powder:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+red pepper flakes:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+rolled oats:baking:3.88:110:1760:7.60:22.81:365
 salt:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-sherry vinegar:baking
-shredded coconut:baking
-sugar:baking
+sherry vinegar:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+shredded coconut:baking:6.53:185:2960:5.90:17.69:283
+sugar:baking:3.91:110.94:1775:16.10:48.31:773
 tempura flour:baking
-vanilla extract:baking
-vegetable oil:baking
-wax paper:baking
-white pepper:baking
-white vinegar:baking
-artichoke hearts:baking
-black beans:canned goods
-black olives:canned goods
-crushed tomatoes:canned goods
-calabrian chilis:canned goods
-diced tomatoes:canned goods
-fruit cocktail:canned goods
-peperoncini:canned goods
-tomato paste:canned goods
-tomato sauce:canned goods
-chicken stock:soups
-basmati rice:asian
-coconut milk:asian
-chili paste:asian
-chinese rose wine:asian
-fish sauce:asian
-five spice powder:asian
-hoisin sauce:asian
+vanilla extract:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+vegetable oil:baking:8.82:250.12:4002:40.15:120.44:1927
+wax paper:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+white pepper:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+white vinegar:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+artichoke hearts:baking:0.35:10:160:2.42:7.25:116
+black beans:canned goods:0.92:26:416:4.73:14.19:227:can=110
+black olives:canned goods:1.06:30:480:3.21:9.62:154:can=116
+crushed tomatoes:canned goods:0.32:9:144:0.67:2:32:can=136
+calabrian chilis:canned goods:2.50:70.88:1134:whole=25
+diced tomatoes:canned goods:0.18:5:80:0.67:2:32:can=105
+fruit cocktail:canned goods:0.49:14:224:2.27:6.81:109:can=120
+pepperoncini:canned goods:0.39:11:176:1.25:3.75:60
+tomato paste:canned goods:0.81:23:368:4.48:13.44:215:can=139
+tomato sauce:canned goods:0.28:8:128:1.46:4.38:70
+chicken stock:soups:0.04:1:16:1.79:5.38:86
+basmati rice:asian:3.58:101.59:1625.44:13.33:40:640
+coconut milk:asian:2.26:64:1024:11.50:34.50:552:can=120
+chili paste:asian:1.02:29:464:5.00:15:240
+chinese rose wine:asian:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+fish sauce:asian:0.32:9:144:2:6:96
+five spice powder:asian:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+hoisin sauce:asian:2.19:62:992:11.67:35:560
 jasmine rice:asian:3.83:108.50:1736:53.33:160:640
-medium grain rice:asian
-medium-grain rice:asian
-oyster sauce:asian
-sesame oil:asian
-sesame seeds:asian
-soy sauce:asian
-teriyaki sauce:asian
-teriyaki sauces:asian
-thai red curry paste:asian
-chiles in adobo:hispanic
-chipotle peppers:hispanic
-chipotle pepper:hispanic
-chipotle peppers in adobo sauce:hispanic
-hot sauce:hispanic
-pinto beans:hispanic
-taco shell:hispanic
-taco shells:hispanic
-angel hair noodles:pasta
-angel hair:pasta
-cavatappi pasta:pasta
-cavatappi noodles:pasta
-cavatappi:pasta
-egg noodles:pasta
-elbow noodles:pasta
-elbow pasta:pasta
-thin spaghetti noodles:pasta
-thin spaghetti:pasta
-linguine:pasta
-linguine noodles:pasta
+medium grain rice:asian:3.58:101.59:1625.44:13.33:40:640
+medium-grain rice:asian:3.58:101.59:1625.44:13.33:40:640
+oyster sauce:asian:0.49:14:224:3:9:144
+sesame oil:asian:8.82:250:4000:40:120:1920
+sesame seeds:asian:6:170.10:2721.60:17:51:816
+soy sauce:asian:0.56:16:256:3:9:144
+teriyaki sauce:asian:0.88:25:400:5.33:16:256
+teriyaki sauces:asian:0.88:25:400:5.33:16:256
+thai red curry paste:asian:1.00:28.35:453.60:10:30:480
+chiles in adobo:hispanic:0.78:22:352:6:18:288
+chipotle peppers:hispanic:0.78:22:352:6:18:288
+chipotle pepper:hispanic:0.78:22:352:6:18:288
+chipotle peppers in adobo sauce:hispanic:0.78:22:352:6:18:288
+hot sauce:hispanic:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+pinto beans:hispanic:0.88:25:400:2.60:7.81:125
+taco shell:hispanic:whole=60
+taco shells:hispanic:whole=60
+angel hair noodles:pasta:3.53:100:1600:4.35:13.06:209
+angel hair:pasta:3.53:100:1600:4.35:13.06:209
+cavatappi pasta:pasta:3.53:100:1600:4.35:13.06:209
+cavatappi noodles:pasta:3.53:100:1600:4.35:13.06:209
+cavatappi:pasta:3.53:100:1600:4.35:13.06:209
+egg noodles:pasta:3.84:109:1744:4.60:13.81:221
+elbow noodles:pasta:3.74:106:1696:8.12:24.38:390
+elbow pasta:pasta:3.74:106:1696:8.12:24.38:390
+thin spaghetti noodles:pasta:3.53:100:1600:4.35:13.06:209:box=1600
+thin spaghetti:pasta:3.53:100:1600:4.35:13.06:209:box=1600
+linguine:pasta:3.53:100:1600:4.35:13.06:209:box=1600
+linguine noodles:pasta:3.53:100:1600:4.35:13.06:209:box=1600
 spaghetti:pasta:3.53:100:1600:box=1600
 spaghetti noodles:pasta:3.53:100:1600:box=1600
-barbeque sauce:pasta
-barbecue sauce:pasta
-ketchup:condiments
-mayonnaise:condiments
-salad dressing:condiments
-frozen broccoli:frozen foods
+barbeque sauce:pasta:1.69:48:768:10:30:480
+barbecue sauce:pasta:1.69:48:768:10:30:480
+ketchup:condiments:1.13:32:512:5.58:16.75:268
+catsup:condiments:1.13:32:512:5.58:16.75:268
+mayonnaise:condiments:6.81:193:3088:31.15:93.44:1495
+salad dressing:condiments:4.83:137:2192:24.33:73:1168
+frozen broccoli:frozen foods:0.35:10:160:0.65:1.94:31:crown=30
 frozen pizza:frozen foods
-frozen strawberries:frozen foods
-orange juice:frozen foods
-honey:cereal
-jam:cereal
-maple syrup:cereal
-peanut butter:cereal
-rice krispies:cereal
-rolled oats:cereal
-1% milk:dairy
-2% milk:dairy
-butter:dairy
-buttermilk:dairy
-cheddar cheese:dairy
-cream cheese:dairy
-eggs:dairy
-egg:dairy
-fresh mozzarella:dairy
-heavy cream:dairy
-heavy whipping cream:dairy
-milk:dairy
-monterey jack cheese:dairy
-monterey jack:dairy
-mozzarella:dairy
-provolone:dairy
-skim milk:dairy
-sour cream:dairy
-unsalted butter:dairy
-whole milk:dairy
-yogurt:dairy
-toilet paper:toilet paper
-beer:junk food
-doritos:junk food
-soda:junk food
+frozen strawberries:frozen foods:0.32:9.06:145:1.02:3.06:49
+orange juice:frozen foods:0.46:13:208:2.31:6.94:111
+honey:cereal:3.03:86:1376:21.48:64.44:1031
+jam:cereal:2.79:79:1264:18.67:56:896
+maple syrup:cereal:2.61:74:1184:17.06:51.19:819
+peanut butter:cereal:5.89:167:2672:31.62:94.88:1518
+rice krispies:cereal:3.81:108:1728:2.10:6.31:101
+rolled oats:cereal:3.88:110:1760:7.60:22.81:365
+1% milk:dairy:0.42:12:192:2.15:6.44:103
+2% milk:dairy:0.49:14:224:2.58:7.75:124
+butter:dairy:7.20:204:3264:33.90:101.69:1627
+buttermilk:dairy:0.39:11:176:2.06:6.19:99
+cheddar cheese:dairy:4.02:114:1824:11.06:33.19:531
+cream cheese:dairy:3.42:97:1552:16.52:49.56:793
+eggs:dairy:1.55:44:704:4.40:13.19:211:whole=80
+egg:dairy:1.55:44:704:4.40:13.19:211:whole=80
+fresh mozzarella:dairy:2.79:79:1264:7.71:23.12:370
+heavy cream:dairy:3.63:103:1648:17.10:51.31:821
+heavy whipping cream:dairy:3.63:103:1648:17.10:51.31:821
+milk:dairy:0.60:17:272:3.08:9.25:148
+monterey jack cheese:dairy:3.74:106:1696:10.27:30.81:493
+monterey jack:dairy:3.74:106:1696:10.27:30.81:493
+mozzarella:dairy:2.79:79:1264:7.71:23.12:370
+provolone:dairy:3.53:100:1600:9.67:29:464
+skim milk:dairy:0.35:10:160:1.79:5.38:86
+sour cream:dairy:1.90:54:864:9.27:27.81:445
+unsalted butter:dairy:7.20:204:3264:33.90:101.69:1627
+whole milk:dairy:0.60:17:272:3.08:9.25:148
+yogurt:dairy:0.60:17:272:2.08:6.25:100
+toilet paper:toilet paper:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+beer:junk food:0.42:12:192:2.17:6.50:104
+doritos:junk food:5.29:150:2400
+soda:junk food:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 water:junk food:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-white wine:junk food
+white wine:junk food:0.81:23:368:4:12:192

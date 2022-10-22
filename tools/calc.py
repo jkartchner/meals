@@ -1,7 +1,7 @@
 
 
-i = float(raw_input("Enter calories: "))
-s = raw_input("Enter input kind: ")
+i = float(input("Enter calories: "))
+s = input("Enter input kind: ")
 o_pounds = 0.0
 o_ounces = 0.0
 o_grams = 0.0

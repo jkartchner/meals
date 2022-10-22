@@ -97,7 +97,8 @@ d_kinds = { 'gram':1,
                'blocks':20,
                'head':21,
                'heads':21,
-               'whole':22   }
+               'whole':22,
+               'stalk':23  }
 
 
 
