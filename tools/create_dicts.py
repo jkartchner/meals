@@ -47,7 +47,11 @@ lines.append("\t\t\t   'block':20,")
 lines.append("\t\t\t   'blocks':20,")
 lines.append("\t\t\t   'head':21,")
 lines.append("\t\t\t   'heads':21,")
-lines.append("\t\t\t   'whole':22   }")
+lines.append("\t\t\t   'whole':22,")
+lines.append("\t\t\t   'stalk':23,")
+lines.append("\t\t\t   'stalks':23,")
+lines.append("\t\t\t   'rib':24,")
+lines.append("\t\t\t   'ribs':24   }")
 
 lines.append("\n")
 
@@ -98,7 +102,10 @@ d_kinds = { 'gram':1,
                'head':21,
                'heads':21,
                'whole':22,
-               'stalk':23  }
+               'stalk':23,
+               'stalks':23, 
+               'rib':24,
+               'ribs':24    }
 
 
 
@@ -123,7 +130,7 @@ for line in list_lines:
                 line = line + "[" + "'" + l_fig[1] + "'"
             else:
                 try: 
-                    test = int(l_fig[index])
+                    test = float(l_fig[index])
                     line = line + "," + l_fig[index]
                 except:
                     l_id = l_fig[index].split("=")
@@ -140,7 +147,7 @@ for line in list_lines:
                                 break
                     line = line + "," + value
             index += 1
-        while index < 24:
+        while index < 26:
             line = line + ",-1"
             index += 1
 

@@ -228,6 +228,7 @@ Inactive Time:
 Total Time: 
 Total Calories: 
 Calories Per Serving: 
+Servings: 5
 Link: https://www.lecremedelacrumb.com/best-easy-healthy-baked-salmon/
 Keywords: healthy, JHJ, fish, fast, omega-3
 
@@ -255,6 +256,7 @@ Inactive Time:
 Total Time: 
 Total Calories: 
 Calories Per Serving: 
+Servings: 30
 Link: https://www.youtube.com/watch?v=2RoUoMnDHlc
 Keywords: 
 
@@ -288,6 +290,7 @@ Inactive Time: 5 minutes
 Total Time: 30 minutes
 Total Calories: 
 Calories Per Serving: 
+Servings: 6
 Keywords: asian, noodles, beef, broccoli, trashy, delicious, JHPQJ
 
 Ingredients
@@ -317,6 +320,7 @@ Inactive Time: 10 minutes
 Total Time: 30 minutes
 Total Calories: 350
 Calories Per Serving: 50
+Servings: 8
 Link: https://www.joshuaweissman.com/post/making-a-burrito-bowl-faster-than-a-restaurant-but-faster
 Keywords: chipotle, burrito bowl, but faster, black beans, beans
 
@@ -341,6 +345,7 @@ Total Calories: 3500 or so (insane!)
 Active Time: 15 minutes
 Inactive Time: 25 minutes
 Total Time: 40 minutes
+Servings: 9
 Link: https://www.youtube.com/watch?v=ROm9qWJrtqc&t=1s
 Keywords: Brian Lagerstrom, brownies, high calorie, fudge, dessert, fast, flex
 Ingredients
@@ -365,6 +370,7 @@ Inactive Time: 17 minutes
 Total Time: 55 minutes
 Calories Per Serving: 310 per bisuit
 Total Calories: 2480
+Servings: 8
 Link: Joshua Weissman Unapologetic Cookbook p. 74.
 Keywords: Weissman, biscuit
 
@@ -394,6 +400,7 @@ Active Time: 15 minutes
 Total Time: 20 minutes
 Calories Per Serving: 
 Total Calories: 
+Servings: 1
 Keywords: easy, simple, fast, J
 
 Ingredients
@@ -424,6 +431,7 @@ Inactive Time: 10 minutes
 Total Time: 30 minutes
 Calories Per Serving: about 500
 Total Calories: 2000
+Servings: 5
 Link: everywhere
 Keywords: easy, simple, fast, JHJP
 
@@ -431,7 +439,7 @@ Ingredients
 	1 lb cherry tomatoes (can supplement with roma tomatoes)
 	4 cloves garlic (minced)
 	6 oz fresh basil
-	2 oz extra virgin olive oil
+	1 oz extra virgin olive oil
 	1 lb spaghetti noodles
 	10 g salt
 	6 oz parmiggiano reggiano (plain parmesan will work, though)
@@ -451,6 +459,7 @@ Inactive Time: 1 hour 10 minutes
 Total Time: 1 hour 35 minutes
 Calories Per Serving: 158
 Total Calories: 1580
+Servings: 12
 Link: Joshua Weissman Unapologetic Cookbook, p. 214
 Keywords: Weissman, comfort, illness, sick, cold, flu, JDPQJ
 
@@ -482,6 +491,7 @@ Inactive Time: 8 minutes (while oil heats) + 1 hour to overnight for marinade
 Total Time: 1 hour 5 minutes + 1 hour to overnight for marinade
 Calories Per Serving: ~350 (to serve 3 people)
 Total Calories: 1050 (to serve 3 people)
+Servings: 3
 Link: Joshua Weissman Unapologetic Cookbook p. 169
 Keywords: sauces, kid, JHQJ, pair with ranch dressing or ultra-garlicky mayo
 
@@ -513,6 +523,7 @@ Inactive Time: 45 minutes plus 4 to 24 hours marinating time
 Total Time: 
 Calories Per Serving: 249 calories
 Total Calories: 1000 calories (for 1 pound pork shoulder)
+Servings: 5
 Link: 
 Keywords: chinese, bbq, barbecue, barbeque, fried rice, pork
 
@@ -547,6 +558,7 @@ Inactive Time:
 Total Time: 
 Calories Per Serving: 
 Total Calories: 
+Servings: 6
 Link: 
 Keywords: joshua weissman, chipotle
 
@@ -570,7 +582,7 @@ Inactive Time:
 Total Time: 
 Calories Per Serving: 
 Total Calories: 
-Total Serving: 
+Servings: 
 Link: 
 Keywords: 
 
@@ -619,7 +631,7 @@ Recipe: Peach Cobbler
 Active Time: 20 minutes
 Inactive Time: 40 minutes
 Total Time: 60 minutes
-Total Servings: 8
+Servings: 8
 Calories Per Serving: 316
 Link: https://preppykitchen.com/peach-cobbler/
 Keywords: dessert, peach, ice cream, JHPQJ
@@ -654,6 +666,7 @@ Inactive Time:
 Total Time: 
 Calories Per Serving: 
 Total Calories: 
+Servings: 12
 Link: 
 Keywords: 
 
@@ -690,6 +703,7 @@ Active Time: 40 minutes
 Inactive Time: 60 minutes (interrupted, while dough rises) and 4-24 hours whiledough refrigerates and 90 minutes (for dough to warm up and oven to get hot)
 Total Time: 24 hours total planning, about 2 hours tied to the kitchen, otherwise waiting
 Calories Per Serving: 
+Servings: 16
 Total Calories: 
 Link: https://www.youtube.com/watch?v=OOeCLN9VHGY
 Keywords: 
@@ -839,6 +853,7 @@ Active Time: 30 minutes
 Inactive Time: 10 minutes
 Total Time: 40 minutes
 Calories Per Serving: 
+Servings: 5
 Keywords: JHPQJ, unhealthy, comfort food, fast food
 Link: my dome
 
@@ -857,6 +872,7 @@ Recipe: Garden Salad
 Active Time: 10 minutes
 Total Time: 10 minutes
 Calories Per Serving: 120 (not including dressing)
+Servings: 8
 Keywords: weeknight, easy, simple, fast, JHPQJ
 
 Ingredients
@@ -880,7 +896,7 @@ Inactive Time: 1 hour 15 minutes
 Total Time: 1 hour 25 minutes
 Calories Per Serving: 166-236
 Total Calories: 3776
-Total Servings: 16
+Servings: 16
 Link: https://lmld.org/simple-granola/
 Keywords: granola, cereal, yogurt, JHPQJ
 
@@ -909,6 +925,7 @@ Inactive Time: none
 Total Time: 12 minutes
 Calories Per Serving: 100
 Total Calories: 1000
+Servings: 12
 Link: Julia Child, Mastering the Art of French Cooking p. 79
 Keywords: french, sauce, fancy, JHPQJ
 
@@ -947,6 +964,7 @@ Inactive Time: 10 minutes
 Total Time: 33 minutes
 Calories Per Serving: 450 (approx)
 Total Calories: 2200
+Servings: 5
 Link: Jet Tila 101 Asian Recipes to Try Before You Die
 Keywords: delicious, JHPQJ
 
@@ -981,7 +999,7 @@ Recipe: Meal Prep - Ground Chicken Taco Bowls
 Active Time: 15 minutes
 Inactive Time: 25 minutes
 Total Time: 35 minutes
-Total Servings: 4
+Servings: 4
 Calories Per Serving: 602 calories
 Total Calories: 2407 calories
 Link: https://mealprepmanual.com/ground-chicken-taco-bowls/
@@ -1044,6 +1062,7 @@ Inactive Time: 30 minutes
 Total Time: 60 minutes
 Calories Per Serving: 1250 calories
 Total Calories: 5000 calories
+Servings: 4
 Keywords: beef, high calorie, josh cortis
 
 Ingredients
@@ -1090,11 +1109,12 @@ Inactive Time: 12 minutes
 Total Time: 27 minutes
 Calories Per Serving: 
 Total Calories: 
+Servings: 2
 Keywords: breakfast, fast, protein
 
 Ingredients
-    2 avocados (cut into halves)
-    8 eggs (soft boiled)
+    1 avocados (cut into halves)
+    4 eggs (soft boiled)
 
 Directions
     1. You will likely have to make this meal twice during the week, since the soft boiled eggs will not keep for more than a few days. Get enough water on to boil as many eggs as you plan to use.
@@ -1109,6 +1129,7 @@ Inactive Time: 1 hour
 Total Time: 1 hour 10 minutes
 Calories Per Serving: 561 calories
 Total Calories: 2243 calories
+Servings: 4
 Link: https://mealprepmanual.com/smoked-sausage-with-rice-and-beans/
 Keywords: Josh Cortis, meal prep, fast
 
@@ -1155,6 +1176,7 @@ Total Time: 35 minutes
 Total Servings: 5
 Calories Per Serving: 467 per meal
 Total Calories: 2335
+Servings: 4
 Link: https://mealprepmanual.com/smoked-sausage-with-rice-and-beans/
 Keywords: Josh Cortis, meal prep, fast
 
@@ -1179,7 +1201,7 @@ Recipe: Meal Prep - Spicy Adobo Chicken and Peppers
 Active Time: 15 minutes
 Inactive Time: 25 minutes
 Total Time: 40 minutes
-Total Servings: 4
+Servings: 4
 Calories Per Serving: 630 per meal
 Total Calories: 2521
 Link: https://mealprepmanual.com/spicy-adobo-chicken-and-peppers/
@@ -1223,7 +1245,7 @@ Active Time: 30 minutes
 Inactive Time: 10 minutes
 Total Time: 40 minutes start to finish
 Calories Per Serving: 566
-Total Servings: 4
+Servings: 4
 Total Calories: 2265
 Link: my dome
 Keywords: JHPQJ, fast, teriyaki, rice, japanese, vegetables, meal prep
@@ -1267,6 +1289,7 @@ Total Time: 15 minutes
 Calories Per Serving: I don't know.
 Total Calories: I don't know
 Link: my brain only
+Servings: 4
 Keywords: berries, nuts, granola, cereal, yogurt, JHPQJ
 Ingredients
 	1 recipe granola (cut in half)
@@ -1286,6 +1309,7 @@ Active Time:
 Inactive Time: 
 Total Time: 
 Calories Per Serving: 
+Servings: 8
 Link: https://www.yellowblissroad.com/authentic-mexican-rice/
 Keywords: 
 
@@ -1359,6 +1383,7 @@ Active Time: 25 minutes
 Total Time: 27 minutes
 Calories per Seving: 336 (add 320 for rice)
 Total Calories: 1350 (pad krapow) and 1280 (jasmine rice)
+Servings: 5
 Keywords: thai, pad krapow, rice, spicy, beef, basil, JHJ
 Link: Jet Tila 101 Asian Dishes You Need to Cook Before You Die
 Ingredients
@@ -1393,6 +1418,7 @@ Inactive Time: 40 minutes
 Total Time: 70 minutes
 Calories Per Serving: 331
 Total Calories: 2648
+Servings: 8
 Keywords: pizza, pan, Brian Langstrom, quick, no knead, JHJQJ
 Link: https://www.youtube.com/watch?v=HWG4fF-7eC4&t=254s
 Ingredients
@@ -1436,6 +1462,7 @@ Inactive Time:
 Total Time: 
 Calories Per Serving: 
 Total Calories: 
+Servings: 8
 Link: https://www.momontimeout.com/chipotle-inspired-pico-de-gallo-recipe/
 Keywords: mexican, salsa, chipotle, copycat
 
@@ -1455,6 +1482,7 @@ end recipe
 Recipe: Rice Crispy Treats
 Active Time: 12 minutes
 Total Time: 1 hour 12 minutes
+Servings: 9
 Link: https://www.shugarysweets.com/perfect-rice-krispie-treats/
 Keywords: dessert
 
@@ -1476,6 +1504,7 @@ Active Time: 1 hour
 Inactive Time: 15 minutes
 Total Time: 1 hour 15 minutes
 Calories Per Serving: 
+Servings: 16
 Total Calories: 
 Link: https://www.youtube.com/watch?v=T57vFsL8eAU&t=30s
 Keywords: fast, pizza
@@ -1502,7 +1531,7 @@ Ingredients
 	1/2 pound mozzarella (full fat, shredded)
 	6 oz fresh mozzarella (OPTIONAL, whole milk cubed)
 	1 container pepperoni
-	1 jar peperoncini (OPTIONAL)
+	1 jar pepperoncini (OPTIONAL)
 
 Directions
 	DOUGH
@@ -1522,7 +1551,7 @@ Inactive Time: 3 minutes
 Total Time: 18 minutes
 Calories Per Serving: 
 Total Calories: 
-Total Servings: 10
+Servings: 10
 Link: https://cooking.nytimes.com/recipes/1018248-spinach-artichoke-dip
 Keywords: dip, snack, side dish, Heidi, JHJ
 
@@ -1556,6 +1585,7 @@ Inactive Time:
 Total Time: 
 Calories Per Serving: 
 Total Calories: 
+Servings: 4
 Link: 
 Keywords: 
 
@@ -1585,6 +1615,7 @@ Active Time:
 Inactive Time: 
 Total Time: 
 Total Calories: 
+Servings: 6
 Calories Per Serving: 
 
 Ingredients
@@ -1623,6 +1654,7 @@ end recipe
 Recipe: Steamed Broccoli
 Active Time: 3 minutes
 Total Time: 5 minutes
+Servings: 6
 Keywords: veggie, vegetable, easy, frozen
 
 Ingredients
@@ -1649,6 +1681,7 @@ Inactive Time: 3 minutes
 Total Time: 29 minutes
 Calories Per Serving: 650
 Total Calories: about 2600
+Servings: 7
 Link: https://www.averiecooks.com/thai-chicken-coconut-curry/
 Keywords: JHJ, chicken, thai, curry
 
@@ -1684,6 +1717,7 @@ Recipe: Ultra Garlicky Mayo
 Total Time: 10 minutes
 Total Calories: 950
 Calories Per Serving: 235 (if you divide total by four)
+Servings: 15
 Link: Joshua Weissman Unapologetic Cookbook p. 46
 Keywords: sauce, dipping
 
@@ -1703,6 +1737,7 @@ end recipe
 
 Recipe: White Rice
 Total Time: 19 minutes
+Servings: 5
 Keywords: rice, fried rice, JHPQJ
 
 Ingredients
@@ -1718,6 +1753,7 @@ Directions
 end recipe
 
 Recipe: Yang Chow Fried Rice
+Servings: 6
 Total Time: 28 minutes
 Link: Jet Tila, 101 Asian Dishes You Need to Cook Before You Die p. 19
 Keywords: fried rice, JH

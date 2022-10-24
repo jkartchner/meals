@@ -234,6 +234,8 @@ class Ingredient:
         except:
             self.category = "unknown"
 
+
+
     def __lt__(self, other):
         return dict_king_soopers[self.category] < dict_king_soopers[other.category]
 
@@ -300,16 +302,60 @@ class Recipe:
     time_active = ""
     time_inactive = ""
     time_total = ""
+    servings = ""
     cal_serving = ""
+    real_cals_serving = 0.0
     cal_total = ""
+    real_cals_total = 0.0
     link = ""
     ingredients = []
     directions = []
     keywords = []
+    
+    def calc_calories(self):
+        calories = 0.0
+        misses = []
+        for ingredient in self.ingredients:
+            try:
+                if dict_cats[ingredient.real_ingredient][d_kinds[ingredient.kind]] >= 0:
+                    calories += float(dict_cats[ingredient.real_ingredient][d_kinds[ingredient.kind]]) \
+                            * ingredient.float_amount
+                else:
+                    if ingredient.real_ingredient:
+                        misses.append(ingredient.real_ingredient)
+            except:
+                misses.append(ingredient.text)
+                continue
+        
+        cal_str = str(calories)
+        self.real_cals_total = calories
+        if len(misses) > 0:
+            cal_str = cal_str + ", not including "
+            for string in misses:
+                cal_str = cal_str + string + ", "
+        self.cal_total = str(cal_str)
+
+        # now record calories per serving
+        if self.servings:
+            try: 
+                print("self.servings: " + self.servings)
+                c = float(self.servings)
+                self.real_cals_serving = self.real_cals_total / c
+                self.cal_serving = str(self.real_cals_serving)
+            except:
+                print("serving calc failure!")
+                pass
+
+                
     def __init__(self, lines):                  # takes a list of lines of text from a file which contain the recipe
         self.ingredients = []
         self.directions = []
         self.keywords = []
+        self.servings = ""
+        self.cal_serving = ""
+        self.real_cals_serving = 0.0
+        self.cal_total = ""
+        self.real_cals_total = 0.0
         i_b_ingredients = 0
         i_b_directions = 0
         for line in lines:
@@ -387,6 +433,12 @@ class Recipe:
                 line = line.replace(":", "")
                 line = line.strip()
                 self.cal_serving = line
+            if "Servings:" in line or "servings:" in line or "SERVINGS:" in line:
+                line = line.replace("Servings:", "")
+                line = line.replace("servings:", "")
+                line = line.replace("SERVINGS:", "")
+                line = line.strip()
+                self.servings = line
             if "Link:" in line or "link:" in line or "LINK:" in line:
                 line = line.replace("Link:", "")
                 line = line.replace("link:", "")
@@ -414,6 +466,8 @@ class Recipe:
             if i_b_directions > 0:
                 self.directions.append(line)
                 
+        self.calc_calories()
+
     def __lt__(self, other):
         return self.name < other.name
     
@@ -475,9 +529,13 @@ class Day:
     eaters = ""
     meals = []
     add_ingredients = []
+    tot_cals = 0.0
+    tot_serv = 0.0
     def __init__(self, lines):
         self.meals = []
         self.add_ingredients = []
+        tot_cals = 0.0
+        tot_serv = 0.0
         for line in lines:
             line = line.strip()
             if len(line) < 1:
@@ -519,6 +577,8 @@ class Day:
             for ingredient in cls.add_ingredients:
                 file.write(" " + ingredient.replace(" - jake"," (j)"))
             file.write(" to shopping list")
+        file.write("\tTotal Calories Today: " + str(cls.tot_cals))
+        file.write("\tCalories per Servings Today: " + str(cls.tot_serv))
 
 class Week:
     days = []
@@ -591,6 +651,7 @@ class Week:
         tojake = []
         jake = False
         rec_found = False
+        super_index = 0
         for day in cls.days:
             for meal in day.meals:
                 jake = False
@@ -607,6 +668,9 @@ class Week:
                         meal = meal_list[0].strip()
                     if meal == recipe.name:
                         rec_found = True
+                        # add the calories
+                        cls.days[super_index].tot_cals += recipe.real_cals_total
+                        cls.days[super_index].tot_serv += recipe.real_cals_serving
                         # append the recipe
                         if recipe not in cls.weekly_recipes:
                             cls.weekly_recipes.append(recipe)
@@ -635,7 +699,7 @@ class Week:
                 k = Ingredient(ingredient.lower())
                 if k.category == "unknown" or not k.category:
                     print("Unknown Ingredient: " + k.real_ingredient)
-        
+            super_index += 1
 
         for ingredient in cls.add_ingredients:
             jake = False

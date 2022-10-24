@@ -2,8 +2,8 @@ almonds:produce:5.86:164:2624:11.02:33.06:529:whole=8
 almond:produce:5.86:164:2624:11.02:33.06:529:whole=8
 apple:produce:0.53:15:237:1.19:3.56:57:whole=95
 apples:produce:0.53:15:237:1.19:3.56:57:whole=95
-avocados:produce:1.76:50:800:5:15:240:whole=250
-avocado:produce:1.76:50:800:5:15:240:whole=250
+avocados:produce:1.76:50:800:5:15:240:whole=320
+avocado:produce:1.76:50:800:5:15:240:whole=320
 baby bok choy:produce:0.124:3.52:56.4:0.21:0.62:10
 bananas:produce:0.9:25.15:408.24:4.17:12.50:200:whole=105
 banana:produce:0.9:25.15:408.24:4.17:12.50:200:whole=105
@@ -18,7 +18,7 @@ carrots:produce:0.42:12:192:0.94:2.81:45:whole=25
 cashews:produce:5.54:157:2512:15.08:45.25:724:whole=9
 cashew:produce:5.54:157:2512:15.08:45.25:724:whole=9
 cherry tomatoes:produce:0.18:5:80:0.52:1.56:25:whole=3
-celery:produce:0.14:4:64:0.29:0.88:14:stalk=10
+celery:produce:0.14:4:64:0.29:0.88:14:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:-1:10:10
 chia seeds:produce:4.87:138:2208:16.67:50.00:800
 cilantro:produce:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 dates:produce:2.82:79.81:1277:8.62:25.88:414
@@ -120,9 +120,9 @@ steaks:meat:2.71:76.69:1227:7.04:21.12:338:whole=679
 stew beef:meat:2.07:58.75:940:7.04:21.12:338
 turkey kielbasa sausage:meat:1.59:45:720
 flounder filets:seafood:0.91:25.81:413:3.23:9.69:155:whole=173
-salmon: seafood:2.08:59.00:944:4.83:14.50:232:whole=175
-salmon filets: seafood:2.08:59.00:944:4.83:14.50:232:whole=250
-salmon filet: seafood:2.08:59.00:944:4.83:14.50:232:whole=250
+salmon:seafood:2.08:59.00:944:4.83:14.50:232:whole=175
+salmon filets:seafood:2.08:59.00:944:4.83:14.50:232:whole=250
+salmon filet:seafood:2.08:59.00:944:4.83:14.50:232:whole=250
 shrimp:seafood:0.99:28.06:449:4.35:13.06:209:whole=7
 sole filets:seafood:0.91:25.81:413:3.23:9.69:155:whole=173
 donut:bakery:whole=290
