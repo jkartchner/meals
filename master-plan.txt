@@ -217,10 +217,26 @@ Week 7: Early Late October
 end week
 
 Week 8: Late October
+	Day: Monday
+		Meal: Baked Salmon - jake
+		Meal: Macaroni and Cheese - jake
+	Day: Friday	
+		Meal: Speed Pizza
+	Day: Saturday
+		Meal: Pad Krapow
+		Meal: Spinach Artichoke Dip
+end week
+
+
+
+Week 9: Late October and Early November
 	Day: Halloween
 		Meal: Delivery Pizza
-
+	Day: Friday
+		Meal: Hot Wings
 end week
+
+
 
 Recipe: Baked Salmon
 Active Time: 
@@ -958,6 +974,42 @@ Directions
 end recipe
 
 
+
+Recipe: Hot Wings
+
+Active Time: 10 minutes
+Inactive Time: 1 hour
+Servings: 10
+Link: from Paprika, dummy
+Keywords: delicious, JHJ, pizza-side, baked, unhealthy
+
+Ingredients
+	4 pounds chicken wings (cut into drumettes and flats)
+	1 tablespoon baking powder (NOT baking soda, aluminum free)
+	1/2 teaspoon salt
+	2 teaspoons garlic powder
+	1/4 tsp black pepper
+	1/4 cup butter (melted)
+	1/2 cup hot sauce (Frank's Original Red Hot Sauce)
+	1 tablespoon sugar (optional — and even better! , brown sugar or honey)
+
+Directions
+	1. Adjust oven rack to upper-middle position and preheat oven to 450°F (230°C). Line a rimmed baking sheet with aluminium foil and set a heat-proof wire rack inside. 
+
+	2. Pat dry chicken wings liberally with paper towels, squeezing out as much moisture as you can. Transfer them to a large bowl.
+
+	3. In a small bowl, combine the baking powder, garlic powder, salt and pepper together, whisking well to combine, and sprinkle the mixture over the wings. Toss wings through the baking powder mixture until evenly coated. 
+
+	4. Arrange on rack, leaving about 1-inch of space between each wing.
+
+	5. Bake for 30 minutes; flip and continue to cook until crisp and golden brown, (about 20-30 minutes longer), until golden browned and crispy.
+
+	6. While wings are cooking, whisk together hot sauce, butter and sugar. Toss wings through the sauce to evenly coat.
+
+	7. Serve wings immediately with blue cheese dressing or ranch dressing, and celery sticks.
+end recipe
+
+
 Recipe: Lo Mein
 Active Time: 23 minutes
 Inactive Time: 10 minutes
@@ -994,6 +1046,29 @@ Directions
 	4. Cook until the chicken is cooked through (about 1 more minute) and the sauce starts to bubble into a glaze. Top with scallions and serve hot.
 
 end recipe
+
+Recipe: Macaroni and Cheese
+Active Time: 35 minutes (to prepare and freeze)
+Inactive Time: 8 minutes (to cook)
+Servings: 1
+Link: my brain
+Keywords: zero-waste, rich, fast, from-scratch
+
+Ingredients
+	55 g evaporated milk (2 jello shots half full about)
+	40 g elbow pasta
+	7 g parmesan (shredded preferably, half a jello shot)
+	34 g cheddar cheese (extra sharp better)
+	25 g american cheese (about 1 3/4 slices)
+	3 g corn starch
+	13 g butter (1 tablespoon)
+Directions
+	1. Add the water, milk, and macaroni and a large pinch of salt to a pan. Bring to a boil. Set a timer for the 1 minute under the length of the macaroni instructions for al dente.
+	2. Mix the cheeses with corn starch to coat them
+	3. Remove macaroni from the heat. Add butter. Stir. Let it melt. Add the cheese mix. Stir. Taste for seasoning. Add salt if needed
+
+end recipe
+
 
 Recipe: Meal Prep - Ground Chicken Taco Bowls
 Active Time: 15 minutes

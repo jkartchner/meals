@@ -54,6 +54,7 @@ onions:produce:0.42:11.94:191:1.33:4:64:whole=44
 oranges:produce:0.47:13.31:213:1.77:5.31:85:whole=60
 orange:produce:0.47:13.31:213:1.77:5.31:85:whole=60
 parmesan cheese:produce:4.30:122:1952:8.98:26.94:431
+parmesan:produce:4.30:122:1952:8.98:26.94:431
 parmiggiano reggiano:produce:4.40:124.75:1996:8.98:26.94:431
 pecans:produce:6.91:196.00:3136:15.69:47.06:753
 pecan:produce:6.91:196.00:3136:15.69:47.06:753
@@ -107,6 +108,7 @@ chicken breasts:meat:2.39:67.81:1085:4.81:14.44:231:whole=284
 chicken breast:meat:2.39:67.81:1085:4.81:14.44:231:whole=284
 chicken thighs:meat:1.78:50.38:806:5.81:17.44:279:whole=206
 chicken thigh:meat:1.78:50.38:806:5.81:17.44:279:whole=206
+chicken wings:meat:2.09:59.30:948.8:whole=55
 ground beef:meat:3.32:94.12:1506:6.04:18.12:290
 hot dogs:meat:whole=151
 hot dog:meat:whole=151
@@ -150,6 +152,7 @@ bread flour:baking:3.67:104.04:1664.71:9.17:27.50:440
 brown sugar:baking:3.70:105:1680:17.42:52.25:836
 canola oil:baking:8.82:250.12:4002:40.15:120.44:1927
 cornmeal:baking:3.70:105:1680:12.10:36.31:581
+corn starch:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 chicken bouillon:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
 chocolate:baking:5.38:152.52:2440.37
 chili flake:baking:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
@@ -207,6 +210,7 @@ crushed tomatoes:canned goods:0.32:9:144:0.67:2:32:can=136
 calabrian chilis:canned goods:2.50:70.88:1134:whole=25
 diced tomatoes:canned goods:0.18:5:80:0.67:2:32:can=105
 fruit cocktail:canned goods:0.49:14:224:2.27:6.81:109:can=120
+evaporated milk:canned goods:1.34:37.99:607.82:7.04:21.12:338
 pepperoncini:canned goods:0.39:11:176:1.25:3.75:60
 tomato paste:canned goods:0.81:23:368:4.48:13.44:215:can=139
 tomato sauce:canned goods:0.28:8:128:1.46:4.38:70
@@ -268,6 +272,7 @@ rice krispies:cereal:3.81:108:1728:2.10:6.31:101
 rolled oats:cereal:3.88:110:1760:7.60:22.81:365
 1% milk:dairy:0.42:12:192:2.15:6.44:103
 2% milk:dairy:0.49:14:224:2.58:7.75:124
+american cheese:dairy:4.23:120:1920:8.73:26.19:419:slice=105
 butter:dairy:7.20:204:3264:33.90:101.69:1627
 buttermilk:dairy:0.39:11:176:2.06:6.19:99
 cheddar cheese:dairy:4.02:114:1824:11.06:33.19:531

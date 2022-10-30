@@ -338,7 +338,6 @@ class Recipe:
         # now record calories per serving
         if self.servings:
             try: 
-                print("self.servings: " + self.servings)
                 c = float(self.servings)
                 self.real_cals_serving = self.real_cals_total / c
                 self.cal_serving = str(self.real_cals_serving)
