@@ -230,12 +230,29 @@ end week
 
 
 Week 9: Late October and Early November
-	Day: Halloween
-		Meal: Delivery Pizza
+#	Day: Halloween
+#		Meal: Delivery Pizza
+	Day: Tuesday
+		Meal: Meal Prep - Teriyaki Chicken and Rice - jake
+		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
+		Meal: Steamed Broccoli - jake
+		Add: 1 pack mushrooms (the smallest you can get) - jake
+		Add: 6 oz brussel sprouts (cook this as long as carrots) - jake
 	Day: Friday
 		Meal: Hot Wings
+		Meal: Speed Pizza
+	Day: Saturday
+		Meal: Lo Mein
+	Day: Sunday
+		Meal: Baked Salmon
+		Meal: Steamed Broccoli
+		Meal: French Fries
 end week
 
+Week 10: Early November
+	Day: Monday
+		Meal: Delivery Pizza
+end week
 
 
 Recipe: Baked Salmon
