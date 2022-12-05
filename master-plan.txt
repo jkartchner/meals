@@ -254,6 +254,29 @@ Week 10: Early November
 		Meal: Delivery Pizza
 end week
 
+Week 14: Early December
+	Day: Tuesday
+		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
+		Meal: Lo Mein - jake
+		Meal: Baked Salmon
+		Meal: Macaroni and Cheese - jake
+		Add: 1 container cookie dough
+	Day: Thursday
+		Meal: Speed Pizza - jake
+	Day: Friday
+		Meal: Delivery Pizza
+		Meal: Garden Salad
+		Meal: Hot Wings
+	Day: Saturday
+		Meal: Thai Coconut Curry
+	Day: Sunday
+		Meal: Conference Tacos
+		Meal: Pico de Gallo
+		Meal: Mexican Rice
+		Meal: Banana Bread
+end week
+	
+
 
 Recipe: Baked Salmon
 Active Time: 
