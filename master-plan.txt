@@ -275,6 +275,39 @@ Week 14: Early December
 		Meal: Mexican Rice
 		Meal: Banana Bread
 end week
+
+Week 28: Late January Early February
+	Day: Tuesday
+		Meal: Pan Pizza - jake
+		Meal: Meal Prep - Hard Boiled Eggs and Avocado - jake
+	Day: Thursday
+		Meal: Baked Salmon - jake
+		Meal: Macaroni and Cheese - jake
+		Meal: Steamed Broccoli - jake
+	Day: Saturday
+		Meal: Pasta Alfredo
+		Meal: Lo Mein
+		Add: 2 pounds chicken breasts (to add to the pasta alfredo)
+		Meal: Rice Crispy Treats
+	Day: Sunday
+		Meal: Spinach Artichoke Dip
+		Add: 1 box Crackers (or chips for dipping with dip!)
+		Meal: Chicken Pot Pie
+end week
+
+Week 29: Early February
+	Day: Friday
+		Meal: Speed Pizza
+		Meal: Rice Crispy Treats
+	Day: Saturday
+		Meal: Chicken Pot Pie
+		Add: Stuff for sandwiches; FEW chips
+	Day: Sunday
+		Meal: Spinach Artichoke Dip
+		Add: Stuff for hot dogs; I will make buns
+
+end week
+
 	
 
 
@@ -1109,6 +1142,38 @@ Directions
 
 end recipe
 
+Recipe: Chicken Pot Pie
+Active Time: 1 hour
+Inactive Time: 25 minutes 
+Total Time: 1.5 hours
+Servings: 6
+Link: 
+Keywords: 
+
+Ingredients
+	4 tablespoons unsalted butter 
+	3 carrots (peeled and sliced 1/2 inch thick)
+	2 ribs celery (sliced 1/2 inch thick)
+	1 onion (chopped fine)
+	2 cloves garlic (minced)
+	1/4 teaspoon thyme (dried)
+	1/4 cup all-purpose flour
+	1/2 cup dry sherry
+	2 1/2 cups chicken stock
+	1/2 cup heavy cream
+	2 bay leaves
+	3 pounds chicken breasts (boneless, skinless, trimmed and cut into 1-inch pieces)
+	1 cup peas (frozen is fine)
+	1 uncooked pie crust or uncooked biscuits
+
+Directions
+	1. Heat the oven. Arrange a rack in the middle of the oven and heat to 400°F. Coat a rimmed baking sheet with cooking spray; set aside.
+	2. Cut the potatoes. Try to stick to 4 potatoes or you will crowd the baking sheet and they won't cook right. Rinse and dry the potatoes. Cut the lengthwise potatoes into 1/2-inch-thick wedges, then cut the wedges in half crosswise if they are long.
+	3. Coat with seasoning. Place the potatoes in a large bowl. Add the paprika, garlic powder, onion powder, and salt, and toss to coat the potatoes. Add the oil and toss to coat again.
+	4. Place the potatoes in a single layer and roast. Spread the potatoes in an even layer on the prepared baking sheet. Roast for 20 minutes. Use a thin, flat spatula to flip the potatoes. Roast again until the potatoes are tender and golden-brown, 15 to 20 minutes more.
+	5. Season and serve. Sprinkle with additional salt before serving if desired.
+
+end recipe
 
 Recipe: Meal Prep - Ground Chicken Taco Bowls
 Active Time: 15 minutes
@@ -1569,6 +1634,28 @@ Directions
 	10. Maybe let it rest for another 15 mins to develop more flavor. Then bake on the stone for 16-18 mins.
 	11. Take out of the pan with a metal spatula and put on a wire rack over a cutting board to cool. Once cools a bit, pull out the rack and cut up to eat. Eat right away or freeze. It doesn't look like it'll be as good if left on the counter for a long time. I don't know that though.
 
+end recipe
+
+Recipe: Pasta Alfredo
+Link: https://ladyandtheblog.com/alfredo-pasta-recipe/
+
+Ingredients
+	1/2 cup butter
+	1 tablespoon garlic (minced)
+	3/4 cup heavy whipping cream (or use half and half)
+	4 ounces cream cheese
+	1/2 teaspoon salt (and pepper)
+	1/2 cup parmesan cheese (plus 1 tablespoon)
+	8 ounces fettuccine (cooked, drained and kept warm)
+	1 tablespoon fresh parsley (chopped, optional for serving)
+Directions
+	0. Cook your pasta and cool
+	1. Cut your butter into small pieces and then add them into a large skillet. Stir in your garlic and heat over medium heat until the butter is melted.
+	2. Add your heavy whipping cream and cream cheese and then season with salt and pepper.
+	3. Heat over medium heat, whisking frequently until smooth and hot. If you don't have this fancy whisk, use your fork. Whatever works! Just try to get rid of all the clumps.
+	4. You are ready to stir in 1/2 cup cheese. Keep whisking until everything is melted.
+	5. Remember - in my ingredients list, I called for "already cooked pasta". Add your pasta and heat over medium-low heat until everything is heated through.
+	6. Top with fresh parsley and remaining cheese before serving. I would serve this immediately. 	
 end recipe
 
 Recipe: Pico de Gallo
